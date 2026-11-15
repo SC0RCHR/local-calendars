@@ -88,20 +88,6 @@ DTSTART:20271107T050000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261114T150000
-DTEND;TZID=America/New_York:20261114T180000
-DTSTAMP:20260707T192533Z
-CREATED:20260701T232926Z
-LAST-MODIFIED:20260707T192533Z
-UID:13067-1794668400-1794679200@flyingacefarm.com
-SUMMARY:Live Music at Flying Ace Farm featuring Powerhouse Vocalist Laura Cashman
-DESCRIPTION:Live Music at Flying Ace Farm featuring Powerhouse Vocalist Laura Cashman\nJoin us on Saturday\, November 14th\, from 3-6pm for live music featuring Laura Cashman covering hits from 70s\, 80s\, 90s\, 00s and today with a few originals thrown in the mix! \nMusician Bio:\nLaura Cashman is a knock out powerhouse vocalist that will captivate you through an entire song and leave you excited to listen to more. Her unmatched energy along with her crowd engagement has gained her a following right from the start of her musical career. \nShe began her music journey by being a part of the most sought after cover band on the East coast. The band is called Millennium and they were top of the live entertainment charts for 5 years while Laura was a part of it. She has played in the top of the top venues in cities such as Washington\, DC\, Baltimore\, Philadelphia\, Pittsburgh and New York (just to name a few) for people in high places including famous bands’\, politicians’ and athletes’\, weddings and events.\n​\nRecently she decided to switch gears and focus her music on herself\, singing and playing acoustic guitar for vineyards\, breweries\, private events and more. She covers a wide variety of music from the 70s\, 80s\, 90s\, 00s and what’s on the radio today with a few original songs thrown in the set list as well. She’s a crowd favorite that will sure to deliver an entertaining\, fun and memorable performance. \n*To learn more about Laura Cashman and upcoming performances\, visit her official website. \n**Be sure to check out our Live Music Schedule at Flying Ace Farm to see all upcoming performances. \n \n \n  \n 
-URL:https://flyingacefarm.com/calendar/live-music-laura-cashman/
-LOCATION:Flying Ace Farm
-CATEGORIES:Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2024/08/IMG_0982-scaled.jpg
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20261115T140000
 DTEND;TZID=America/New_York:20261115T170000
 DTSTAMP:20261007T170913Z
