@@ -61,20 +61,6 @@ DTSTART:20281105T060000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261115T130000
-DTEND;TZID=America/New_York:20261115T160000
-DTSTAMP:20260423T123500Z
-CREATED:20251104T122503Z
-LAST-MODIFIED:20260423T123500Z
-UID:10001165-1794747600-1794758400@vanishbeer.com
-SUMMARY:Against the Grain
-DESCRIPTION:Against the Grain is an acoustical duo playing energetic 50’s-modern covers and original music.
-URL:https://vanishbeer.com/event/against-the-grain-2/2026-11-15/
-LOCATION:Vanish\, 42245 Black Hops Lane\, Leesburg\, VA\, 20176\, United States
-CATEGORIES:Music
-ATTACH;FMTTYPE=image/jpeg:https://vanishbeer.com/wp-content/uploads/2023/03/337376877_593442576032205_1026438779307422729_n.jpg
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20261120T170000
 DTEND;TZID=America/New_York:20261120T200000
 DTSTAMP:20260902T105312Z
@@ -479,5 +465,19 @@ URL:https://vanishbeer.com/event/new-legacy-blues/2027-02-13/
 LOCATION:Vanish\, 42245 Black Hops Lane\, Leesburg\, VA\, 20176\, United States
 CATEGORIES:Music
 ATTACH;FMTTYPE=image/jpeg:https://vanishbeer.com/wp-content/uploads/2022/03/NLB.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20270220T130000
+DTEND;TZID=America/New_York:20270220T160000
+DTSTAMP:20261102T102504Z
+CREATED:20250427T121253Z
+LAST-MODIFIED:20261102T102504Z
+UID:10001278-1803128400-1803139200@vanishbeer.com
+SUMMARY:Royal Honey
+DESCRIPTION:Hailing from Front Royal\, VA\, Royal Honey delivers a dynamic mix of classic rock\, modern pop\, and a touch of country\, creating an electrifying sound that resonates with all audiences. Known for their high-energy performances\, they keep crowds engaged with a constantly evolving setlist that blends today’s hottest hits with timeless favorites. Fronted by powerhouse vocalist Josette\, the band features the expert musicianship of Don on lead guitar\, Alex on bass\, Jeff on keyboard and rhythm guitar\, and Nick driving the beat on drums. Their collective influences span from classic rock legends to modern pop icons\, ensuring a fresh yet familiar experience at every show. Regularly performing in bars and clubs across Northern Virginia\, Royal Honey is all about bringing something new to the stage\, keeping fans coming back for more. Whether it’s a rock anthem\, a chart-topping pop hit\, or a country favorite\, they deliver a sound that gets people moving.
+URL:https://vanishbeer.com/event/royal-honey/2027-02-20/
+LOCATION:Vanish\, 42245 Black Hops Lane\, Leesburg\, VA\, 20176\, United States
+CATEGORIES:Music
+ATTACH;FMTTYPE=image/png:https://vanishbeer.com/wp-content/uploads/2025/04/rh-circle-logo.png
 END:VEVENT
 END:VCALENDAR

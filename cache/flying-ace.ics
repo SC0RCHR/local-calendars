@@ -88,21 +88,6 @@ DTSTART:20271107T050000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261115T140000
-DTEND;TZID=America/New_York:20261115T170000
-DTSTAMP:20261007T170913Z
-CREATED:20261007T170913Z
-LAST-MODIFIED:20261007T170913Z
-UID:13418-1794751200-1794762000@flyingacefarm.com
-SUMMARY:Live Music featuring John "JP" Jones at Flying Ace Farm
-DESCRIPTION:LIVE MUSIC FEATURING JOHN “JP” JONES AT FLYING ACE FARM\nJoin us for live music on Saturday\, October 10th\, from 3-6pm\, featuring John “JP” Jones at Flying Ace Farm in Lovettsville\, Virginia.\nJoin us for live music at Flying Ace Farm on Sunday November 15th\, from 2-5PM\, featuring Northern Virginia musician John “JP” Jones. Relax with handcrafted American Ace Spirits\, fresh BBQ\, locally brewed beer\, and beautiful mountain views while enjoying an afternoon of live entertainment. Admission is free\, and seating is available on a first-come\, first-served basis. \nAbout John “JP” Jones\n\nI grew up in Lucketts\, Va. I still call Loudoun County home. Began teaching myself guitar around age 10 using chord books and listening to records. Since then\, music has been a major part of my life- playing at family gatherings\, at church\, weddings and local wineries and breweries. My wife Lori and I have been married 41 years\, We have three grown children and three grandchildren. I am a dedicated husband\, father grandfather\, veteran and a lifelong artist. \nTo learn more about John\, visit his official website \nYou can also view his Instagram page \n\n\nBe sure to check out our full Live Music Schedule at Flying Ace Farm to see all upcoming performances.\n  \n \n \n 
-URL:https://flyingacefarm.com/calendar/live-music-john-jp-jones/
-LOCATION:Flying Ace Farm
-CATEGORIES:Family,Free Event,Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2023/10/john-jp-jones-pic.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20261121T150000
 DTEND;TZID=America/New_York:20261121T180000
 DTSTAMP:20260828T211118Z
