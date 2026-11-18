@@ -2272,7 +2272,7 @@ LAST-MODIFIED:20261015T172348Z
 LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Small Business Saturday featuring Young Entrepreneurs
+SUMMARY:Dance King Latin Mixer at Solace Brewing Co. in Sterling
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -2284,7 +2284,7 @@ CREATED:20260609T170116Z
 LAST-MODIFIED:20260609T170116Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Live Music w/VnG Acoustic at Solace Brewing Co. in Sterling
+SUMMARY:Music Bingo at Solace Brewing Co. in Sterling
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -2686,6 +2686,304 @@ LAST-MODIFIED:20260415T175814Z
 LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
 SEQUENCE:0
 STATUS:CONFIRMED
+SUMMARY:Calligraphy Workshop at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260515T220000Z
+DTEND:20260516T010000Z
+DTSTAMP:20261118T151609Z
+UID:4npi7bn8j2k038lmels0lads1n@google.com
+CREATED:20251112T222236Z
+LAST-MODIFIED:20251112T222237Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live Music w/Ryan Sill at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251203
+DTSTAMP:20261118T151609Z
+UID:1d3b7rjq4vshotk78oanm6u6er@google.com
+CREATED:20251103T173001Z
+LAST-MODIFIED:20251103T173001Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Spirited Cocktail Competition Results Announced
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250718T220000Z
+DTEND:20250719T010000Z
+DTSTAMP:20261118T151609Z
+UID:52b13102moel8dp1d7dsr0c2gr@google.com
+CREATED:20250606T155841Z
+LAST-MODIFIED:20250606T155841Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live Music w/Khalil Nazar at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20250521T183000
+DTEND;TZID=America/New_York:20250521T210000
+RRULE:FREQ=MONTHLY;UNTIL=20260520T035959Z;BYDAY=3WE
+DTSTAMP:20261118T151609Z
+UID:7tpv81n2arnc7roqr20disft9b@google.com
+CREATED:20250522T162933Z
+DESCRIPTION:<a href="https://www.puzzle.buzz/locations">Register</a>
+LAST-MODIFIED:20260416T153556Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Speed Jigsaw Puzzling Competition at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250420T210000Z
+DTEND:20250420T233000Z
+DTSTAMP:20261118T151609Z
+UID:4olvchacs4886uon1drldrievc@google.com
+CREATED:20250220T182854Z
+DESCRIPTION:Cheer on the DC Defenders with Solace Brewing Co. in Sterling. 
+ The sound will be on for all of the DC Defenders games along with food and 
+ drink specials.
+LAST-MODIFIED:20250220T182854Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:DC Defenders Watch Party
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230101T020000Z
+DTEND:20230101T060000Z
+DTSTAMP:20261118T151609Z
+UID:07a50oper8ns1s4j8n1fjlqhmn@google.com
+CREATED:20221230T161647Z
+DESCRIPTION:<a href="https://www.eventbrite.com/e/solace-outpost-new-years-
+ eve-party-tickets-483880257877?aff=ebdssbdestsearch" id="ow2728" __is_owner
+ ="true">https://www.eventbrite.com/e/solace-outpost-new-years-eve-party-tic
+ kets-483880257877?aff=ebdssbdestsearch</a>
+LAST-MODIFIED:20221230T161647Z
+LOCATION:Solace Outpost Navy Yard\, 71 Potomac Ave SE\, Washington\, DC 200
+ 03\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:New Year's Eve at Navy Yard
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260516T230000Z
+DTEND:20260517T010000Z
+DTSTAMP:20261118T151609Z
+UID:5gn19ik47nuqp3ia4hv8rsti0m@google.com
+CREATED:20260309T143658Z
+DESCRIPTION:<a href="https://www.eventbrite.com/e/dueling-pianos-concert-at
+ -solace-brewing-company-tickets-1986088551321?aff=oddtdtcreator">Tickets</a
+ >
+LAST-MODIFIED:20260327T183049Z
+LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Dueling Pianos at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250406T000000Z
+DTEND:20250406T020000Z
+DTSTAMP:20261118T151609Z
+UID:5086rq0r52a1epvdm1mm4j72mm@google.com
+CREATED:20250220T182717Z
+DESCRIPTION:Cheer on the DC Defenders with Solace Brewing Co. in Sterling. 
+ The sound will be on for all of the DC Defenders games along with food and 
+ drink specials.
+LAST-MODIFIED:20250220T182717Z
+LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:DC Defenders Watch Party at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251206
+DTSTAMP:20261118T151609Z
+UID:2ip25hf2v9nn6vvg243d0uri5d@google.com
+CREATED:20251105T185442Z
+DESCRIPTION:Available on draft and in cans at all three Solace locations.
+LAST-MODIFIED:20251105T185442Z
+LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Stouty McStout Face Coffee Oatmeal Stout Release Day 
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251225
+DTEND;VALUE=DATE:20251226
+DTSTAMP:20261118T151609Z
+UID:0tdv003fgdgeavcma1rmduuct2@google.com
+CREATED:20251030T155223Z
+LAST-MODIFIED:20251030T155224Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Closed for Christmas at Solace Brewing Co. in Sterling
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251114T230000Z
+DTEND:20251115T020000Z
+DTSTAMP:20261118T151609Z
+UID:6ulf1ge5qs37vaic4nb1rra39v@google.com
+CREATED:20250904T141101Z
+DESCRIPTION:https://lisbethsabolcaseyfirkin.bandcamp.com/album/patchwork-of
+ -diamonds
+LAST-MODIFIED:20250904T141101Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live Music at Solace Brewing Co. in Sterling w/Lisbeth Sabol & Case
+ y Firken
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261128T180000Z
+DTEND:20261128T210000Z
+DTSTAMP:20261118T151609Z
+UID:1nf4obi0lvijrdvrta81252g0d@google.com
+CREATED:20261015T172348Z
+DESCRIPTION:<p>Support Small Business Saturday by Supporting the Smallest o
+ f Them All – the Young Entrepreneur.</p><p>All of our vendors on Saturday\,
+  November 28 will be local youth who had a vision and the courage to execut
+ e it!  Check back often as the list of vendors continues to grow.</p><p><em
+ ><i>“A Big Business Starts Small”</i></em> – Richard Branson</p><p><strong>
+ Current List of Vendors</strong><br>Bow Tie Bins – Trash Bin Cleaning and S
+ anitizing Service<br>3D Printed Toys<br>Pokemon Card Table<br>The Quack Sha
+ ck – Gourmet Lemonade and Cider<br>Homemade Sewn bookmarks\, keychains and 
+ pouches<br>Canine Couture by Grace – Handmade Dog Bandanas<br>Old Soule Res
+ in and More</p>
+LAST-MODIFIED:20261015T172348Z
+LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Small Business Saturday featuring Young Entrepreneurs
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250926T220000Z
+DTEND:20250927T010000Z
+DTSTAMP:20261118T151609Z
+UID:214tfafodvlh6md8chdou7updb@google.com
+CREATED:20250710T181037Z
+LAST-MODIFIED:20250710T181038Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live Music w/Matty D. at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260109T230000Z
+DTEND:20260110T020000Z
+DTSTAMP:20261118T151609Z
+UID:3o7iqmlmnjr22q46bb3djsb0ug@google.com
+CREATED:20251110T202115Z
+LAST-MODIFIED:20251110T202115Z
+LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live Music w/Jacob DeForge at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260316
+DTSTAMP:20261118T151609Z
+UID:09mmhho9ehl9hoekm5ikcdi9v8@google.com
+CREATED:20260120T163924Z
+DESCRIPTION:<p>Join us at Solace in Sterling for a weekend long celebration
+  of St. Patrick’s Day!  We will have green tinted beer\, Scuttered Irish Re
+ d Ale and limited quantities of Solace St. Patrick’s Day themed shirts and 
+ glasses.</p><p>Saturday\, March 14 – Live Comedy Show with Zane Lamprey.  T
+ ickets Required.  21+ Only.</p><p>Sunday\, March 15 – Dancers from the Fole
+ y Academy of Irish Dance will perform at 4:30PM</p>
+LAST-MODIFIED:20260120T163925Z
+LOCATION:42615 Trade West Drive
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:St. Patrick's Day Celebration All Weekend at Solace Brewing Co. in 
+ Sterling
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260302
+DTSTAMP:20261118T151609Z
+UID:4ksrndc78hbm5skg69qtcv3lpr@google.com
+CREATED:20260209T194657Z
+DESCRIPTION:<p>Lucky You!  You get to select our March cocktail of the Mont
+ h!  Beginning Monday\, February 23\, order a flight of our curated and them
+ ed cocktails and vote on your favorite!</p><p>Cocktails include the followi
+ ng:</p><ul><li><em>The Irish Devil</em> - a whiskey based cocktail with Iri
+ sh Cream and a cold foam topper!</li><li><em>Irish Green Tea</em> - a class
+ ic for March\, featuring Jameson\, green tea and peach schnapps!</li><li><e
+ m>Shamrock Margarita</em> - tequila based fun with an Irish twist!</li><li>
+ <em>Grasshopper</em> - minty\, refreshing and a retro classic with creme de
+  menthe\, white chocolate liquor\, cream and a drizzle of chocolate.</li></
+ ul>
+LAST-MODIFIED:20260209T194657Z
+LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lucky Cocktail Competition
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260912T220000Z
+DTEND:20260913T003000Z
+DTSTAMP:20261118T151609Z
+UID:529e7qg82iusif9qsijgn1j8dp@google.com
+CREATED:20260813T192952Z
+LAST-MODIFIED:20260813T192953Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Liberty University Football Watch Party at Solace Brewing Co. in St
+ erling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250912T220000Z
+DTEND:20250913T010000Z
+DTSTAMP:20261118T151609Z
+UID:1b4gi09igvstb7tu017akkl6tb@google.com
+CREATED:20250710T180944Z
+DESCRIPTION:90s alt rock and pop covers with a soulful\, nostalgic vibe
+LAST-MODIFIED:20250710T180945Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live Music w/Marshall Fuzz
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260703T220000Z
+DTEND:20260704T010000Z
+DTSTAMP:20261118T151609Z
+UID:5oq6n155ajlh2o6dv1vv6plv30@google.com
+CREATED:20260513T200504Z
+LAST-MODIFIED:20260513T200504Z
+LOCATION:42615 Trade W Dr\, Sterling\, VA 20166\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live Music w/Della Moorman at Solace Brewing Co. in Sterling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251226T230000Z
+DTEND:20251227T020000Z
+DTSTAMP:20261118T151609Z
+UID:1710sk03qrcvqnnv7n61v6gsnm@google.com
+CREATED:20251007T144549Z
+LAST-MODIFIED:20251007T144549Z
+SEQUENCE:0
+STATUS:CONFIRMED
 SUMMARY:Live Music w/Alex Parez at Solace Brewing Co. in Sterling
 TRANSP:OPAQUE
 END:VEVENT
@@ -2698,7 +2996,21 @@ CREATED:20260212T172345Z
 LAST-MODIFIED:20260212T172345Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Live Music w/Nicholas Darden at Solace Brewing Co. in Sterling
+SUMMARY:Rescue Ale IPA Release Day at Solace Brewing Co. in Sterling
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260215T200000Z
+DTEND:20260215T230000Z
+DTSTAMP:20261118T151609Z
+UID:6educ5qv2fdhb3olovpqv5h8je@google.com
+CREATED:20260113T142418Z
+DESCRIPTION:<a href="https://dungeonsndrafts.com/venue-ticket-tracker/ZvEgr
+ M0xmZ98lRIE3epf">Register</a>
+LAST-MODIFIED:20260113T142418Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Dungeons n' Drafts at Solace Brewing Co. in Sterling
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -3344,7 +3656,7 @@ CREATED:20260929T180535Z
 LAST-MODIFIED:20260929T180535Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Live Music w/Evan Ross at Solace Brewing Co. in Sterling
+SUMMARY:Live Music w/Roxanne Cook at Solace Brewing Co. in Sterling
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT

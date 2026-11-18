@@ -4,23 +4,23 @@ Subscribable `.ics` calendar feeds for breweries, towns and community groups aro
 County, VA that don't publish one of their own, plus a command line for asking "what's coming
 up?" across all of them at once.
 
-**Feeds and subscribe buttons:** https://bytemasterpro.github.io/local-calendars/
+**Feeds and subscribe buttons:** https://sc0rchr.github.io/local-calendars/
 
 | Calendar | Subscribe URL | Kind |
 |---|---|---|
-| Honor Brewing - Loudoun | `https://bytemasterpro.github.io/local-calendars/honor-brewing-loudoun.ics` | daily from their Elfsight widget + curated from their monthly Instagram poster |
+| Honor Brewing - Loudoun | `https://sc0rchr.github.io/local-calendars/honor-brewing-loudoun.ics` | daily from their Elfsight widget + curated from their monthly Instagram poster |
 | Chilly Hollow Brewing Co. | `https://calendar.google.com/calendar/ical/7a36777b804e9b9d04d70c58670135065f60a7e350d7b860f9e9c7686a9a7131%40group.calendar.google.com/public/basic.ics` | their own public Google Calendar (live) |
 | Solace Brewing Co. in Sterling | `https://calendar.google.com/calendar/ical/c_81872c01230a1e2a19950379cffece76cfb4c99e93bfa5a74ef2c3c26715c165%40group.calendar.google.com/public/basic.ics` | their own public Google Calendar (live) |
 | Vanish Farmwoods Brewery (music) | `https://vanishbeer.com/calendar/category/music/?post_type=tribe_events&ical=1&eventDisplay=list` | their own iCal export (live) |
 | Flying Ace Farm | `https://flyingacefarm.com/?post_type=tribe_events&ical=1&eventDisplay=list` | their own iCal export (live) |
-| Town of Leesburg - Community Events | `https://bytemasterpro.github.io/local-calendars/leesburg.ics` | rebuilt daily from the Town's calendar RSS |
+| Town of Leesburg - Community Events | `https://sc0rchr.github.io/local-calendars/leesburg.ics` | rebuilt daily from the Town's calendar RSS |
 | Historic Manassas Inc. | `https://historicmanassas.org/events/?ical=1` | their own iCal export (live) |
-| One Loudoun | `https://bytemasterpro.github.io/local-calendars/one-loudoun.ics` | rebuilt daily from their Squarespace events JSON |
-| Village at Leesburg | `https://bytemasterpro.github.io/local-calendars/village-at-leesburg.ics` | curated from their Wix events page |
-| White's Ferry Brewery & Winery | `https://bytemasterpro.github.io/local-calendars/whites-ferry.ics` | curated from their Instagram |
-| Route 7 Brewing | `https://bytemasterpro.github.io/local-calendars/route-7.ics` | live music from wheresthemusic.us + curated |
-| Fairs & Festivals near Leesburg | `https://bytemasterpro.github.io/local-calendars/fairs-festivals.ics` | hand-curated in `config/events/fairs-festivals.yaml` |
-| Farmers Markets near Leesburg | `https://bytemasterpro.github.io/local-calendars/farmers-markets.ics` | hand-curated in `config/events/farmers-markets.yaml` |
+| One Loudoun | `https://sc0rchr.github.io/local-calendars/one-loudoun.ics` | rebuilt daily from their Squarespace events JSON |
+| Village at Leesburg | `https://sc0rchr.github.io/local-calendars/village-at-leesburg.ics` | curated from their Wix events page |
+| White's Ferry Brewery & Winery | `https://sc0rchr.github.io/local-calendars/whites-ferry.ics` | curated from their Instagram |
+| Route 7 Brewing | `https://sc0rchr.github.io/local-calendars/route-7.ics` | live music from wheresthemusic.us + curated |
+| Fairs & Festivals near Leesburg | `https://sc0rchr.github.io/local-calendars/fairs-festivals.ics` | hand-curated in `config/events/fairs-festivals.yaml` |
+| Farmers Markets near Leesburg | `https://sc0rchr.github.io/local-calendars/farmers-markets.ics` | hand-curated in `config/events/farmers-markets.yaml` |
 
 ## Subscribing
 
@@ -85,7 +85,7 @@ digest still posts, just without the purge. Pin anything you want to survive.
 | When | What | Where |
 |---|---|---|
 | Daily, 05:23 UTC | `eventnews build` - rebuild every fetched feed, refresh the external-feed cache, commit `docs/` | GitHub Actions (`build.yml`) |
-| Daily, 10:30 UTC | copy the published `.ics` files to the old `brewery-calendars` paths | GitHub Actions, [mirror repo](https://github.com/ByteMasterPro/brewery-calendars) |
+| Daily, 10:30 UTC | copy the published `.ics` files to the old `brewery-calendars` paths | GitHub Actions, [mirror repo](https://github.com/SC0RCHR/brewery-calendars) |
 | **Mondays**, 06:17 / 10:17 / 14:17 / 18:17 UTC | `eventnews digest --post --skip-if-posted` - purge the channel and post the week. The first run posts; the rest see it and stand down | GitHub Actions (`digest.yml`) |
 | **Mon & Thu, 07:40 local** | `eventnews instagram` - pull each venue's public grid, write the review queue | Christopher's Mac (launchd, installed 2026-11-02) |
 | **1st of each month, by hand** | read Honor's month-at-a-glance poster out of the review queue and update the curated file and overrides | a session with Claude |
@@ -206,8 +206,8 @@ never gets, so at the start of each month ask Claude to read the queue
 
 ## Old subscription URLs
 
-Subscriptions created before the rename point at `bytemasterpro.github.io/brewery-calendars/...`.
-GitHub Pages cannot redirect those, so the [brewery-calendars](https://github.com/ByteMasterPro/brewery-calendars)
+Subscriptions created before the rename point at `sc0rchr.github.io/brewery-calendars/...`.
+GitHub Pages cannot redirect those, so the [brewery-calendars](https://github.com/SC0RCHR/brewery-calendars)
 repo serves the same files at the old paths and refreshes them from here daily. Prefer the
 `local-calendars` URLs for anything new; add new feed filenames to that repo as well.
 

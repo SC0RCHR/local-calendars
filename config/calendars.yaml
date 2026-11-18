@@ -17,7 +17,7 @@
 
 site:
   title: Event Newsletter
-  base_url: https://bytemasterpro.github.io/local-calendars
+  base_url: https://sc0rchr.github.io/local-calendars
 
 defaults:
   timezone: America/New_York
@@ -193,7 +193,7 @@ calendars:
   - slug: fairs-festivals
     name: Fairs & Festivals near Leesburg
     kind: festival
-    url: https://bytemasterpro.github.io/local-calendars/
+    url: https://sc0rchr.github.io/local-calendars/
     location: Northern Virginia
     description: Hand-curated fairs, festivals, carnivals and seasonal farm events within about an hour of Leesburg, VA.
     source:

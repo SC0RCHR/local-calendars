@@ -2,7 +2,7 @@
 
 Christopher's subscribable local event calendars (breweries, towns, community groups near
 Leesburg, VA 20176). Separate from JobHunt; lives at `~/Projects/EventNewsletter`, published from
-GitHub repo `ByteMasterPro/local-calendars` via GitHub Pages.
+GitHub repo `SC0RCHR/local-calendars` via GitHub Pages.
 
 ## What it does
 
@@ -103,9 +103,9 @@ descriptions and use judgement (e.g. "Chillyfest" is an Oktoberfest-style event 
 ## The old URLs (brewery-calendars)
 
 The project was renamed from "Brewery Calendars" on 2026-09-19, which moved GitHub Pages from
-`bytemasterpro.github.io/brewery-calendars/` to `.../local-calendars/` and broke Christopher's
+`sc0rchr.github.io/brewery-calendars/` to `.../local-calendars/` and broke Christopher's
 existing Apple Calendar subscriptions (Pages does not redirect, and re-pointing the subscription
-on his end did not stick). Since 2026-10-01 a separate repo, **ByteMasterPro/brewery-calendars**,
+on his end did not stick). Since 2026-10-01 a separate repo, **SC0RCHR/brewery-calendars**,
 serves the same `.ics` files at the old paths; its own scheduled workflow copies them from this
 project's published feeds daily at 10:30 UTC and skips anything that is not a valid calendar.
 Nothing is authored there. Adding or renaming a published feed here means adding the file there

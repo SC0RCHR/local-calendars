@@ -36,7 +36,7 @@ log = logging.getLogger("eventnews")
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = ROOT / "config" / "calendars.yaml"
 DEFAULT_OUT = ROOT / "docs"
-USER_AGENT = "eventnews/0.1 (+https://github.com/ByteMasterPro/local-calendars)"
+USER_AGENT = "eventnews/0.1 (+https://github.com/SC0RCHR/local-calendars)"
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -400,7 +400,7 @@ def render_index(cfg: Config) -> str:
 <body><main>
   <h1>{title}</h1>
   <p>Subscribable calendars for breweries, towns and community groups around Loudoun County, VA that don't publish one of their own.</p>{''.join(sections)}
-  <footer>Feeds rebuild automatically every morning. Source and config: <a href="https://github.com/ByteMasterPro/local-calendars">github.com/ByteMasterPro/local-calendars</a></footer>
+  <footer>Feeds rebuild automatically every morning. Source and config: <a href="https://github.com/SC0RCHR/local-calendars">github.com/SC0RCHR/local-calendars</a></footer>
 </main></body></html>
 """
 

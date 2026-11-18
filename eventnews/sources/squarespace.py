@@ -27,7 +27,7 @@ from eventnews.model import Event, Feed
 from eventnews.text import html_to_text
 
 log = logging.getLogger(__name__)
-USER_AGENT = "Mozilla/5.0 (compatible; eventnews/0.1; +https://github.com/ByteMasterPro/local-calendars)"
+USER_AGENT = "Mozilla/5.0 (compatible; eventnews/0.1; +https://github.com/SC0RCHR/local-calendars)"
 
 
 def fetch(url: str, session: requests.Session | None = None) -> dict:

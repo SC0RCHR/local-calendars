@@ -29,7 +29,7 @@ from eventnews.text import html_to_text as _html_to_text
 log = logging.getLogger(__name__)
 
 BOOT_URL = "https://core.service.elfsight.com/p/boot/"
-USER_AGENT = "eventnews/0.1 (+https://github.com/ByteMasterPro/local-calendars)"
+USER_AGENT = "eventnews/0.1 (+https://github.com/SC0RCHR/local-calendars)"
 
 # Elfsight repeat vocabulary -> RFC 5545 FREQ. Unknown values are logged and treated
 # as one-off events rather than guessed.

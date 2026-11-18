@@ -35,7 +35,7 @@ import requests
 from eventnews.model import Event, Feed
 
 log = logging.getLogger(__name__)
-USER_AGENT = "eventnews/0.1 (+https://github.com/ByteMasterPro/local-calendars)"
+USER_AGENT = "eventnews/0.1 (+https://github.com/SC0RCHR/local-calendars)"
 
 _DATE = r"(\d{1,2}/\d{1,2}/\d{4})"
 _TIME = r"(\d{1,2}:\d{2}\s*[AP]M)"

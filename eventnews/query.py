@@ -18,7 +18,7 @@ from eventnews.model import Feed
 from eventnews.sources import fetch_events
 
 log = logging.getLogger(__name__)
-USER_AGENT = "eventnews/0.1 (+https://github.com/ByteMasterPro/local-calendars)"
+USER_AGENT = "eventnews/0.1 (+https://github.com/SC0RCHR/local-calendars)"
 
 
 CACHE_DIR = Path(__file__).resolve().parent.parent / "cache"
