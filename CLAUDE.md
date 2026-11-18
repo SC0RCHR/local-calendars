@@ -100,6 +100,15 @@ descriptions and use judgement (e.g. "Chillyfest" is an Oktoberfest-style event 
   venues that tag events with the wrong TZID (Flying Ace uses America/Halifax for a quarter of
   theirs; the wall-clock time is the real Eastern time).
 
+## The account rename (2026-11-18)
+
+Christopher renamed his GitHub account **ByteMasterPro -> SC0RCHR**. GitHub redirects repo URLs
+but NOT the Pages subdomain, so `bytemasterpro.github.io` stopped resolving and every published
+`.ics` 404'd at once - including the brewery-calendars mirror whose whole job was keeping older
+subscriptions alive. Everything now lives on `sc0rchr.github.io`; the repo slugs are unchanged.
+If he renames again, expect the same, and nothing can preserve the old domain: it is released
+and can be claimed by whoever registers that username next.
+
 ## The old URLs (brewery-calendars)
 
 The project was renamed from "Brewery Calendars" on 2026-09-19, which moved GitHub Pages from
