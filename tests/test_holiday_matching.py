@@ -39,6 +39,9 @@ def test_the_named_postings_qualify_for_top_picks(title):
     "10th Annual Holiday Market (Dec. 4-6, 11-13)",
     "40th Annual Holiday Craft Show (Nov. 21-22)",
     "Christmas Festival",
+    "Christmas Parade",
+    "Middleburg Community Christmas Parade",
+    "Holiday Parade",
     "Holiday Festival of Lights",
     "Winter Festival",
     "Tree Lighting",
@@ -116,6 +119,8 @@ def test_town_section_drops_municipal_noise(title):
     "Storytime with Mrs. Claus",
     "Hanukkah Candlelighting and Glow Party",
     "Christmas Festival",
+    "Christmas Parade",
+    "Holiday Parade",
 ])
 def test_town_section_ranks_the_holiday_events_up(title):
     assert TOWN_PRIORITY.search(title)
