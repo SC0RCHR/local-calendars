@@ -101,3 +101,19 @@ events:
       Not for young children.
     tags: [halloween, haunted, teens]
     verified: 2026-09-19
+
+  # ------------------------------------------------------------------ holiday season
+  # Middleburg's own feed (jsonld) only renders about a week ahead, so the town's marquee day
+  # would not appear until the week it happens. Curated from christmasinmiddleburg.org.
+  - title: Christmas in Middleburg
+    start: 2026-12-05 11:00
+    end: 2026-12-05 16:00
+    location: Washington St, Middleburg, VA 20117
+    url: https://christmasinmiddleburg.org/schedule/
+    description: >-
+      The town's all-day Christmas festival, rain or shine. The Middleburg Hunt Review parades at
+      11am (roads close 10:30am) and the mile-long Community Parade at 2pm (roads close 1:30pm),
+      with a Kid Zone, tree lighting, caroling and the shops and bistros open through the evening.
+      Paid parking and a shuttle are sold in advance on their site.
+    tags: [christmas, parade, festival, family, kids, tree lighting]
+    verified: 2026-11-21
