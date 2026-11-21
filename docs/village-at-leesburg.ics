@@ -11,16 +11,16 @@ X-PUBLISHED-TTL:P1D
 X-WR-TIMEZONE:America/New_York
 BEGIN:VTIMEZONE
 TZID:America/New_York
-COMMENT:This timezone only works from 2025-10-05 to 2029-10-26.
+COMMENT:This timezone only works from 2025-10-23 to 2029-12-15.
 BEGIN:DAYLIGHT
-DTSTART:20251005T000000
+DTSTART:20251023T000000
 TZNAME:EDT
 TZOFFSETFROM:-0400
 TZOFFSETTO:-0400
 END:DAYLIGHT
 BEGIN:STANDARD
 DTSTART:20251102T020000
-RDATE:20261101T020000,20271107T020000,20281105T020000
+RDATE:20261101T020000,20271107T020000,20281105T020000,20291104T020000
 TZNAME:EST
 TZOFFSETFROM:-0400
 TZOFFSETTO:-0500
@@ -34,60 +34,10 @@ TZOFFSETTO:-0400
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:$5 Bargain Tuesdays at Phoenix Theatres
-DTSTART;TZID=America/New_York:20261006T110000
-DTEND;TZID=America/New_York:20261006T220000
-DTSTAMP:20261109T143242Z
-UID:5-bargain-tuesdays-at-phoenix-theatres-2026-10-06@village-at-leesburg
-RRULE:FREQ=WEEKLY;UNTIL=20261230T045900Z;BYDAY=TU
-CATEGORIES:routine,movie
-DESCRIPTION:Any movie for $5 every Tuesday\, all seats\, all shows\, all d
- ay. A small fee is added for premium formats.\n\nMore info: https://www.vi
- llageatleesburg.com/events/5-bargain-tuesdays-at-phoenix-theatres/
-LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
-  20175
-TRANSP:TRANSPARENT
-URL:https://www.villageatleesburg.com/events/5-bargain-tuesdays-at-phoenix
- -theatres/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Friday Night Live Music at Anchor Bar
-DTSTART;TZID=America/New_York:20261009T180000
-DTEND;TZID=America/New_York:20261009T210000
-DTSTAMP:20261109T143242Z
-UID:friday-night-live-music-at-anchor-bar-2026-10-09@village-at-leesburg
-RRULE:FREQ=WEEKLY;UNTIL=20261226T045900Z;BYDAY=FR
-CATEGORIES:routine,live music
-DESCRIPTION:Live music from local artists at Anchor Bar every Friday at 6p
- m.\n\nMore info: https://www.villageatleesburg.com/events/friday-night-liv
- e-music/
-LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
-  20175
-TRANSP:TRANSPARENT
-URL:https://www.villageatleesburg.com/events/friday-night-live-music/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Football Season at Anchor Bar
-DTSTART;TZID=America/New_York:20261011T130000
-DTEND;TZID=America/New_York:20261011T220000
-DTSTAMP:20261109T143242Z
-UID:football-season-at-anchor-bar-2026-10-11@village-at-leesburg
-RRULE:FREQ=WEEKLY;UNTIL=20270104T045900Z;BYDAY=SU
-CATEGORIES:routine,football
-DESCRIPTION:College and professional games on multiple TVs at Anchor Bar\,
-  with wings and drinks.\n\nMore info: https://www.villageatleesburg.com/ev
- ents/football-season-at-anchor-bar/
-LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
-  20175
-TRANSP:TRANSPARENT
-URL:https://www.villageatleesburg.com/events/football-season-at-anchor-bar
- /
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Monster Mash 2026
 DTSTART;TZID=America/New_York:20261024T130000
 DTEND;TZID=America/New_York:20261024T170000
-DTSTAMP:20261109T143242Z
+DTSTAMP:20261121T161249Z
 UID:monster-mash-2026-2026-10-24@village-at-leesburg
 CATEGORIES:halloween,festival,family,kids
 DESCRIPTION:Their annual Halloween afternoon: professional pumpkin carving
@@ -100,5 +50,295 @@ LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
   20175
 TRANSP:TRANSPARENT
 URL:https://www.villageatleesburg.com/events/monster-mash-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daily Tree Shows
+DTSTART;TZID=America/New_York:20261121T160000
+DTEND;TZID=America/New_York:20261121T210000
+DTSTAMP:20261121T161249Z
+UID:8427-20261121@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/2026_Tree-Schedule_EventStyle1_400Ã400.png
+CATEGORIES:event
+DESCRIPTION:Join us daily for our holiday tree shows in the Plaza from 4:0
+ 0-9:00pm at the top of every hour! Grab your friends and family\, and...\n
+ \nDetails: https://www.villageatleesburg.com/events/daily-tree-shows-4/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/daily-tree-shows-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daily Tree Shows
+DTSTART;TZID=America/New_York:20261122T160000
+DTEND;TZID=America/New_York:20261122T210000
+DTSTAMP:20261121T161249Z
+UID:8427-20261122@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/2026_Tree-Schedule_EventStyle1_400Ã400.png
+CATEGORIES:event
+DESCRIPTION:Join us daily for our holiday tree shows in the Plaza from 4:0
+ 0-9:00pm at the top of every hour! Grab your friends and family\, and...\n
+ \nDetails: https://www.villageatleesburg.com/events/daily-tree-shows-4/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/daily-tree-shows-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Football Season at Anchor Bar
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261121T161249Z
+UID:8267-20261123@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/09/Anchor-Bar.png
+CATEGORIES:event,routine
+DESCRIPTION:Football season is BACK and Anchor Bar has you covered for all
+  college and professional games! Enjoy legendary wings\, cold drinks\, mul
+ tiple TVs (all the...\n\nDetails: https://www.villageatleesburg.com/events
+ /football-season-at-anchor-bar/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/football-season-at-anchor-bar
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Football Season at Anchor Bar
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DTSTAMP:20261121T161249Z
+UID:8267-20261124@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/09/Anchor-Bar.png
+CATEGORIES:event,routine
+DESCRIPTION:Football season is BACK and Anchor Bar has you covered for all
+  college and professional games! Enjoy legendary wings\, cold drinks\, mul
+ tiple TVs (all the...\n\nDetails: https://www.villageatleesburg.com/events
+ /football-season-at-anchor-bar/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/football-season-at-anchor-bar
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:$5 Bargain Tuesdays at Phoenix Theatres
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DTSTAMP:20261121T161249Z
+UID:8112-20261124@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/06/400x400-Event-Page.png
+CATEGORIES:event,routine
+DESCRIPTION:Enjoy any movie for only $5 every Tuesday â All Seats\, A
+ ll Shows\, All Day at Phoenix Theatres! *Small Fee added on Premium Format
+ s\; Does...\n\nDetails: https://www.villageatleesburg.com/events/5-bargain
+ -tuesdays-at-phoenix-theatres/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/5-bargain-tuesdays-at-phoenix
+ -theatres/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Friday Night Live Music
+DTSTART;TZID=America/New_York:20261127T180000
+DTEND;TZID=America/New_York:20261127T200000
+DTSTAMP:20261121T161249Z
+UID:7726-20261127@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 025/09/Live-Music.png
+CATEGORIES:event,routine
+DESCRIPTION:Join Anchor Bar for unforgettable Friday evenings! Fridays at 
+ 6 PM\, come to Anchor Bar and enjoy live music featuring talented local ar
+ tists every week....\n\nDetails: https://www.villageatleesburg.com/events/
+ friday-night-live-music/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/friday-night-live-music/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:$5 Bargain Tuesdays at Phoenix Theatres
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+DTSTAMP:20261121T161249Z
+UID:8112-20261201@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/06/400x400-Event-Page.png
+CATEGORIES:event,routine
+DESCRIPTION:Enjoy any movie for only $5 every Tuesday â All Seats\, A
+ ll Shows\, All Day at Phoenix Theatres! *Small Fee added on Premium Format
+ s\; Does...\n\nDetails: https://www.villageatleesburg.com/events/5-bargain
+ -tuesdays-at-phoenix-theatres/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/5-bargain-tuesdays-at-phoenix
+ -theatres/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Friday Night Live Music
+DTSTART;TZID=America/New_York:20261204T180000
+DTEND;TZID=America/New_York:20261204T200000
+DTSTAMP:20261121T161249Z
+UID:7726-20261204@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 025/09/Live-Music.png
+CATEGORIES:event,routine
+DESCRIPTION:Join Anchor Bar for unforgettable Friday evenings! Fridays at 
+ 6 PM\, come to Anchor Bar and enjoy live music featuring talented local ar
+ tists every week....\n\nDetails: https://www.villageatleesburg.com/events/
+ friday-night-live-music/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/friday-night-live-music/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saturday Santa Visits
+DTSTART;TZID=America/New_York:20261205T160000
+DTEND;TZID=America/New_York:20261205T180000
+DTSTAMP:20261121T161249Z
+UID:8400-20261205@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/2026_Santa-Visits_EventStyle1_400Ã400.png
+CATEGORIES:event
+DESCRIPTION:Saturdays | 4:00 pm â 6:00 pm Visit with Santa and his sp
+ ecial helper for pictures in front of our Tree! Donât forget to bring
+ ...\n\nDetails: https://www.villageatleesburg.com/events/saturday-santa-vi
+ sits-4/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/saturday-santa-visits-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sensory Santa Visits
+DTSTART;TZID=America/New_York:20261206T090000
+DTEND;TZID=America/New_York:20261206T120000
+DTSTAMP:20261121T161249Z
+UID:8425-20261206@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/2026_Sensory-Santa-Visits_EventStyle1_400Ã400.png
+CATEGORIES:event
+DESCRIPTION:We are excited to partner with A Place to Be this holiday seas
+ on to provide Sensory Santa visits! Visits will be on Sunday\, December 6.
+ ..\n\nDetails: https://www.villageatleesburg.com/events/sensory-santa-visi
+ ts-4/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/sensory-santa-visits-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Storytime with Mrs. Claus
+DTSTART;TZID=America/New_York:20261206T100000
+DTEND;TZID=America/New_York:20261206T120000
+DTSTAMP:20261121T161249Z
+UID:8402-20261206@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/2026_Story-Time_EventStyle1_400Ã400.png
+CATEGORIES:event
+DESCRIPTION:Sundays | 10:00 am â 12:00 pm Join us for story time with
+  Mrs. Claus! In partnership with Rust Library\, enjoy stories to inspire y
+ our...\n\nDetails: https://www.villageatleesburg.com/events/storytime-with
+ -mrs-claus-6/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/storytime-with-mrs-claus-6/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grinch Brunch at The Conche
+DTSTART;TZID=America/New_York:20261212T110000
+DTEND;TZID=America/New_York:20261212T140000
+DTSTAMP:20261121T161249Z
+UID:8433-20261212@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/Seats-Are-Going-Fast.-Hes-Not-Waiting.jpg
+CATEGORIES:event
+DESCRIPTION:The Grinch is back and taking over brunch at The Conche! Make 
+ plans to bring your family for some holiday fun and amazing food on...\n\n
+ Details: https://www.villageatleesburg.com/events/grinch-brunch-at-the-con
+ che/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/grinch-brunch-at-the-conche/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saturday Santa Visits
+DTSTART;TZID=America/New_York:20261212T160000
+DTEND;TZID=America/New_York:20261212T180000
+DTSTAMP:20261121T161249Z
+UID:8400-20261212@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/2026_Santa-Visits_EventStyle1_400Ã400.png
+CATEGORIES:event
+DESCRIPTION:Saturdays | 4:00 pm â 6:00 pm Visit with Santa and his sp
+ ecial helper for pictures in front of our Tree! Donât forget to bring
+ ...\n\nDetails: https://www.villageatleesburg.com/events/saturday-santa-vi
+ sits-4/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/saturday-santa-visits-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sensory Santa Visits
+DTSTART;TZID=America/New_York:20261213T090000
+DTEND;TZID=America/New_York:20261213T120000
+DTSTAMP:20261121T161249Z
+UID:8425-20261213@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/2026_Sensory-Santa-Visits_EventStyle1_400Ã400.png
+CATEGORIES:event
+DESCRIPTION:We are excited to partner with A Place to Be this holiday seas
+ on to provide Sensory Santa visits! Visits will be on Sunday\, December 6.
+ ..\n\nDetails: https://www.villageatleesburg.com/events/sensory-santa-visi
+ ts-4/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/sensory-santa-visits-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Storytime with Mrs. Claus
+DTSTART;TZID=America/New_York:20261213T100000
+DTEND;TZID=America/New_York:20261213T120000
+DTSTAMP:20261121T161249Z
+UID:8402-20261213@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/2026_Story-Time_EventStyle1_400Ã400.png
+CATEGORIES:event
+DESCRIPTION:Sundays | 10:00 am â 12:00 pm Join us for story time with
+  Mrs. Claus! In partnership with Rust Library\, enjoy stories to inspire y
+ our...\n\nDetails: https://www.villageatleesburg.com/events/storytime-with
+ -mrs-claus-6/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/storytime-with-mrs-claus-6/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grinch Brunch at The Conche
+DTSTART;TZID=America/New_York:20261213T110000
+DTEND;TZID=America/New_York:20261213T140000
+DTSTAMP:20261121T161249Z
+UID:8433-20261213@village-at-leesburg
+ATTACH;FMTTYPE=image/jpeg:https://www.villageatleesburg.com/media/v1/406/2
+ 026/11/Seats-Are-Going-Fast.-Hes-Not-Waiting.jpg
+CATEGORIES:event
+DESCRIPTION:The Grinch is back and taking over brunch at The Conche! Make 
+ plans to bring your family for some holiday fun and amazing food on...\n\n
+ Details: https://www.villageatleesburg.com/events/grinch-brunch-at-the-con
+ che/
+LOCATION:Village at Leesburg\, 1602 Village Market Blvd SE\, Leesburg\, VA
+  20175
+TRANSP:TRANSPARENT
+URL:https://www.villageatleesburg.com/events/grinch-brunch-at-the-conche/
 END:VEVENT
 END:VCALENDAR

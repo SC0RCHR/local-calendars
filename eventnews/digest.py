@@ -359,9 +359,19 @@ def _title_and_excerpt(r, by_slug, icons=None, overrides=None) -> list[str]:
     if not r["all_day"]:
         s_dt, e_dt = datetime.fromisoformat(r["start"]), datetime.fromisoformat(r["end"])
         when = f" · from {_clock(s_dt)}" if _is_span(r) else f" · {_span(s_dt, e_dt)}"
-    lines = [f"{_icon(r, icons)}**{_link(r['summary'], _url(r, by_slug))}**{when} ({_where(r, by_slug)})"]
+    lines = [f"{_icon(r, icons)}**{_link(r['summary'], _url(r, by_slug))}**{when} ({_where(r, by_slug)}){_also(r)}"]
     _append_excerpt(lines, r, overrides)
     return lines
+
+
+def _also(r) -> str:
+    """" (also Sun, Mon)" - the other days this same event runs inside the window. A pick that
+    repeats should say so on the card, not only down in its section."""
+    more = r.get("_more") or []
+    if not more:
+        return ""
+    days = ", ".join(f"{d:%a}" for d in more[:3])
+    return f" (also {days}" + (f" +{len(more) - 3})" if len(more) > 3 else ")")
 
 
 def _append_excerpt(lines: list[str], r, overrides=None) -> None:
@@ -443,8 +453,7 @@ def item_text(r, by_slug, overrides=None) -> str:
         when = ""
     else:
         when = _span(s, e)
-    more = r.get("_more") or []
-    also = " (also " + ", ".join(f"{d:%a}" for d in more[:3]) + (f" +{len(more) - 3}" if len(more) > 3 else "") + ")" if more else ""
+    also = _also(r)
     feed = by_slug.get(r["slug"])
     url = r["url"] or (feed.url if feed else "")
     title = _link(r["summary"], url)

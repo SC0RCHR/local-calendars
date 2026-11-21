@@ -8,6 +8,16 @@
 #      - /Home/Components/Calendar/Event/    -> Granicus/Vision CMS; use source: {type: vision_rss}
 #        with the /Home/Components/RssFeeds/RssFeed/View?ctID=6&cateIDs=... URL and accumulate: true
 #      - WordPress "The Events Calendar"     -> feed_url: https://site/events/?ical=1
+#        BUT if its events repeat, the .ics keeps only the next occurrence of each series:
+#        use source: {type: tribe_json, url: https://site} (the REST API) instead
+#      - Modern Events Calendar (mec-* classes, no feed, no REST route)
+#                                            -> source: {type: jsonld, url: <events page>}
+#                                               plus accumulate: true (only ~a week is rendered)
+#      - Granicus OpenCities (.gov, ?oc_lang= links, no feed of any kind)
+#                                            -> source: {type: opencities, url: <directory page>}
+#      - listings carrying data-event-occurrences attributes
+#                                            -> source: {type: event_list, url: <events page>}
+#                                               plus accumulate: true (two occurrences per event)
 #      - CivicPlus (.gov, /calendar.aspx)    -> feed_url: /common/modules/iCalendar/iCalendar.aspx?catID=N&feed=calendar
 #      - Squarespace events page             -> source: {type: squarespace, url: https://site/events}
 #        (try feed_url: https://site/events?format=ical first; some templates support it)
@@ -164,10 +174,59 @@ calendars:
     town: Leesburg
     url: https://www.villageatleesburg.com/events/
     location: Village at Leesburg, 1602 Village Market Blvd SE, Leesburg, VA 20175
-    # Wix site, rendered entirely in JavaScript: a plain fetch gets nothing, so CI cannot read
-    # it and the events are curated from the page by hand.
+    # The site was rebuilt and now server-renders each listing with its dates in
+    # `data-event-occurrences`, so CI reads it directly (it used to be a JS-only Wix page that
+    # had to be hand-copied). It shows each event's next two occurrences only, hence accumulate.
+    # The curated file is still here for what the listing page does not carry - poster detail,
+    # and events that have already happened.
     source:
+      - {type: event_list, url: https://www.villageatleesburg.com/events/,
+         routine: "bargain tuesday|football season|friday night live"}
       - {type: manual, file: config/events/village-at-leesburg.yaml}
+    accumulate: true
+
+  - slug: mosaic-district
+    name: Mosaic District
+    kind: town
+    short_name: Mosaic District
+    town: Merrifield
+    url: https://mosaicdistrict.com/events/
+    location: Mosaic District, 2905 District Ave, Fairfax, VA 22031
+    # WordPress The Events Calendar. Read through the REST API, not ?ical=1: the iCal export
+    # keeps only the next occurrence of a repeating event, which would have shown one Saturday
+    # of Santa and one weekend of the Holiday Village Market instead of all of them.
+    source:
+      type: tribe_json
+      url: https://mosaicdistrict.com
+
+  - slug: middleburg
+    name: Middleburg - Local Events
+    kind: town
+    short_name: Middleburg
+    town: Middleburg
+    url: https://visitmiddleburgva.com/local-events/
+    location: Middleburg, VA
+    # Modern Events Calendar: no iCal, no usable REST route, and its list view ignores month
+    # parameters - but every rendered event emits a schema.org Event block, which is what the
+    # jsonld adapter reads. Only about a week is ever on the page, so accumulate.
+    source:
+      type: jsonld
+      url: https://visitmiddleburgva.com/local-events/
+    accumulate: true
+
+  - slug: fairfax-city
+    name: City of Fairfax
+    kind: town
+    short_name: City of Fairfax
+    town: Fairfax
+    url: https://www.fairfaxva.gov/Events-directory
+    location: City of Fairfax, VA
+    # Granicus OpenCities: no feed of any kind, so the directory is parsed and each event page
+    # behind it read for its dates and times. robots.txt disallows a few event pages (including
+    # "Claus and Cookies"); those publish as all-day from the listing's own date.
+    source:
+      type: opencities
+      url: https://www.fairfaxva.gov/Events-directory
 
   - slug: historic-manassas
     name: Historic Manassas Inc.
@@ -209,22 +268,34 @@ digest:
   preview_limit: 5                         # highlights per "Next week:" line
   top_picks:                               # first card: the week's best, with full excerpts.
     label: "Top Picks This Week"
-    skip: "closed|cancell?ed|postponed"    # a closure is not an outing
+    # A closure is not an outing, and neither is a civic notice that happens to carry a holiday
+    # word ("Thanksgiving Day - Schedule & Services" is the trash calendar). They stay in their
+    # own section; they just never take a marquee slot.
+    skip: "closed|cancell?ed|postponed|schedule (&|and) services|leaf collection|trash|recycling|street sweeping|snow removal|blood drive"
     # Shown when nothing qualifies, so a quiet week does not look like a broken post.
     empty_note: "_Quiet week: nothing marquee on the calendar. Everything that is on is in the sections below._"
     # Deliberately narrow: fair/festival one-offs and seasonal brewery events (rank 0), plus
     # anything matching `pattern` (rank 1). Nothing pads a quiet week - one or two picks is fine,
     # and the ordinary stuff still appears in its own section.
     limit: 8
-    pattern: "fair\\b|festival|fest\\w*|carnival|jubilee|parade|fireworks|air ?show|hallowe\\w*|trunk.or.treat|trick.or.treat|pumpkin|harvest|hayride|corn maze|oktober|german|holiday|christmas|santa|tree lighting|thanksgiving|movie|screening|on screen|petting zoo|anniversary|touch a truck|egg hunt|block party|craft fair|bazaar|monster mash|monster|haunt|spooky|costume|trunk or treat|bark bash|tournament|veteran.?s? day|friendsgiving|tree lighting"
+    # Seasons Christopher named, in the order they come round: autumn/Halloween, the holidays
+    # (markets, tree lightings, Santa, Hanukkah, New Year), then the kid-specific wording. Kid
+    # terms are the explicit phrases - "kid zone", "face painting" - not a bare "kids", so a
+    # weekly bookstore storytime stays in its section instead of taking a marquee slot.
+    pattern: "fair\\b|festival|fest\\w*|carnival|jubilee|parade|fireworks|air ?show|hallowe\\w*|trunk.or.treat|trick.or.treat|pumpkin|harvest|hayride|corn maze|oktober|german|movie|screening|on screen|anniversary|touch a truck|egg hunt|block party|craft fair|craft show|bazaar|monster mash|monster|haunt|spooky|costume|bark bash|tournament|veteran.?s? day|thanksgiving|friendsgiving|holiday|christmas|christmas festival|holiday festival|winter festival|santa|claus|grinch|tree light\\w*|tree show|tree lot|menorah|hanukkah|kwanzaa|gingerbread|nutcracker|caroling|carolers|christmas carol|wreath|cocoa|sleigh|reindeer|elf\\b|polar express|mistletoe|yule|noel|ugly sweater|toy drive|coat drive|winter ?fest\\w*|wonderland|light show|holiday lights|winter lights|luminar\\w*|ice skating|skating|sledding|snow tubing|holiday market|christmas market|winter market|makers? market|artisan market|new year|nye\\b|noon year|ball drop|countdown|kid.?zone|kids? area|kids? activit\\w*|kids? craft\\w*|kids? club|kid.friendly|family fun|family day|family night|petting zoo|pony ride|bounce house|face.?paint\\w*|puppet|magic show|balloon artist|cookie decorating"
     icons:                                 # first match wins, title first then description; no match = no icon
       - {match: "hallowe\\w*|haunt|spooky|ghost|zombie|fields of fear|trick.or.treat|trunk.or.treat|costume|fright|monster|witch|vampire|boo\\b", icon: "👻"}
       - {match: "fall ?fest\\w*|autumn fest\\w*|harvest fest\\w*|fallfest|\\bfall festival", icon: "🍁"}
       - {match: "pumpkin|jack.o.lantern|gourd|patch\\b", icon: "🎃"}
       - {match: "thanksgiving|turkey|friendsgiving", icon: "🦃"}
-      - {match: "christmas|tree lighting|gingerbread|nutcracker|wreath|caroling|hanukkah|menorah", icon: "🎄"}
-      - {match: "santa|st\\.? nick|breakfast with santa", icon: "🎅"}
-      - {match: "fireworks|new year", icon: "🎆"}
+      - {match: "hanukkah|menorah|dreidel", icon: "🕎"}
+      - {match: "santa|st\\.? nick|claus|breakfast with santa", icon: "🎅"}
+      - {match: "grinch|elf\\b|reindeer|polar express|sleigh", icon: "🎁"}
+      - {match: "christmas|tree light\\w*|tree show|tree lot|gingerbread|nutcracker|wreath|caroling|carolers|yule|noel|mistletoe|ugly sweater|holiday", icon: "🎄"}
+      - {match: "fireworks|new year|nye\\b|noon year|ball drop|countdown", icon: "🎆"}
+      - {match: "ice skating|skating|sledding|snow tubing|snowman|winter ?fest\\w*|wonderland", icon: "⛸️"}
+      - {match: "light show|holiday lights|winter lights|luminar\\w*|glow", icon: "✨"}
+      - {match: "kid.?zone|kids? area|kids? activit\\w*|kids? club|bounce house|face.?paint\\w*|puppet|magic show|balloon artist|pony ride|story ?time", icon: "🧒"}
       - {match: "oktober|german|deutsch|stein|bavarian|lederhosen|polka|prost|beer release|brewfest", icon: "🍺"}
       - {match: "wine|cider|vineyard|meadery|mead\\b", icon: "🍷"}
       - {match: "pottery|ceramic|raku|clay", icon: "🏺"}
@@ -257,7 +328,7 @@ digest:
         - months: [9, 10]
           pattern: "oktober|octoberfest|german|deutsch|prost|stein|bavarian|lederhosen|polka|accordion|hallowe\\w*|haunt|spooky|costume|pumpkin|harvest|fest\\w*|fall ?fest\\w*|autumn fest\\w*|apple|cider|corn maze|hayride|scarecrow|trunk.or.treat|trick.or.treat|fright|monster|witch|vampire|boo\\b|spider|skeleton|graveyard"
         - months: [11, 12]
-          pattern: "christmas|holiday|santa|tree lighting|ugly sweater|gingerbread|nutcracker|hanukkah|menorah|kwanzaa|new year|winter|caroling|carol\\b|wreath|thanksgiving|friendsgiving|turkey|reindeer|elf\\b|sleigh|snow|cocoa|mistletoe|yule|noel|polar express|light show|toy drive|coat drive|veteran.?s? day|marines? anniversary"
+          pattern: "christmas|holiday|santa|tree lighting|ugly sweater|gingerbread|nutcracker|hanukkah|menorah|kwanzaa|new year|winter|caroling|carol\\b|wreath|thanksgiving|friendsgiving|turkey|reindeer|elf\\b|sleigh|snow|cocoa|mistletoe|yule|noel|polar express|light show|toy drive|coat drive|veteran.?s? day|marines? anniversary|claus|grinch|holiday market|christmas market|ice skating|cookie decorating|nye\\b|noon year|ball drop|countdown"
       # Kinds Christopher asked for by name: family outings and one-off happenings. These rank
       # above routine live music, which ranks above everything else, when a week overflows.
       prioritize: "festival|fest\\w*|movie|family|kids|child|petting zoo|animal|axe throwing|vendor|market|bazaar|anniversary|birthday|release|launch|tapping|craft night|workshop|class\\b|paint|contest|competition|parade|fundraiser|charity|benefit|pop.?up|takeover|brunch|dinner|tasting|food truck|story ?time|touch a truck|cruise.?in|car show|game night|yoga"
@@ -265,9 +336,9 @@ digest:
     towns:
       label: "Town Activities"
       kinds: [town]
-      limit: 12
-      exclude: "council|commission|board meeting|public hearing|zoning|work session|advisory|zumba|fitness|yoga|workout"
-      prioritize: "fair|festival|carnival|parade|fireworks|movie|market|kids|family|child|story ?time|concert|music|hallowe\\w*|pumpkin|harvest|holiday|christmas|santa|tree lighting|airshow|air show|tour|craft|workshop|touch a truck|trunk.or.treat|egg hunt|fun run|block party"
+      limit: 16                            # Mosaic, Middleburg and the Village joined this section
+      exclude: "council|commission|board meeting|public hearing|zoning|work session|advisory|zumba|fitness|yoga|workout|karaoke|\\btrivia\\b|bingo|now accepting|accepting applications|leaf collection|street sweeping|snow removal"
+      prioritize: "fair|festival|carnival|parade|fireworks|movie|market|kids|family|child|story ?time|concert|music|hallowe\\w*|pumpkin|harvest|holiday|christmas|christmas festival|holiday festival|winter festival|santa|claus|grinch|tree light\\w*|tree show|menorah|hanukkah|gingerbread|nutcracker|caroling|new year|noon year|ice skating|wonderland|light show|airshow|air show|tour|craft|workshop|touch a truck|trunk.or.treat|egg hunt|fun run|block party|petting zoo|face.?paint\\w*|bounce house|magic show|puppet"
       # Weekly tenant promotions: listed, but last, and never a Top Pick.
       deprioritize: "routine"
       farmers_markets:

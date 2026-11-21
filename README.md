@@ -16,7 +16,10 @@ up?" across all of them at once.
 | Town of Leesburg - Community Events | `https://sc0rchr.github.io/local-calendars/leesburg.ics` | rebuilt daily from the Town's calendar RSS |
 | Historic Manassas Inc. | `https://historicmanassas.org/events/?ical=1` | their own iCal export (live) |
 | One Loudoun | `https://sc0rchr.github.io/local-calendars/one-loudoun.ics` | rebuilt daily from their Squarespace events JSON |
-| Village at Leesburg | `https://sc0rchr.github.io/local-calendars/village-at-leesburg.ics` | curated from their Wix events page |
+| Village at Leesburg | `https://sc0rchr.github.io/local-calendars/village-at-leesburg.ics` | rebuilt daily from their events page's `data-event-*` listings |
+| Mosaic District | `https://sc0rchr.github.io/local-calendars/mosaic-district.ics` | rebuilt daily from The Events Calendar REST API |
+| Middleburg - Local Events | `https://sc0rchr.github.io/local-calendars/middleburg.ics` | rebuilt daily from the schema.org blocks on their events page |
+| City of Fairfax | `https://sc0rchr.github.io/local-calendars/fairfax-city.ics` | rebuilt daily from their OpenCities events directory |
 | White's Ferry Brewery & Winery | `https://sc0rchr.github.io/local-calendars/whites-ferry.ics` | curated from their Instagram |
 | Route 7 Brewing | `https://sc0rchr.github.io/local-calendars/route-7.ics` | live music from wheresthemusic.us + curated |
 | Fairs & Festivals near Leesburg | `https://sc0rchr.github.io/local-calendars/fairs-festivals.ics` | hand-curated in `config/events/fairs-festivals.yaml` |
@@ -126,6 +129,20 @@ the bot only commits when a source actually changed something.
 - **`manual`** - a curated YAML file (`config/events/*.yaml`) for fairs, festivals and carnivals
   that no one publishes a feed for. Supports one-offs, timed events and multi-week `season`
   attractions that show on chosen weekdays. Every entry carries a `verified:` date.
+- **`tribe_json`** - WordPress "The Events Calendar", through its REST API
+  (`/wp-json/tribe/events/v1/events`). Use this rather than `?ical=1` for any site whose events
+  repeat: the plugin's iCal export keeps only the next occurrence of a series, while the API
+  gives every instance its own id.
+- **`jsonld`** - the `<script type="application/ld+json">` schema.org Event blocks a page emits.
+  The fallback for a calendar plugin with no feed and no API (Modern Events Calendar). Only what
+  the page renders is there, so pair with `accumulate: true`.
+- **`event_list`** - server-rendered listings that carry their dates in `data-event-occurrences`
+  attributes (Village at Leesburg and the other properties on that mall CMS). Each event lists
+  its next two occurrences only, so pair with `accumulate: true`.
+- **`opencities`** - Granicus OpenCities municipal directories (fairfaxva.gov), which publish no
+  feed at all: the directory page gives the listings and each event's own page gives every date
+  with its times. robots.txt is honoured, and a disallowed event still publishes from the date
+  on the directory listing (without times).
 - **`wheresthemusic`** - a venue page on wheresthemusic.us, for places with no calendar of their
   own (Route 7 Brewing). A feed's `source` can be a list, so a venue can merge a listings site
   with a curated file.

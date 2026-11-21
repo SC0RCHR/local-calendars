@@ -32,6 +32,32 @@ def _squarespace(feed: Feed, src: dict) -> list[Event]:
     return squarespace.parse_events(squarespace.fetch(src["url"]), feed)
 
 
+def _tribe_json(feed: Feed, src: dict) -> list[Event]:
+    from eventnews.sources import tribe_json
+
+    payload = tribe_json.fetch(src["url"], src.get("days_back", 30), src.get("days_ahead", 270))
+    return tribe_json.parse_events(payload, feed)
+
+
+def _jsonld(feed: Feed, src: dict) -> list[Event]:
+    from eventnews.sources import jsonld
+
+    return jsonld.parse_events(jsonld.fetch(src["url"]), feed)
+
+
+def _event_list(feed: Feed, src: dict) -> list[Event]:
+    from eventnews.sources import event_list
+
+    return event_list.parse_events(event_list.fetch(src["url"]), feed)
+
+
+def _opencities(feed: Feed, src: dict) -> list[Event]:
+    from eventnews.sources import opencities
+
+    listings = opencities.fetch(src["url"], src.get("max_events", opencities.MAX_EVENTS))
+    return opencities.parse_events(listings, feed)
+
+
 def _manual(feed: Feed, src: dict) -> list[Event]:
     from pathlib import Path
 
@@ -51,6 +77,10 @@ REGISTRY: dict[str, Callable[[Feed, dict], list[Event]]] = {
     "elfsight": _elfsight,
     "vision_rss": _vision_rss,
     "squarespace": _squarespace,
+    "tribe_json": _tribe_json,
+    "jsonld": _jsonld,
+    "event_list": _event_list,
+    "opencities": _opencities,
     "manual": _manual,
     "wheresthemusic": _wheresthemusic,
 }

@@ -1,0 +1,2133 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eventnews 0.1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Events at Mosaic District. Source: https://mosaicdistrict.com
+ /events/
+X-WR-CALNAME:Mosaic District
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+COMMENT:This timezone only works from 2025-10-23 to 2030-08-20.
+BEGIN:DAYLIGHT
+DTSTART:20251023T000000
+TZNAME:EDT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000,20271107T020000,20281105T020000,20291104T020000
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+RDATE:20270314T030000,20280312T030000,20290311T030000,20300310T030000
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Barnes and Noble: Saturday Storytime
+DTSTART;TZID=America/New_York:20261024T113000
+DTEND;TZID=America/New_York:20261024T120000
+DTSTAMP:20261121T161137Z
+UID:10010061@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/09/BN-Kids-1024x688-1.jpeg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/saturday-storytime/2
+ 026-10-24/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/saturday-storytime/2026-10-24/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261025T090000
+DTEND;TZID=America/New_York:20261025T140000
+DTSTAMP:20261121T161137Z
+UID:10010044@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-10-25/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-10-25
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261027T183000
+DTEND;TZID=America/New_York:20261027T203000
+DTSTAMP:20261121T161137Z
+UID:10009323@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-10-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-10-27
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+DTSTAMP:20261121T161137Z
+UID:10009618@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-10-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-10-
+ 27/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Barnes and Noble: Saturday Storytime
+DTSTART;TZID=America/New_York:20261031T113000
+DTEND;TZID=America/New_York:20261031T120000
+DTSTAMP:20261121T161137Z
+UID:10010062@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/09/BN-Kids-1024x688-1.jpeg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/saturday-storytime/2
+ 026-10-31/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/saturday-storytime/2026-10-31/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mosaic Halloween Spooktacular
+DTSTART;TZID=America/New_York:20261031T160000
+DTEND;TZID=America/New_York:20261031T190000
+DTSTAMP:20261121T161137Z
+UID:6816@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/StrawberryVillageSpooktacular102520250-15-e1771433315843.pn
+ g
+DESCRIPTION:Grab your costume and join us October 31 for a Spooktacular Ha
+ lloween at Mosaic!\n\nStarting at 4 PM\, stop by your favorite shops for t
+ rick-or-treating and then lay out your blankets\, spread out your candy\, 
+ and enjoy Hocus Pocus on the big screen in Strawberry Park at 6 PM.\n\nWhe
+ re can I stop in to Trick-or-Treat?\n\nAngelika\n\nBarnes & Noble\n\nBarta
+ co\n\nBedHead PJs\n\nBoll & Branch\n\nBrilliant Earth\n\nB Side\n\nCaboose
+  Commons\n\nF45\n\nFaherty\n\nHi/Fi Tex-Mex BBQ\n\nJINYA Ramen Bar\n\nMacm
+ illan Whisky Room\n\nMakers Union\n\nNeuhaus\n\nOneLife\n\nPaper Source\n
+ \nPupatella\n\nPura Vida\n\nRASA\n\nSouth Moon Under\n\nScout & Molly’s
+ \n\nThe Beaufort Bonnet Company\n\nThe Shade Store\n\nTrue Food Kitchen\n
+ \nUrbano\n\nWaxing The City\n\nWarby Parker\n\nWest Elm\n\nStay tuned for 
+ more!\n\nDetails: https://mosaicdistrict.com/event/mosaic-halloween-spookt
+ acular/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/mosaic-halloween-spooktacular/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261101T090000
+DTEND;TZID=America/New_York:20261101T140000
+DTSTAMP:20261121T161137Z
+UID:10010045@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-11-01/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-11-01
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261103T183000
+DTEND;TZID=America/New_York:20261103T203000
+DTSTAMP:20261121T161137Z
+UID:10009324@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-11-03/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-11-03
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+DTSTAMP:20261121T161137Z
+UID:10009619@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-11-03/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-11-
+ 03/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Williams Sonoma: Today We Are Cooking with Tini Younger
+DTSTART;TZID=America/New_York:20261105T170000
+DTEND;TZID=America/New_York:20261105T210000
+DTSTAMP:20261121T161137Z
+UID:8311@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/Screenshot-2026-10-09-at-2.18.27-PM.png
+DESCRIPTION:Join Williams Sonoma for a special event with chef and social 
+ media creator Tini Younger (@tinekeyounger) as she celebrates her debut co
+ okbook\, Today We Are Cooking!\n\nTini will demonstrate her viral mac and 
+ cheese while sharing the techniques and tips that make home cooking simple
+ \, fun\, and foolproof. With more than 100 approachable recipes and pro ti
+ ps for building confidence in the kitchen\, Today We Are Cooking is packed
+  with elevated comfort food you’ll make again and again.\n\nSign up here
+ !\n\nDetails: https://mosaicdistrict.com/event/williams-sonoma-today-we-ar
+ e-cooking-with-tini-younger/
+LOCATION:Williams Sonoma\, 2920 District Ave\, Unit 115\, Fairfax\, VA
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/williams-sonoma-today-we-are-cooking-
+ with-tini-younger/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Barnes and Noble: Saturday Storytime
+DTSTART;TZID=America/New_York:20261107T113000
+DTEND;TZID=America/New_York:20261107T120000
+DTSTAMP:20261121T161137Z
+UID:10010063@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/09/BN-Kids-1024x688-1.jpeg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/saturday-storytime/2
+ 026-11-07/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/saturday-storytime/2026-11-07/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261108T090000
+DTEND;TZID=America/New_York:20261108T140000
+DTSTAMP:20261121T161137Z
+UID:10010046@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-11-08/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-11-08
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Beaufort Bonnet Company: Sunday Storytime
+DTSTART;TZID=America/New_York:20261108T120000
+DTEND;TZID=America/New_York:20261108T140000
+DTSTAMP:20261121T161137Z
+UID:8435@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/11/image-8528811.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/the-beaufort-bonnet-
+ company-sunday-storytime/
+LOCATION:The Beaufort Bonnet Company\, 2920 District Avenue\, Suite 143\, 
+ Fairfax\, VA
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/the-beaufort-bonnet-company-sunday-st
+ orytime/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261110T183000
+DTEND;TZID=America/New_York:20261110T203000
+DTSTAMP:20261121T161137Z
+UID:10009325@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-11-10/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-11-10
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+DTSTAMP:20261121T161137Z
+UID:10009620@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-11-10/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-11-
+ 10/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coca Cola Caravan
+DTSTART;TZID=America/New_York:20261112T180000
+DTEND;TZID=America/New_York:20261112T203000
+DTSTAMP:20261121T161137Z
+UID:8336@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/Screenshot-2026-10-26-at-2.19.50-PM.png
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/coca-cola-caravan/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/coca-cola-caravan/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Waxing the City: 1st Anniversary Celebration
+DTSTART;TZID=America/New_York:20261114T100000
+DTEND;TZID=America/New_York:20261114T140000
+DTSTAMP:20261121T161137Z
+UID:8400@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/WTC_Mosaic_OneSmoothYear_3_Studio_Interior_IMG_2708.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/waxing-the-city-1st-
+ anniversary-celebration/
+LOCATION:Waxing the City\, 2985 District Ave\, Suite 195A\, Fairfax\, VA
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/waxing-the-city-1st-anniversary-celeb
+ ration/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilly Pulitzer: Grand Opening
+DTSTART;TZID=America/New_York:20261114T110000
+DTEND;TZID=America/New_York:20261114T190000
+DTSTAMP:20261121T161137Z
+UID:8449@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/11/image-3769557.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/lilly-pulitzer-grand
+ -opening/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/lilly-pulitzer-grand-opening/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Barnes and Noble: Saturday Storytime
+DTSTART;TZID=America/New_York:20261114T113000
+DTEND;TZID=America/New_York:20261114T120000
+DTSTAMP:20261121T161137Z
+UID:10010064@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/09/BN-Kids-1024x688-1.jpeg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/saturday-storytime/2
+ 026-11-14/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/saturday-storytime/2026-11-14/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261115T090000
+DTEND;TZID=America/New_York:20261115T140000
+DTSTAMP:20261121T161137Z
+UID:10010047@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-11-15/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-11-15
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261117T183000
+DTEND;TZID=America/New_York:20261117T203000
+DTSTAMP:20261121T161137Z
+UID:10009326@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-11-17/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-11-17
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261117T190000
+DTEND;TZID=America/New_York:20261117T210000
+DTSTAMP:20261121T161137Z
+UID:10009621@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-11-17/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-11-
+ 17/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scout & Molly’s: Saturday Dog Strut
+DTSTART;TZID=America/New_York:20261121T093000
+DTEND;TZID=America/New_York:20261121T103000
+DTSTAMP:20261121T161137Z
+UID:10010079@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/ScoutMollys_Dogstrutevent.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/scout-mollys-saturda
+ y-dog-strut/2026-11-21/
+LOCATION:Scout &#038\; Molly&#8217\;s\, 2920 District Ave\, Suite 135\, Fa
+ irfax\, VA
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/scout-mollys-saturday-dog-strut/2026-
+ 11-21/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Village Market
+DTSTART;TZID=America/New_York:20261121T110000
+DTEND;TZID=America/New_York:20261121T160000
+DTSTAMP:20261121T161137Z
+UID:10008347@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/holiday-village-mark
+ et/2026-11-21/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/holiday-village-market/2026-11-21/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Barnes and Noble: Saturday Storytime
+DTSTART;TZID=America/New_York:20261121T113000
+DTEND;TZID=America/New_York:20261121T120000
+DTSTAMP:20261121T161137Z
+UID:10010065@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/09/BN-Kids-1024x688-1.jpeg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/saturday-storytime/2
+ 026-11-21/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/saturday-storytime/2026-11-21/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NWSL Final: Washington Spirit vs. KC Current
+DTSTART;TZID=America/New_York:20261121T193000
+DTEND;TZID=America/New_York:20261121T220000
+DTSTAMP:20261121T161137Z
+UID:8454@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/11/Washington-Spirit.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/nwsl-semi-final-wash
+ ington-spirit-vs-utah-royals/
+LOCATION:Strawberry Park\, 2911 District Avenue\, Fairfax
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/nwsl-semi-final-washington-spirit-vs-
+ utah-royals/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261122T090000
+DTEND;TZID=America/New_York:20261122T140000
+DTSTAMP:20261121T161137Z
+UID:10010048@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-11-22/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-11-22
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Village Market
+DTSTART;TZID=America/New_York:20261122T110000
+DTEND;TZID=America/New_York:20261122T160000
+DTSTAMP:20261121T161137Z
+UID:10008348@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/holiday-village-mark
+ et/2026-11-22/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/holiday-village-market/2026-11-22/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261124T183000
+DTEND;TZID=America/New_York:20261124T203000
+DTSTAMP:20261121T161137Z
+UID:10009327@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-11-24/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-11-24
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261124T190000
+DTEND;TZID=America/New_York:20261124T210000
+DTSTAMP:20261121T161137Z
+UID:10009622@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-11-24/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-11-
+ 24/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Tree Lighting
+DTSTART;TZID=America/New_York:20261127T170000
+DTEND;TZID=America/New_York:20261127T200000
+DTSTAMP:20261121T161137Z
+UID:6823@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/2024mosaicxmas_web-81-e1771433412541.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/holiday-tree-lightin
+ g/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/holiday-tree-lighting/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Santa at Mosaic
+DTSTART;TZID=America/New_York:20261127T173000
+DTEND;TZID=America/New_York:20261127T200000
+DTSTAMP:20261121T161137Z
+UID:10010083@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Santa-Holiday_2025_44-scaled.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/santa-at-mosaic/2026
+ -11-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/santa-at-mosaic/2026-11-27/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Santa at Mosaic
+DTSTART;TZID=America/New_York:20261128T110000
+DTEND;TZID=America/New_York:20261128T160000
+DTSTAMP:20261121T161137Z
+UID:10008715@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Santa-Holiday_2025_44-scaled.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/santa-at-mosaic/2026
+ -11-28/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/santa-at-mosaic/2026-11-28/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Barnes and Noble: Saturday Storytime
+DTSTART;TZID=America/New_York:20261128T113000
+DTEND;TZID=America/New_York:20261128T120000
+DTSTAMP:20261121T161137Z
+UID:10010066@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/09/BN-Kids-1024x688-1.jpeg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/saturday-storytime/2
+ 026-11-28/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/saturday-storytime/2026-11-28/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261129T090000
+DTEND;TZID=America/New_York:20261129T140000
+DTSTAMP:20261121T161137Z
+UID:10010049@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-11-29/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-11-29
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Santa at Mosaic
+DTSTART;TZID=America/New_York:20261129T110000
+DTEND;TZID=America/New_York:20261129T160000
+DTSTAMP:20261121T161137Z
+UID:10008716@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Santa-Holiday_2025_44-scaled.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/santa-at-mosaic/2026
+ -11-29/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/santa-at-mosaic/2026-11-29/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261201T183000
+DTEND;TZID=America/New_York:20261201T203000
+DTSTAMP:20261121T161137Z
+UID:10009328@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-12-01/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-12-01
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261201T190000
+DTEND;TZID=America/New_York:20261201T210000
+DTSTAMP:20261121T161137Z
+UID:10009623@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-12-01/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-12-
+ 01/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Santa at Mosaic
+DTSTART;TZID=America/New_York:20261205T110000
+DTEND;TZID=America/New_York:20261205T160000
+DTSTAMP:20261121T161137Z
+UID:10010075@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Santa-Holiday_2025_44-scaled.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/santa-at-mosaic/2026
+ -12-05/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/santa-at-mosaic/2026-12-05/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261206T090000
+DTEND;TZID=America/New_York:20261206T140000
+DTSTAMP:20261121T161137Z
+UID:10010050@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-12-06/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-12-06
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T203000
+DTSTAMP:20261121T161137Z
+UID:10009329@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-12-08/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-12-08
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261208T190000
+DTEND;TZID=America/New_York:20261208T210000
+DTSTAMP:20261121T161137Z
+UID:10009624@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-12-08/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-12-
+ 08/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hanukkah Candlelighting and Glow Party
+DTSTART;TZID=America/New_York:20261209T173000
+DTEND;TZID=America/New_York:20261209T193000
+DTSTAMP:20261121T161137Z
+UID:8251@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/09/Moasic_Hanukkah.jpeg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/hanukkah-candlelight
+ ing-and-glow-party/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/hanukkah-candlelighting-and-glow-part
+ y/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Village Market
+DTSTART;TZID=America/New_York:20261212T110000
+DTEND;TZID=America/New_York:20261212T160000
+DTSTAMP:20261121T161137Z
+UID:10008368@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/holiday-village-mark
+ et/2026-12-12/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/holiday-village-market/2026-12-12/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Santa at Mosaic
+DTSTART;TZID=America/New_York:20261212T110000
+DTEND;TZID=America/New_York:20261212T160000
+DTSTAMP:20261121T161137Z
+UID:10008717@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Santa-Holiday_2025_44-scaled.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/santa-at-mosaic/2026
+ -12-12/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/santa-at-mosaic/2026-12-12/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261213T090000
+DTEND;TZID=America/New_York:20261213T140000
+DTSTAMP:20261121T161137Z
+UID:10010051@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-12-13/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-12-13
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Village Market
+DTSTART;TZID=America/New_York:20261213T110000
+DTEND;TZID=America/New_York:20261213T160000
+DTSTAMP:20261121T161137Z
+UID:10008369@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/holiday-village-mark
+ et/2026-12-13/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/holiday-village-market/2026-12-13/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261215T183000
+DTEND;TZID=America/New_York:20261215T203000
+DTSTAMP:20261121T161137Z
+UID:10009330@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-12-15/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-12-15
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261215T190000
+DTEND;TZID=America/New_York:20261215T210000
+DTSTAMP:20261121T161137Z
+UID:10009625@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-12-15/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-12-
+ 15/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scout & Molly’s: Saturday Dog Strut
+DTSTART;TZID=America/New_York:20261219T093000
+DTEND;TZID=America/New_York:20261219T103000
+DTSTAMP:20261121T161137Z
+UID:10010080@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/ScoutMollys_Dogstrutevent.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/scout-mollys-saturda
+ y-dog-strut/2026-12-19/
+LOCATION:Scout &#038\; Molly&#8217\;s\, 2920 District Ave\, Suite 135\, Fa
+ irfax\, VA
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/scout-mollys-saturday-dog-strut/2026-
+ 12-19/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Santa at Mosaic
+DTSTART;TZID=America/New_York:20261219T110000
+DTEND;TZID=America/New_York:20261219T160000
+DTSTAMP:20261121T161137Z
+UID:10008719@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/02/Mosaic_Santa-Holiday_2025_44-scaled.jpg
+CATEGORIES:merry mosaic
+DESCRIPTION:Details: https://mosaicdistrict.com/event/santa-at-mosaic/2026
+ -12-19/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/santa-at-mosaic/2026-12-19/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261220T090000
+DTEND;TZID=America/New_York:20261220T140000
+DTSTAMP:20261121T161137Z
+UID:10010052@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-12-20/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-12-20
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261222T183000
+DTEND;TZID=America/New_York:20261222T203000
+DTSTAMP:20261121T161137Z
+UID:10009331@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-12-22/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-12-22
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261222T190000
+DTEND;TZID=America/New_York:20261222T210000
+DTSTAMP:20261121T161137Z
+UID:10009626@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-12-22/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-12-
+ 22/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRESHFARM Farmers Market
+DTSTART;TZID=America/New_York:20261227T090000
+DTEND;TZID=America/New_York:20261227T140000
+DTSTAMP:20261121T161137Z
+UID:10010053@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/Farmers-Market-e1771432294777.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/freshfarm-farmers-ma
+ rket-2/2026-12-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/freshfarm-farmers-market-2/2026-12-27
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Inova Blood Drive
+DTSTART;TZID=America/New_York:20261227T090000
+DTEND;TZID=America/New_York:20261227T140000
+DTSTAMP:20261121T161137Z
+UID:8342@mosaic-district
+DESCRIPTION:Details: https://mosaicdistrict.com/event/inova-blood-drive/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/inova-blood-drive/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20261229T183000
+DTEND;TZID=America/New_York:20261229T203000
+DTSTAMP:20261121T161137Z
+UID:10009332@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2026-12-29/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-12-29
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20261229T190000
+DTEND;TZID=America/New_York:20261229T210000
+DTSTAMP:20261121T161137Z
+UID:10009627@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2026-12-29/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2026-12-
+ 29/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270105T183000
+DTEND;TZID=America/New_York:20270105T203000
+DTSTAMP:20261121T161137Z
+UID:10009333@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-01-05/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-01-05
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270105T190000
+DTEND;TZID=America/New_York:20270105T210000
+DTSTAMP:20261121T161137Z
+UID:10009628@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-01-05/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-01-
+ 05/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270112T183000
+DTEND;TZID=America/New_York:20270112T203000
+DTSTAMP:20261121T161137Z
+UID:10009334@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-01-12/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-01-12
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270112T190000
+DTEND;TZID=America/New_York:20270112T210000
+DTSTAMP:20261121T161137Z
+UID:10009629@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-01-12/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-01-
+ 12/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scout & Molly’s: Saturday Dog Strut
+DTSTART;TZID=America/New_York:20270116T093000
+DTEND;TZID=America/New_York:20270116T103000
+DTSTAMP:20261121T161137Z
+UID:10010081@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/ScoutMollys_Dogstrutevent.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/scout-mollys-saturda
+ y-dog-strut/2027-01-16/
+LOCATION:Scout &#038\; Molly&#8217\;s\, 2920 District Ave\, Suite 135\, Fa
+ irfax\, VA
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/scout-mollys-saturday-dog-strut/2027-
+ 01-16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270119T183000
+DTEND;TZID=America/New_York:20270119T203000
+DTSTAMP:20261121T161137Z
+UID:10009335@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-01-19/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-01-19
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270119T190000
+DTEND;TZID=America/New_York:20270119T210000
+DTSTAMP:20261121T161137Z
+UID:10009630@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-01-19/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-01-
+ 19/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mosaic Plunge
+DTSTART;TZID=America/New_York:20270123T110000
+DTEND;TZID=America/New_York:20270123T130000
+DTSTAMP:20261121T161137Z
+UID:7975@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/07/Mosaic_Polar-Plunge-2025_057.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/mosaic-plunge/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/mosaic-plunge/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270126T183000
+DTEND;TZID=America/New_York:20270126T203000
+DTSTAMP:20261121T161137Z
+UID:10009336@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-01-26/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-01-26
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+DTSTAMP:20261121T161137Z
+UID:10009631@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-01-26/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-01-
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270202T183000
+DTEND;TZID=America/New_York:20270202T203000
+DTSTAMP:20261121T161137Z
+UID:10009337@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-02-02/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-02-02
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270202T190000
+DTEND;TZID=America/New_York:20270202T210000
+DTSTAMP:20261121T161137Z
+UID:10009632@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-02-02/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-02-
+ 02/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270209T183000
+DTEND;TZID=America/New_York:20270209T203000
+DTSTAMP:20261121T161137Z
+UID:10009338@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-02-09/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-02-09
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270209T190000
+DTEND;TZID=America/New_York:20270209T210000
+DTSTAMP:20261121T161137Z
+UID:10009633@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-02-09/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-02-
+ 09/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270216T183000
+DTEND;TZID=America/New_York:20270216T203000
+DTSTAMP:20261121T161137Z
+UID:10009339@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-02-16/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-02-16
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270216T190000
+DTEND;TZID=America/New_York:20270216T210000
+DTSTAMP:20261121T161137Z
+UID:10009634@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-02-16/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-02-
+ 16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scout & Molly’s: Saturday Dog Strut
+DTSTART;TZID=America/New_York:20270220T093000
+DTEND;TZID=America/New_York:20270220T103000
+DTSTAMP:20261121T161137Z
+UID:10010082@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/ScoutMollys_Dogstrutevent.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/scout-mollys-saturda
+ y-dog-strut/2027-02-20/
+LOCATION:Scout &#038\; Molly&#8217\;s\, 2920 District Ave\, Suite 135\, Fa
+ irfax\, VA
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/scout-mollys-saturday-dog-strut/2027-
+ 02-20/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270223T183000
+DTEND;TZID=America/New_York:20270223T203000
+DTSTAMP:20261121T161137Z
+UID:10009340@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-02-23/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-02-23
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270223T190000
+DTEND;TZID=America/New_York:20270223T210000
+DTSTAMP:20261121T161137Z
+UID:10009635@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-02-23/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-02-
+ 23/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270302T183000
+DTEND;TZID=America/New_York:20270302T203000
+DTSTAMP:20261121T161137Z
+UID:10009341@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-03-02/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-03-02
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270302T190000
+DTEND;TZID=America/New_York:20270302T210000
+DTSTAMP:20261121T161137Z
+UID:10009636@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-03-02/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-03-
+ 02/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270309T183000
+DTEND;TZID=America/New_York:20270309T203000
+DTSTAMP:20261121T161137Z
+UID:10009342@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-03-09/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-03-09
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270309T190000
+DTEND;TZID=America/New_York:20270309T210000
+DTSTAMP:20261121T161137Z
+UID:10009637@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-03-09/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-03-
+ 09/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270316T183000
+DTEND;TZID=America/New_York:20270316T203000
+DTSTAMP:20261121T161137Z
+UID:10009343@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-03-16/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-03-16
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270316T190000
+DTEND;TZID=America/New_York:20270316T210000
+DTSTAMP:20261121T161137Z
+UID:10009638@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-03-16/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-03-
+ 16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270323T183000
+DTEND;TZID=America/New_York:20270323T203000
+DTSTAMP:20261121T161137Z
+UID:10009344@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-03-23/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-03-23
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270323T190000
+DTEND;TZID=America/New_York:20270323T210000
+DTSTAMP:20261121T161137Z
+UID:10009639@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-03-23/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-03-
+ 23/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270330T183000
+DTEND;TZID=America/New_York:20270330T203000
+DTSTAMP:20261121T161137Z
+UID:10009345@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-03-30/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-03-30
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270330T190000
+DTEND;TZID=America/New_York:20270330T210000
+DTSTAMP:20261121T161137Z
+UID:10009640@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-03-30/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-03-
+ 30/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Art Blooms
+DTSTART;TZID=America/New_York:20270403T110000
+DTEND;TZID=America/New_York:20270403T180000
+DTSTAMP:20261121T161137Z
+UID:10010073@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/Art-Blooms_Mosaic_Promo_-2026-6.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/art-blooms/2027-04-0
+ 3/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/art-blooms/2027-04-03/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Art Blooms
+DTSTART;TZID=America/New_York:20270404T110000
+DTEND;TZID=America/New_York:20270404T180000
+DTSTAMP:20261121T161137Z
+UID:10010074@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/10/Art-Blooms_Mosaic_Promo_-2026-6.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/art-blooms/2027-04-0
+ 4/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/art-blooms/2027-04-04/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270406T183000
+DTEND;TZID=America/New_York:20270406T203000
+DTSTAMP:20261121T161137Z
+UID:10009346@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-04-06/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-04-06
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270406T190000
+DTEND;TZID=America/New_York:20270406T210000
+DTSTAMP:20261121T161137Z
+UID:10009641@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-04-06/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-04-
+ 06/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270413T183000
+DTEND;TZID=America/New_York:20270413T203000
+DTSTAMP:20261121T161137Z
+UID:10009347@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-04-13/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-04-13
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270413T190000
+DTEND;TZID=America/New_York:20270413T210000
+DTSTAMP:20261121T161137Z
+UID:10009642@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-04-13/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-04-
+ 13/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270420T183000
+DTEND;TZID=America/New_York:20270420T203000
+DTSTAMP:20261121T161137Z
+UID:10009348@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-04-20/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-04-20
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270420T190000
+DTEND;TZID=America/New_York:20270420T210000
+DTSTAMP:20261121T161137Z
+UID:10009643@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-04-20/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-04-
+ 20/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270427T183000
+DTEND;TZID=America/New_York:20270427T203000
+DTSTAMP:20261121T161137Z
+UID:10009349@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-04-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-04-27
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270427T190000
+DTEND;TZID=America/New_York:20270427T210000
+DTSTAMP:20261121T161137Z
+UID:10009644@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-04-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-04-
+ 27/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270504T183000
+DTEND;TZID=America/New_York:20270504T203000
+DTSTAMP:20261121T161137Z
+UID:10009350@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-05-04/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-05-04
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270504T190000
+DTEND;TZID=America/New_York:20270504T210000
+DTSTAMP:20261121T161137Z
+UID:10009645@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-05-04/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-05-
+ 04/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270511T183000
+DTEND;TZID=America/New_York:20270511T203000
+DTSTAMP:20261121T161137Z
+UID:10009351@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-05-11/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-05-11
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270511T190000
+DTEND;TZID=America/New_York:20270511T210000
+DTSTAMP:20261121T161137Z
+UID:10009646@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-05-11/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-05-
+ 11/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Market
+DTSTART;TZID=America/New_York:20270515T110000
+DTEND;TZID=America/New_York:20270515T160000
+DTSTAMP:20261121T161137Z
+UID:10010085@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/11/image-8814726.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/spring-market/2027-0
+ 5-15/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/spring-market/2027-05-15/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Market
+DTSTART;TZID=America/New_York:20270516T110000
+DTEND;TZID=America/New_York:20270516T160000
+DTSTAMP:20261121T161137Z
+UID:10010086@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/11/image-8814726.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/spring-market/2027-0
+ 5-16/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/spring-market/2027-05-16/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270518T183000
+DTEND;TZID=America/New_York:20270518T203000
+DTSTAMP:20261121T161137Z
+UID:10009352@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-05-18/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-05-18
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270518T190000
+DTEND;TZID=America/New_York:20270518T210000
+DTSTAMP:20261121T161137Z
+UID:10009647@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-05-18/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-05-
+ 18/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270525T183000
+DTEND;TZID=America/New_York:20270525T203000
+DTSTAMP:20261121T161137Z
+UID:10009353@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-05-25/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-05-25
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270525T190000
+DTEND;TZID=America/New_York:20270525T210000
+DTSTAMP:20261121T161137Z
+UID:10009648@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-05-25/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-05-
+ 25/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270601T183000
+DTEND;TZID=America/New_York:20270601T203000
+DTSTAMP:20261121T161137Z
+UID:10009354@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-06-01/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-06-01
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270601T190000
+DTEND;TZID=America/New_York:20270601T210000
+DTSTAMP:20261121T161137Z
+UID:10009649@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-06-01/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-06-
+ 01/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270608T183000
+DTEND;TZID=America/New_York:20270608T203000
+DTSTAMP:20261121T161137Z
+UID:10009355@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-06-08/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-06-08
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270608T190000
+DTEND;TZID=America/New_York:20270608T210000
+DTSTAMP:20261121T161137Z
+UID:10009650@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-06-08/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-06-
+ 08/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270615T183000
+DTEND;TZID=America/New_York:20270615T203000
+DTSTAMP:20261121T161137Z
+UID:10009356@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-06-15/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-06-15
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270615T190000
+DTEND;TZID=America/New_York:20270615T210000
+DTSTAMP:20261121T161137Z
+UID:10009651@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-06-15/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-06-
+ 15/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270622T183000
+DTEND;TZID=America/New_York:20270622T203000
+DTSTAMP:20261121T161137Z
+UID:10009357@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-06-22/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-06-22
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270622T190000
+DTEND;TZID=America/New_York:20270622T210000
+DTSTAMP:20261121T161137Z
+UID:10009652@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-06-22/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-06-
+ 22/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts in the Parks
+DTSTART;TZID=America/New_York:20270627T100000
+DTEND;TZID=America/New_York:20270627T104500
+DTSTAMP:20261121T161137Z
+UID:10009578@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/mosaic-park-e1772375853328.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/arts-in-the-parks-20
+ 27/2027-06-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/arts-in-the-parks-2027/2027-06-27/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270629T183000
+DTEND;TZID=America/New_York:20270629T203000
+DTSTAMP:20261121T161137Z
+UID:10009358@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-06-29/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-06-29
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270629T190000
+DTEND;TZID=America/New_York:20270629T210000
+DTSTAMP:20261121T161137Z
+UID:10009653@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-06-29/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-06-
+ 29/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270706T183000
+DTEND;TZID=America/New_York:20270706T203000
+DTSTAMP:20261121T161137Z
+UID:10009359@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-07-06/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-07-06
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270706T190000
+DTEND;TZID=America/New_York:20270706T210000
+DTSTAMP:20261121T161137Z
+UID:10009654@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-07-06/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-07-
+ 06/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts in the Parks
+DTSTART;TZID=America/New_York:20270711T100000
+DTEND;TZID=America/New_York:20270711T104500
+DTSTAMP:20261121T161137Z
+UID:10010092@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/mosaic-park-e1772375853328.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/arts-in-the-parks-20
+ 27/2027-07-11/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/arts-in-the-parks-2027/2027-07-11/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270713T183000
+DTEND;TZID=America/New_York:20270713T203000
+DTSTAMP:20261121T161137Z
+UID:10009360@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-07-13/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-07-13
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270713T190000
+DTEND;TZID=America/New_York:20270713T210000
+DTSTAMP:20261121T161137Z
+UID:10009655@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-07-13/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-07-
+ 13/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts in the Parks
+DTSTART;TZID=America/New_York:20270718T100000
+DTEND;TZID=America/New_York:20270718T104500
+DTSTAMP:20261121T161137Z
+UID:10010093@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/mosaic-park-e1772375853328.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/arts-in-the-parks-20
+ 27/2027-07-18/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/arts-in-the-parks-2027/2027-07-18/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270720T183000
+DTEND;TZID=America/New_York:20270720T203000
+DTSTAMP:20261121T161137Z
+UID:10009361@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-07-20/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-07-20
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270720T190000
+DTEND;TZID=America/New_York:20270720T210000
+DTSTAMP:20261121T161137Z
+UID:10009656@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-07-20/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-07-
+ 20/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts in the Parks
+DTSTART;TZID=America/New_York:20270725T100000
+DTEND;TZID=America/New_York:20270725T104500
+DTSTAMP:20261121T161137Z
+UID:10010094@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/mosaic-park-e1772375853328.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/arts-in-the-parks-20
+ 27/2027-07-25/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/arts-in-the-parks-2027/2027-07-25/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270727T183000
+DTEND;TZID=America/New_York:20270727T203000
+DTSTAMP:20261121T161137Z
+UID:10009362@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-07-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-07-27
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270727T190000
+DTEND;TZID=America/New_York:20270727T210000
+DTSTAMP:20261121T161137Z
+UID:10009657@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-07-27/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-07-
+ 27/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts in the Parks
+DTSTART;TZID=America/New_York:20270801T100000
+DTEND;TZID=America/New_York:20270801T104500
+DTSTAMP:20261121T161137Z
+UID:10010095@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/mosaic-park-e1772375853328.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/arts-in-the-parks-20
+ 27/2027-08-01/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/arts-in-the-parks-2027/2027-08-01/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270803T183000
+DTEND;TZID=America/New_York:20270803T203000
+DTSTAMP:20261121T161137Z
+UID:10009363@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-08-03/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-08-03
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270803T190000
+DTEND;TZID=America/New_York:20270803T210000
+DTSTAMP:20261121T161137Z
+UID:10009658@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-08-03/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-08-
+ 03/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts in the Parks
+DTSTART;TZID=America/New_York:20270808T100000
+DTEND;TZID=America/New_York:20270808T104500
+DTSTAMP:20261121T161137Z
+UID:10010096@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/01/mosaic-park-e1772375853328.jpg
+DESCRIPTION:Details: https://mosaicdistrict.com/event/arts-in-the-parks-20
+ 27/2027-08-08/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/arts-in-the-parks-2027/2027-08-08/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270810T183000
+DTEND;TZID=America/New_York:20270810T203000
+DTSTAMP:20261121T161137Z
+UID:10009364@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-08-10/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-08-10
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270810T190000
+DTEND;TZID=America/New_York:20270810T210000
+DTSTAMP:20261121T161137Z
+UID:10009659@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-08-10/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-08-
+ 10/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Cata: Trivia Tuesdays
+DTSTART;TZID=America/New_York:20270817T183000
+DTEND;TZID=America/New_York:20270817T203000
+DTSTAMP:20261121T161137Z
+UID:10009365@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png
+DESCRIPTION:Details: https://mosaicdistrict.com/event/grand-cata-trivia-tu
+ esdays/2027-08-17/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2027-08-17
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caboose Commons: Trivia Night
+DTSTART;TZID=America/New_York:20270817T190000
+DTEND;TZID=America/New_York:20270817T210000
+DTSTAMP:20261121T161137Z
+UID:10009660@mosaic-district
+ATTACH;FMTTYPE=image/jpeg:https://mosaicdistrict.com/wp-content/uploads/si
+ tes/12/2026/04/GettyImages-615501726-e1775496152847.jpg
+DESCRIPTION:Bring your friends for a night of big prizes\, fun trivia and 
+ lots of drinks!\n\nDetails: https://mosaicdistrict.com/event/caboose-commo
+ ns-trivia-night/2027-08-17/
+LOCATION:Mosaic District\, 2905 District Ave\, Fairfax\, VA 22031
+TRANSP:TRANSPARENT
+URL:https://mosaicdistrict.com/event/caboose-commons-trivia-night/2027-08-
+ 17/
+END:VEVENT
+END:VCALENDAR

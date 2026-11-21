@@ -1,0 +1,291 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eventnews 0.1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Events at Middleburg - Local Events. Source: https://visitmid
+ dleburgva.com/local-events/
+X-WR-CALNAME:Middleburg - Local Events
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:The Chase Club Is Coming to Middleburg: Now Accepting Applications
+ !
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20270101
+DTSTAMP:20261121T161137Z
+UID:the-chase-club-is-coming-to-middleburg-now-accepting-applica-2026-09-2
+ 4@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/09/Chase-club-apps.png
+DESCRIPTION:The Chase Club is coming to Middleburg and is now accepting ap
+ plications. Please go to www.thechaseclub.com to fill out your application
+ .\n\nDetails: https://visitmiddleburgva.com/events/the-chase-club-is-comin
+ g-to-middleburg-now-accepting-applications/
+LOCATION:The Chase Club\, 115 West Washington Street\, Middleburg\, VA 201
+ 17
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/the-chase-club-is-coming-to-middl
+ eburg-now-accepting-applications/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yuri Gorbachev 23rd Annual Exhibition at The Byrne Gallery
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20270104
+DTSTAMP:20261121T161137Z
+UID:yuri-gorbachev-23rd-annual-exhibition-at-the-byrne-gallery-2026-11-04@
+ middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Yuri-Gorbachev.png
+DESCRIPTION:The Byrne Gallery announces its 31st anniversary this year wit
+ h a celebration and exhibition of vivid oil and enamel paintings of intern
+ ationally acclaimed artist Yuri Gorbachev. The Byrne Gallery welcomes Yuri
+  Gorbachev for his 23rd annual exhibition in Middleburg\, Virginia. The Ga
+ llery will feature some of his classic paintings along with new works from
+  his 2026 museum tour. In 2026\, he showed at venues in Talin Estonia\, He
+ lsinki Finland\, Prague Czech Republic\, and Berlin Germany as well as Gal
+ lery Chang in New York City and Seoul\, Korea.    The opening reception wi
+ ll be on November 14\, 2026 from 5:30 p.m. to 8:00 p.m. The exhibition is 
+ open to the public and everyone is cordially invited to attend. The exhibi
+ tion begins on November 4th and continues through January 3rd\, 2027.    T
+ his year a portion of the sales from the exhibition will be donated to the
+  families of Ukraine through The International Rescue Committee (IRC) for 
+ Ukrainian Refugees. This organization is consistently awarded top marks by
+  charity watchdog groups for efficient use of contributions and overall im
+ pact.\n\nDetails: https://visitmiddleburgva.com/events/yuri-gorbachev-23rd
+ -annual-exhibition-at-the-byrne-gallery/
+LOCATION:The Byrne Gallery\, 7 W Washington St\, Middleburg\, VA 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/yuri-gorbachev-23rd-annual-exhibi
+ tion-at-the-byrne-gallery/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Model Railroad Extravaganza
+DTSTART;TZID="UTC-05:00":20261120T093000
+DTEND;TZID="UTC-05:00":20261120T170000
+DTSTAMP:20261121T161137Z
+UID:model-railroad-extravaganza-2026-11-20@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2025/11/Model-Railroad-Extravaganza-Middleburg-Library-December-8-All-Day
+ .png
+DESCRIPTION:See a room-wide T-TRAK scale model railroad in action. Brought
+  to you by Northern Virginia NTRAK.\n\nDetails: https://visitmiddleburgva.
+ com/events/model-railroad-extravaganza-5-987-189/
+LOCATION:Middleburg Library\, 101 Reed St\, Middleburg\, VA 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/model-railroad-extravaganza-5-987
+ -189/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Complimentary Journal Personalization at Every Little Something
+DTSTART;TZID="UTC-05:00":20261120T120000
+DTEND;TZID="UTC-05:00":20261120T170000
+DTSTAMP:20261121T161137Z
+UID:complimentary-journal-personalization-at-every-little-someth-2026-11-2
+ 0@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Personalized-Journal-Day-ELS.png
+DESCRIPTION:Join us at Every Little Something in Middleburg for a special 
+ in-store personalization event featuring our collection of Semikolon journ
+ als and notebooks.    Choose your favorite Semikolon notebook in the shop
+ \, and we’ll personalize it for you free of charge using our hot-foil st
+ amping equipment.    Add a name\, initials\, word or one of our available 
+ emoji designs to make your notebook your own — or create a personalized 
+ gift for someone else.    While you’re here\, enjoy a fresh-baked cookie
+  from our neighbors at Upper Crust\, Middleburg’s local bakery.    The c
+ ookies are on us and meant to be enjoyed by everyone who stops by — no p
+ urchase necessary.    Click here for more details!\n\nDetails: https://vis
+ itmiddleburgva.com/events/complimentary-journal-personalization-at-every-l
+ ittle-something/
+LOCATION:Every Little Something\, 109 West Washington Street\, Middleburg
+ \, VA 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/complimentary-journal-personaliza
+ tion-at-every-little-something/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sixth Annual Celebrating the Harvest: A Farm to Table Dinner at Oa
+ k Spring Garden Foundation
+DTSTART;TZID="UTC-05:00":20261120T170000
+DTEND;TZID="UTC-05:00":20261120T210000
+DTSTAMP:20261121T161137Z
+UID:sixth-annual-celebrating-the-harvest-a-farm-to-table-dinner--2026-11-2
+ 0@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Harvest-Dinner-OSGF.png
+DESCRIPTION:Join the Oak Spring Garden Foundation (OSGF) for a special eve
+ ning as we gather around the table and celebrate the harvest through the s
+ easons with a menu curated and created by Chef Jason Neve. Dishes will hig
+ hlight a medley of heirloom crops grown at Oak Spring's Biocultural Conser
+ vation Farm (BCCF).    The evening begins at 5:00 pm with libations and ho
+ rs d’oeuvres on the terrace of the historic Nora Mellon House - one of R
+ okeby Farm’s original buildings\, constructed by Andrew Mellon and today
+  a welcoming space for OSGF’s Residency and Fellowship Program. At 6:00 
+ pm\, we will move inside for a seasonal multi course dinner paired with lo
+ cal wines.    Kindly note that due to the nature of this event\, we are un
+ able to accommodate dietary restrictions or preferences. This meal may con
+ tain dairy\, eggs\, gluten\, and nuts.    Click here for reservations!\n\n
+ Details: https://visitmiddleburgva.com/events/sixth-annual-celebrating-the
+ -harvest-a-farm-to-table-dinner-at-oak-spring-garden-foundation/
+LOCATION:Oak Spring Garden Foundation\, 1776 Loughborough Lane\, Uppervill
+ e\, VA 20184
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/sixth-annual-celebrating-the-harv
+ est-a-farm-to-table-dinner-at-oak-spring-garden-foundation/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Imagine 2027: A Canvas of Possibilities
+DTSTART;TZID="UTC-05:00":20261122T100000
+DTEND;TZID="UTC-05:00":20261122T120000
+DTSTAMP:20261121T161137Z
+UID:imagine-2027-a-canvas-of-possibilities-2026-11-22@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/11/DeeAnn-Nov-2026-Event-at-MCC.png
+DESCRIPTION:Join Imagine Life Coaching for a fun\, creative afternoon of g
+ ratitude\, inspiration\, and painting your 2027 vision on canvas with loca
+ l artist\, Christina Lee at the Middleburg Community Center!    Imagine 20
+ 27: A Canvas of Possibilities is an in-person creative afternoon for the c
+ ommunity. Gratitude\, inspiration\, and possibility.    Discover what you 
+ truly would love for the year ahead with Life Coach\, DeeAnn Jeremiah. Cre
+ atively imagine it with local artist\, Christina Lee. Bring your vision fo
+ r 2027 to life on canvas in a relaxed\, fun & creative setting!    Click h
+ ere to register!\n\nDetails: https://visitmiddleburgva.com/events/imagine-
+ 2027-a-canvas-of-possibilities/
+LOCATION:Middleburg Community Center\, 300 W Washington St\, Middleburg\, 
+ VA 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/imagine-2027-a-canvas-of-possibil
+ ities/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Musical Immersion!
+DTSTART;TZID="UTC-05:00":20261122T150000
+DTEND;TZID="UTC-05:00":20261122T163000
+DTSTAMP:20261121T161137Z
+UID:musical-immersion-2026-11-22@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Parish-House-Music-Immersion.png
+DESCRIPTION:Join Emily Mason as she guides the audience in a unique musica
+ l experience. She will play music from around the world on the harp and pi
+ ano\, and the audience will have the opportunity to join in on a few piece
+ s at Emily’s guidance\, using Emmanuel’s handbells and more. Come enjo
+ y a fun\, engaging\, and memorable afternoon filled with music\, participa
+ tion\, and surprises!    Tickets available ($20) at the door or click here
+  to order!\n\nDetails: https://visitmiddleburgva.com/events/musical-immers
+ ion/
+LOCATION:Emmanuel Parish House\, 105 E Washington St\, Middleburg\, VA 201
+ 17
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/musical-immersion/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Celebrate Thanksgiving in Middleburg!
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261129
+DTSTAMP:20261121T161137Z
+UID:celebrate-thanksgiving-in-middleburg-2026-11-23@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2024/10/Thanksgiving-Dinner.jpg
+DESCRIPTION:Would you rather make a reservation this Thanksgiving? Fear no
+ t! Middleburg has you covered. Each venue offers a unique atmosphere and m
+ enu\, making them great choices for Thanksgiving dining. Whether you're lo
+ oking for a cozy tavern vibe or a lavish buffet\, there's something for ev
+ eryone!    Red Fox Inn & Tavern Thanksgiving Harvest Dinner  Celebrate the
+  season at The Red Fox Inn & Tavern\, where historic charm\, warm hospital
+ ity and exceptional dining come together. Gather with family and friends t
+ o savor autumn flavors and enjoy a memorable evening in the heart of Middl
+ eburg. This special dining experience runs November 23-25 and November 27-
+ 28.  The Red Fox is closed on Thanksgiving Day\, November 26.    Click her
+ e for reservations!    Salamander Grand Thanksgiving Buffet  The Salamande
+ r Middleburg Grand Thanksgiving Buffet offers a luxurious dining experienc
+ e. This expansive buffet features a wide array of dishes\, from traditiona
+ l roasted turkey to gourmet sides and delectable desserts. The elegant set
+ ting and attentive service ensure a memorable experience for all. Guests c
+ an enjoy a festive atmosphere\, complete with live music and seasonal deco
+ rations.    Click here for reservations.    Harrimans Thanksgiving Feast  
+ Harrimans provides a refined dining experience for Thanksgiving\, focusing
+  on seasonal\, locally sourced ingredients. The menu highlights classic ho
+ liday dishes with a modern twist\, including perfectly roasted turkey\, un
+ ique sides\, and artisanal desserts. The restaurant's sophisticated ambian
+ ce and exceptional service make it a wonderful choice for those looking to
+  celebrate in style.    Click here for reservations.\n\nDetails: https://v
+ isitmiddleburgva.com/events/dine-out-in-middleburg-this-thanksgiving-582/
+LOCATION:Middleburg\, VA
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/dine-out-in-middleburg-this-thank
+ sgiving-582/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thanksgiving Harvest Dinner
+DTSTART;TZID="UTC-05:00":20261123T160000
+DTEND;TZID="UTC-05:00":20261123T200000
+DTSTAMP:20261121T161137Z
+UID:thanksgiving-harvest-dinner-2026-11-23@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Red-Fox-TGiving.png
+DESCRIPTION:Celebrate the season at The Red Fox Inn & Tavern\, where histo
+ ric charm\, warm hospitality and exceptional dining come together. Gather 
+ with family and friends to savor autumn flavors and enjoy a memorable even
+ ing in the heart of Middleburg.    Click here for more info and reservatio
+ ns.\n\nDetails: https://visitmiddleburgva.com/events/thanksgiving-harvest-
+ dinner/
+LOCATION:Red Fox Inn &amp\; Tavern\, 2 East Washington St\, Middleburg\, V
+ a 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/thanksgiving-harvest-dinner/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thanksgiving Harvest Dinner
+DTSTART;TZID="UTC-05:00":20261124T160000
+DTEND;TZID="UTC-05:00":20261124T200000
+DTSTAMP:20261121T161137Z
+UID:thanksgiving-harvest-dinner-2026-11-24@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Red-Fox-TGiving.png
+DESCRIPTION:Celebrate the season at The Red Fox Inn & Tavern\, where histo
+ ric charm\, warm hospitality and exceptional dining come together. Gather 
+ with family and friends to savor autumn flavors and enjoy a memorable even
+ ing in the heart of Middleburg.    Click here for more info and reservatio
+ ns.\n\nDetails: https://visitmiddleburgva.com/events/thanksgiving-harvest-
+ dinner/
+LOCATION:Red Fox Inn &amp\; Tavern\, 2 East Washington St\, Middleburg\, V
+ a 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/thanksgiving-harvest-dinner/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Board Game Night
+DTSTART;TZID="UTC-05:00":20261124T170000
+DTEND;TZID="UTC-05:00":20261124T200000
+DTSTAMP:20261121T161137Z
+UID:family-board-game-night-2026-11-24@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2024/06/Board-Games.jpg
+DESCRIPTION:Bring the family for a night of fun\, games\, and pizza!  Free
+ . No Registration Necessary.\n\nDetails: https://visitmiddleburgva.com/eve
+ nts/family-board-game-night-141/
+LOCATION:Middleburg Library\, 101 Reed St\, Middleburg\, VA 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/family-board-game-night-141/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thanksgiving Harvest Dinner
+DTSTART;TZID="UTC-05:00":20261125T160000
+DTEND;TZID="UTC-05:00":20261125T200000
+DTSTAMP:20261121T161137Z
+UID:thanksgiving-harvest-dinner-2026-11-25@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Red-Fox-TGiving.png
+DESCRIPTION:Celebrate the season at The Red Fox Inn & Tavern\, where histo
+ ric charm\, warm hospitality and exceptional dining come together. Gather 
+ with family and friends to savor autumn flavors and enjoy a memorable even
+ ing in the heart of Middleburg.    Click here for more info and reservatio
+ ns.\n\nDetails: https://visitmiddleburgva.com/events/thanksgiving-harvest-
+ dinner/
+LOCATION:Red Fox Inn &amp\; Tavern\, 2 East Washington St\, Middleburg\, V
+ a 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/thanksgiving-harvest-dinner/
+END:VEVENT
+END:VCALENDAR

@@ -24,13 +24,18 @@ Cron times are deliberately off the hour and early: GitHub's queue runs hours la
 dropped runs outright. The Instagram pull cannot move to Actions (JS-rendered grid, datacenter
 IPs blocked) and never logs in.
 
-### Calendars (13)
+### Calendars (16)
 
 Breweries: Honor Brewing - Loudoun (elfsight + curated), Route 7 (wheresthemusic + curated),
 White's Ferry (curated), Chilly Hollow, Solace Sterling, Vanish, Flying Ace (all external feeds).
 Towns & community: Town of Leesburg (vision_rss), One Loudoun (squarespace), Village at Leesburg
-(curated), Historic Manassas (external), Farmers Markets (curated).
+(event_list + curated), Mosaic District (tribe_json), Middleburg (jsonld), City of Fairfax
+(opencities), Historic Manassas (external), Farmers Markets (curated).
 Fairs & Festivals (curated).
+
+The last three joined on 2026-11-21, when Christopher asked for christmas and holiday markets,
+tree lightings, kid zones and kid events, and New Year's Eve. Village at Leesburg stopped being
+curated the same day - its site was rebuilt and is now readable.
 
 ## Answering "what's coming up?" questions
 
@@ -151,6 +156,23 @@ NAMED after an offer ("50% Off Growler Fills") is still excluded.
 Loose patterns have a cost to watch: `fall\b` once matched "September and October this fall" in
 a car-meet blurb and promoted it over the movie night. Keep prose-common words out of the
 seasonal lists; prefer `fall ?fest\w*` over `fall`.
+
+**The holiday season, asked for by name on 2026-11-21:** christmas markets, holiday markets,
+tree lightings, kid zones, kid events and New Year's Eve ("add christmas festival to words as
+well"). These are in `top_picks.pattern`, the towns `prioritize` and the Nov/Dec brewery
+`seasonal` block, with icons 🎄 🎅 🎁 🕎 🎆 ⛸️ ✨ 🧒. Two deliberate choices there:
+
+- **kid terms are the explicit phrases**, not a bare `kids`: `kid.?zone`, `kids? activit\w*`,
+  `face.?paint\w*`, `bounce house`, `puppet`, `magic show` and so on. A bare `kids` promoted
+  Mosaic's weekly Barnes & Noble storytime to the card every single week, which is the "filler"
+  he removed in October. "Storytime with Mrs. Claus" still qualifies - on `claus`.
+- **civic notices that happen to carry a holiday word are in `skip`**: "Thanksgiving Day -
+  Schedule & Services" is the City of Fairfax trash calendar, not an outing. Also `leaf
+  collection`, `trash`, `recycling`, `street sweeping`, `snow removal`, `blood drive`. They stay
+  in their section; they just never take a marquee slot.
+
+`tests/test_holiday_matching.py` asserts all of this against the live config, in the wording
+venues actually use - add a case there rather than eyeballing the regex.
 
 Patterns are deliberately LOOSE - he said "I'd rather see more than miss things" (2026-10-06).
 He has kids and asks for family outings by name: brewery festivals (Honor's Fall Fest), movie
@@ -297,13 +319,41 @@ uv run pytest
   (wheresthemusic.us venue page, their live music, parseable with plain curl) and a curated
   `config/events/route-7.yaml` for everything read off Instagram. A feed's `source` may be a
   LIST; `fetch_events` merges them and dedupes by uid.
-- **Village at Leesburg** (Wix, villageatleesburg.com/events/): renders entirely in JavaScript,
-  so a plain fetch returns "Javascript must be enabled" and CI cannot read it - curated in
-  `config/events/village-at-leesburg.yaml`, re-read from the page when asked. Their weekly tenant
-  promotions (bargain movie Tuesdays, Friday live music, football at Anchor Bar) carry a
-  `routine` tag: the towns section's `deprioritize` ranks them last and `towns_select` returns
-  them as `routine`, which `top_picks` skips. Christopher's rule, 2026-10-06: list them, but the
-  Monster Mash is what deserves attention.
+- **Village at Leesburg** (villageatleesburg.com/events/): **no longer Wix and no longer
+  curated** (changed 2026-11-21). The site was rebuilt and server-renders every listing with its
+  dates in a `data-event-occurrences` attribute, so `event_list` reads it directly. Two things
+  follow: each event lists only its next TWO occurrences, so the feed is `accumulate: true` and
+  a daily series like the holiday Tree Shows fills in as the weeks pass; and the weekly tenant
+  promotions no longer carry a hand-written `routine` tag, so the adapter applies one from its
+  `routine:` pattern (bargain movie Tuesdays, Friday live music, football at Anchor Bar). The
+  towns section's `deprioritize` still ranks those last and `top_picks` still skips them -
+  Christopher's rule from 2026-10-06 (list them, but the Monster Mash is what deserves
+  attention) is unchanged. `config/events/village-at-leesburg.yaml` survives for what the page
+  does NOT carry: poster detail and events already past. Do not curate an event the page lists;
+  it would appear twice. The per-event ".ics" link on a detail page is a `data:` URI with one
+  VEVENT, so it is no use.
+- **Mosaic District** (mosaicdistrict.com, WordPress + The Events Calendar): `?ical=1` works but
+  **collapses each recurring series to its next occurrence** - 16 VEVENTs where the REST API has
+  38 instances over the same window, which would have shown one Saturday of Santa and one
+  weekend of the Holiday Village Market. Hence `tribe_json` (the REST API) for this one. The
+  three older Tribe feeds (Vanish, Flying Ace, Historic Manassas) stay on `feed_url` because
+  their listings are one-offs; move one to `tribe_json` if its events ever start repeating.
+- **Middleburg** (visitmiddleburgva.com/local-events/, Modern Events Calendar): no iCal export,
+  `/wp-json/mec/v1/events` answers an empty list, and the `mec-events` post type exposes none of
+  MEC's dates (they live in its own tables). Every rendered event does emit a schema.org Event
+  block, so `jsonld` reads those. Only ~12 events, about a week ahead, are ever on the page and
+  no month parameter widens it (`?mec_month=`, `?sf_month=` and friends all change nothing),
+  hence `accumulate: true`. Christmas in Middleburg will not appear until it is ~a week out.
+- **City of Fairfax** (fairfaxva.gov, Granicus OpenCities): publishes no feed in any form -
+  `?format=ical`, `?format=json` and `?rss=1` all just serve the HTML page again. `opencities`
+  reads the `/Events-directory` listings and then each event's page, which carries every date
+  WITH its times (the directory shows only the next one plus a "5 more dates" teaser). Notes:
+  the site answers **403 to a request with no `Accept`/`Accept-Language` header** - plain curl,
+  say - and 200 to our own User-Agent once those are sent; robots.txt disallows a handful of
+  individual event pages (drafts, but also "Claus and Cookies"), which are skipped and published
+  as all-day from the directory's own date; and exhibits are entered as "12:00 AM - 04:00 PM",
+  which is opening hours rather than a midnight start, so a midnight window longer than six
+  hours becomes an all-day entry (a New Year countdown, being short, stays timed).
 - **Historic Manassas** (WordPress + The Events Calendar): `?ical=1` works. Each performance of
   a show has its own UID, so the digest collapses by (title, calendar), not UID.
 - **One Loudoun** (Squarespace): `?format=json` works, `?format=ical` does not on their template.

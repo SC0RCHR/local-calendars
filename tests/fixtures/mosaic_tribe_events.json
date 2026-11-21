@@ -1,0 +1,884 @@
+{
+ "events": [
+  {
+   "id": 10008347,
+   "global_id": "mosaicdistrict.com?id=10008347",
+   "global_id_lineage": [
+    "mosaicdistrict.com?id=10008347"
+   ],
+   "author": "16",
+   "status": "publish",
+   "date": "2026-02-04 18:09:23",
+   "date_utc": "2026-02-04 23:09:23",
+   "modified": "2026-10-26 14:26:34",
+   "modified_utc": "2026-10-26 18:26:34",
+   "url": "https://mosaicdistrict.com/event/holiday-village-market/2026-11-21/",
+   "rest_url": "https://mosaicdistrict.com/wp-json/tribe/events/v1/events/10008347",
+   "title": "Holiday Village Market",
+   "description": "",
+   "excerpt": "",
+   "slug": "holiday-village-market",
+   "image": {
+    "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628.jpg",
+    "id": 6820,
+    "extension": "jpg",
+    "width": 2880,
+    "height": 1622,
+    "filesize": 481814,
+    "sizes": {
+     "medium": {
+      "width": 300,
+      "height": 169,
+      "mime-type": "image/jpeg",
+      "filesize": 51630,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-300x169.jpg"
+     },
+     "large": {
+      "width": 1024,
+      "height": 577,
+      "mime-type": "image/jpeg",
+      "filesize": 116723,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-1024x577.jpg"
+     },
+     "thumbnail": {
+      "width": 150,
+      "height": 150,
+      "mime-type": "image/jpeg",
+      "filesize": 46246,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-150x150.jpg"
+     },
+     "medium_large": {
+      "width": 768,
+      "height": 433,
+      "mime-type": "image/jpeg",
+      "filesize": 87891,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-768x433.jpg"
+     },
+     "1536x1536": {
+      "width": 1536,
+      "height": 865,
+      "mime-type": "image/jpeg",
+      "filesize": 192593,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-1536x865.jpg"
+     },
+     "2048x2048": {
+      "width": 2048,
+      "height": 1153,
+      "mime-type": "image/jpeg",
+      "filesize": 289362,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-2048x1153.jpg"
+     },
+     "thumbnail-single-post": {
+      "width": 1140,
+      "height": 740,
+      "mime-type": "image/jpeg",
+      "filesize": 147465,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-1140x740.jpg"
+     },
+     "events-card-thumb": {
+      "width": 480,
+      "height": 480,
+      "mime-type": "image/jpeg",
+      "filesize": 75392,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-480x480.jpg"
+     },
+     "et-pb-post-main-image": {
+      "width": 400,
+      "height": 250,
+      "mime-type": "image/jpeg",
+      "filesize": 59197,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-400x250.jpg"
+     },
+     "et-pb-post-main-image-fullwidth": {
+      "width": 1080,
+      "height": 675,
+      "mime-type": "image/jpeg",
+      "filesize": 133870,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-1080x675.jpg"
+     },
+     "et-pb-portfolio-image": {
+      "width": 400,
+      "height": 284,
+      "mime-type": "image/jpeg",
+      "filesize": 61362,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-400x284.jpg"
+     },
+     "et-pb-portfolio-module-image": {
+      "width": 510,
+      "height": 382,
+      "mime-type": "image/jpeg",
+      "filesize": 72575,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-510x382.jpg"
+     },
+     "et-pb-portfolio-image-single": {
+      "width": 1080,
+      "height": 608,
+      "mime-type": "image/jpeg",
+      "filesize": 123292,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-1080x608.jpg"
+     },
+     "et-pb-gallery-module-image-portrait": {
+      "width": 400,
+      "height": 516,
+      "mime-type": "image/jpeg",
+      "filesize": 71199,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-400x516.jpg"
+     },
+     "et-pb-post-main-image-fullwidth-large": {
+      "width": 2880,
+      "height": 1800,
+      "mime-type": "image/jpeg",
+      "filesize": 749482,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-2880x1800.jpg"
+     },
+     "et-pb-image--responsive--desktop": {
+      "width": 1280,
+      "height": 720,
+      "mime-type": "image/jpeg",
+      "filesize": 150793,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-1280x720.jpg"
+     },
+     "et-pb-image--responsive--tablet": {
+      "width": 980,
+      "height": 551,
+      "mime-type": "image/jpeg",
+      "filesize": 110901,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-980x551.jpg"
+     },
+     "et-pb-image--responsive--phone": {
+      "width": 480,
+      "height": 270,
+      "mime-type": "image/jpeg",
+      "filesize": 62854,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-480x270.jpg"
+     },
+     "dmg_image_small": {
+      "width": 480,
+      "height": 270,
+      "mime-type": "image/jpeg",
+      "filesize": 62900,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-480x270.jpg"
+     },
+     "dmg_image_medium": {
+      "width": 980,
+      "height": 552,
+      "mime-type": "image/jpeg",
+      "filesize": 110982,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-980x552.jpg"
+     },
+     "dmg_image_large": {
+      "width": 1400,
+      "height": 788,
+      "mime-type": "image/jpeg",
+      "filesize": 169887,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-1400x788.jpg"
+     },
+     "dmg_image_extra_large": {
+      "width": 1920,
+      "height": 1081,
+      "mime-type": "image/jpeg",
+      "filesize": 264087,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-1920x1081.jpg"
+     },
+     "gform-image-choice-sm": {
+      "width": 300,
+      "height": 300,
+      "mime-type": "image/jpeg",
+      "filesize": 56944,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-300x300.jpg"
+     },
+     "gform-image-choice-md": {
+      "width": 400,
+      "height": 400,
+      "mime-type": "image/jpeg",
+      "filesize": 66204,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-400x400.jpg"
+     },
+     "gform-image-choice-lg": {
+      "width": 600,
+      "height": 600,
+      "mime-type": "image/jpeg",
+      "filesize": 91928,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/Mosaic_Farmers-Market_Dec-25_043-scaled-e1771433366628-600x600.jpg"
+     }
+    },
+    "original_image": "Mosaic_Farmers-Market_Dec-25_043.jpg"
+   },
+   "all_day": false,
+   "start_date": "2026-11-21 11:00:00",
+   "start_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "21",
+    "hour": "11",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "end_date": "2026-11-21 16:00:00",
+   "end_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "21",
+    "hour": "16",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_start_date": "2026-11-21 16:00:00",
+   "utc_start_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "21",
+    "hour": "16",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_end_date": "2026-11-21 21:00:00",
+   "utc_end_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "21",
+    "hour": "21",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "timezone": "America/New_York",
+   "timezone_abbr": "EST",
+   "cost": "",
+   "cost_details": {
+    "currency_symbol": "",
+    "currency_code": "",
+    "currency_position": "",
+    "values": []
+   },
+   "website": "",
+   "show_map": true,
+   "show_map_link": true,
+   "hide_from_listings": false,
+   "sticky": true,
+   "featured": true,
+   "categories": [
+    {
+     "name": "merry mosaic",
+     "slug": "merry-mosaic",
+     "term_group": 0,
+     "term_taxonomy_id": 74,
+     "taxonomy": "tribe_events_cat",
+     "description": "",
+     "parent": 0,
+     "count": 4,
+     "filter": "raw",
+     "id": 74,
+     "urls": {
+      "self": "https://mosaicdistrict.com/wp-json/tribe/events/v1/categories/74",
+      "collection": "https://mosaicdistrict.com/wp-json/tribe/events/v1/categories"
+     }
+    }
+   ],
+   "tags": [],
+   "venue": [],
+   "organizer": [],
+   "custom_fields": [],
+   "ticketed": false,
+   "is_virtual": false,
+   "virtual_url": null,
+   "virtual_video_source": ""
+  },
+  {
+   "id": 10009327,
+   "global_id": "mosaicdistrict.com?id=10009327",
+   "global_id_lineage": [
+    "mosaicdistrict.com?id=10009327"
+   ],
+   "author": "26",
+   "status": "publish",
+   "date": "2026-03-02 12:12:03",
+   "date_utc": "2026-03-02 17:12:03",
+   "modified": "2026-03-02 12:12:03",
+   "modified_utc": "2026-03-02 17:12:03",
+   "url": "https://mosaicdistrict.com/event/grand-cata-trivia-tuesdays/2026-11-24/",
+   "rest_url": "https://mosaicdistrict.com/wp-json/tribe/events/v1/events/10009327",
+   "title": "Grand Cata: Trivia Tuesdays",
+   "description": "",
+   "excerpt": "",
+   "slug": "grand-cata-trivia-tuesdays",
+   "image": {
+    "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062.png",
+    "id": 7184,
+    "extension": "png",
+    "width": 1000,
+    "height": 562,
+    "filesize": 841409,
+    "sizes": {
+     "medium": {
+      "width": 300,
+      "height": 169,
+      "mime-type": "image/png",
+      "filesize": 80725,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-300x169.png"
+     },
+     "thumbnail": {
+      "width": 150,
+      "height": 150,
+      "mime-type": "image/png",
+      "filesize": 41087,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-150x150.png"
+     },
+     "medium_large": {
+      "width": 768,
+      "height": 432,
+      "mime-type": "image/png",
+      "filesize": 452317,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-768x432.png"
+     },
+     "events-card-thumb": {
+      "width": 480,
+      "height": 480,
+      "mime-type": "image/png",
+      "filesize": 340813,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-480x480.png"
+     },
+     "et-pb-post-main-image": {
+      "width": 400,
+      "height": 250,
+      "mime-type": "image/png",
+      "filesize": 149044,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-400x250.png"
+     },
+     "et-pb-portfolio-image": {
+      "width": 400,
+      "height": 284,
+      "mime-type": "image/png",
+      "filesize": 169582,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-400x284.png"
+     },
+     "et-pb-portfolio-module-image": {
+      "width": 510,
+      "height": 382,
+      "mime-type": "image/png",
+      "filesize": 281122,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-510x382.png"
+     },
+     "et-pb-gallery-module-image-portrait": {
+      "width": 400,
+      "height": 516,
+      "mime-type": "image/png",
+      "filesize": 303042,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-400x516.png"
+     },
+     "et-pb-image--responsive--tablet": {
+      "width": 980,
+      "height": 551,
+      "mime-type": "image/png",
+      "filesize": 700852,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-980x551.png"
+     },
+     "et-pb-image--responsive--phone": {
+      "width": 480,
+      "height": 270,
+      "mime-type": "image/png",
+      "filesize": 189467,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-480x270.png"
+     },
+     "dmg_image_small": {
+      "width": 480,
+      "height": 270,
+      "mime-type": "image/png",
+      "filesize": 189792,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-480x270.png"
+     },
+     "dmg_image_medium": {
+      "width": 980,
+      "height": 551,
+      "mime-type": "image/png",
+      "filesize": 700852,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/03/LC_SpringContentShoot_FarrahSkeiky_062-980x551.png"
+     }
+    }
+   },
+   "all_day": false,
+   "start_date": "2026-11-24 18:30:00",
+   "start_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "24",
+    "hour": "18",
+    "minutes": "30",
+    "seconds": "00"
+   },
+   "end_date": "2026-11-24 20:30:00",
+   "end_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "24",
+    "hour": "20",
+    "minutes": "30",
+    "seconds": "00"
+   },
+   "utc_start_date": "2026-11-24 23:30:00",
+   "utc_start_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "24",
+    "hour": "23",
+    "minutes": "30",
+    "seconds": "00"
+   },
+   "utc_end_date": "2026-11-25 01:30:00",
+   "utc_end_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "25",
+    "hour": "01",
+    "minutes": "30",
+    "seconds": "00"
+   },
+   "timezone": "America/New_York",
+   "timezone_abbr": "EDT",
+   "cost": "",
+   "cost_details": {
+    "currency_symbol": "",
+    "currency_code": "",
+    "currency_position": "",
+    "values": []
+   },
+   "website": "",
+   "show_map": true,
+   "show_map_link": true,
+   "hide_from_listings": false,
+   "sticky": false,
+   "featured": false,
+   "categories": [],
+   "tags": [],
+   "venue": [],
+   "organizer": [],
+   "custom_fields": [],
+   "ticketed": false,
+   "is_virtual": false,
+   "virtual_url": null,
+   "virtual_video_source": ""
+  },
+  {
+   "id": 6823,
+   "global_id": "mosaicdistrict.com?id=6823",
+   "global_id_lineage": [
+    "mosaicdistrict.com?id=6823"
+   ],
+   "author": "16",
+   "status": "publish",
+   "date": "2026-02-04 18:12:53",
+   "date_utc": "2026-02-04 23:12:53",
+   "modified": "2026-11-19 11:56:58",
+   "modified_utc": "2026-11-19 16:56:58",
+   "url": "https://mosaicdistrict.com/event/holiday-tree-lighting/",
+   "rest_url": "https://mosaicdistrict.com/wp-json/tribe/events/v1/events/6823",
+   "title": "Holiday Tree Lighting",
+   "description": "",
+   "excerpt": "",
+   "slug": "holiday-tree-lighting",
+   "image": {
+    "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541.jpg",
+    "id": 6824,
+    "extension": "jpg",
+    "width": 1350,
+    "height": 760,
+    "filesize": 337564,
+    "sizes": {
+     "medium": {
+      "width": 300,
+      "height": 169,
+      "mime-type": "image/jpeg",
+      "filesize": 56015,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-300x169.jpg"
+     },
+     "large": {
+      "width": 1024,
+      "height": 576,
+      "mime-type": "image/jpeg",
+      "filesize": 191768,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-1024x576.jpg"
+     },
+     "thumbnail": {
+      "width": 150,
+      "height": 150,
+      "mime-type": "image/jpeg",
+      "filesize": 46876,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-150x150.jpg"
+     },
+     "medium_large": {
+      "width": 768,
+      "height": 432,
+      "mime-type": "image/jpeg",
+      "filesize": 131217,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-768x432.jpg"
+     },
+     "thumbnail-single-post": {
+      "width": 1140,
+      "height": 740,
+      "mime-type": "image/jpeg",
+      "filesize": 245817,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-1140x740.jpg"
+     },
+     "events-card-thumb": {
+      "width": 480,
+      "height": 480,
+      "mime-type": "image/jpeg",
+      "filesize": 103963,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-480x480.jpg"
+     },
+     "et-pb-post-main-image": {
+      "width": 400,
+      "height": 250,
+      "mime-type": "image/jpeg",
+      "filesize": 70216,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-400x250.jpg"
+     },
+     "et-pb-post-main-image-fullwidth": {
+      "width": 1080,
+      "height": 675,
+      "mime-type": "image/jpeg",
+      "filesize": 221783,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-1080x675.jpg"
+     },
+     "et-pb-portfolio-image": {
+      "width": 400,
+      "height": 284,
+      "mime-type": "image/jpeg",
+      "filesize": 73729,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-400x284.jpg"
+     },
+     "et-pb-portfolio-module-image": {
+      "width": 510,
+      "height": 382,
+      "mime-type": "image/jpeg",
+      "filesize": 95931,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-510x382.jpg"
+     },
+     "et-pb-portfolio-image-single": {
+      "width": 1080,
+      "height": 608,
+      "mime-type": "image/jpeg",
+      "filesize": 205948,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-1080x608.jpg"
+     },
+     "et-pb-gallery-module-image-portrait": {
+      "width": 400,
+      "height": 516,
+      "mime-type": "image/jpeg",
+      "filesize": 95608,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-400x516.jpg"
+     },
+     "et-pb-image--responsive--desktop": {
+      "width": 1280,
+      "height": 720,
+      "mime-type": "image/jpeg",
+      "filesize": 263088,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-1280x720.jpg"
+     },
+     "et-pb-image--responsive--tablet": {
+      "width": 980,
+      "height": 551,
+      "mime-type": "image/jpeg",
+      "filesize": 181329,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-980x551.jpg"
+     },
+     "et-pb-image--responsive--phone": {
+      "width": 480,
+      "height": 270,
+      "mime-type": "image/jpeg",
+      "filesize": 78458,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-480x270.jpg"
+     },
+     "dmg_image_small": {
+      "width": 480,
+      "height": 270,
+      "mime-type": "image/jpeg",
+      "filesize": 78423,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-480x270.jpg"
+     },
+     "dmg_image_medium": {
+      "width": 980,
+      "height": 552,
+      "mime-type": "image/jpeg",
+      "filesize": 181401,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-980x552.jpg"
+     },
+     "gform-image-choice-sm": {
+      "width": 300,
+      "height": 300,
+      "mime-type": "image/jpeg",
+      "filesize": 66967,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-300x300.jpg"
+     },
+     "gform-image-choice-md": {
+      "width": 400,
+      "height": 400,
+      "mime-type": "image/jpeg",
+      "filesize": 85811,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-400x400.jpg"
+     },
+     "gform-image-choice-lg": {
+      "width": 600,
+      "height": 600,
+      "mime-type": "image/jpeg",
+      "filesize": 135446,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/02/2024mosaicxmas_web-81-e1771433412541-600x600.jpg"
+     }
+    }
+   },
+   "all_day": false,
+   "start_date": "2026-11-27 17:00:00",
+   "start_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "27",
+    "hour": "17",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "end_date": "2026-11-27 20:00:00",
+   "end_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "27",
+    "hour": "20",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_start_date": "2026-11-27 22:00:00",
+   "utc_start_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "27",
+    "hour": "22",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_end_date": "2026-11-28 01:00:00",
+   "utc_end_date_details": {
+    "year": "2026",
+    "month": "11",
+    "day": "28",
+    "hour": "01",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "timezone": "America/New_York",
+   "timezone_abbr": "EST",
+   "cost": "",
+   "cost_details": {
+    "currency_symbol": "",
+    "currency_code": "",
+    "currency_position": "",
+    "values": []
+   },
+   "website": "",
+   "show_map": true,
+   "show_map_link": true,
+   "hide_from_listings": false,
+   "sticky": true,
+   "featured": true,
+   "categories": [
+    {
+     "name": "merry mosaic",
+     "slug": "merry-mosaic",
+     "term_group": 0,
+     "term_taxonomy_id": 74,
+     "taxonomy": "tribe_events_cat",
+     "description": "",
+     "parent": 0,
+     "count": 4,
+     "filter": "raw",
+     "id": 74,
+     "urls": {
+      "self": "https://mosaicdistrict.com/wp-json/tribe/events/v1/categories/74",
+      "collection": "https://mosaicdistrict.com/wp-json/tribe/events/v1/categories"
+     }
+    }
+   ],
+   "tags": [],
+   "venue": [],
+   "organizer": [],
+   "custom_fields": [],
+   "ticketed": false,
+   "is_virtual": false,
+   "virtual_url": null,
+   "virtual_video_source": ""
+  },
+  {
+   "id": 10010088,
+   "global_id": "mosaicdistrict.com?id=10010088",
+   "global_id_lineage": [
+    "mosaicdistrict.com?id=10010088"
+   ],
+   "author": "4",
+   "status": "publish",
+   "date": "2026-11-04 09:54:14",
+   "date_utc": "2026-11-04 14:54:14",
+   "modified": "2026-11-04 09:54:14",
+   "modified_utc": "2026-11-04 14:54:14",
+   "url": "https://mosaicdistrict.com/event/mosaic-fall-fest/2027-09-25/",
+   "rest_url": "https://mosaicdistrict.com/wp-json/tribe/events/v1/events/10010088",
+   "title": "Mosaic Fall Fest",
+   "description": "",
+   "excerpt": "",
+   "slug": "mosaic-fall-fest",
+   "image": {
+    "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26.jpg",
+    "id": 8334,
+    "extension": "jpg",
+    "width": 1000,
+    "height": 563,
+    "filesize": 678837,
+    "sizes": {
+     "medium": {
+      "width": 300,
+      "height": 169,
+      "mime-type": "image/jpeg",
+      "filesize": 25031,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-300x169.jpg"
+     },
+     "thumbnail": {
+      "width": 150,
+      "height": 150,
+      "mime-type": "image/jpeg",
+      "filesize": 13365,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-150x150.jpg"
+     },
+     "medium_large": {
+      "width": 768,
+      "height": 432,
+      "mime-type": "image/jpeg",
+      "filesize": 123895,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-768x432.jpg"
+     },
+     "events-card-thumb": {
+      "width": 480,
+      "height": 480,
+      "mime-type": "image/jpeg",
+      "filesize": 94634,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-480x480.jpg"
+     },
+     "et-pb-post-main-image": {
+      "width": 400,
+      "height": 250,
+      "mime-type": "image/jpeg",
+      "filesize": 44671,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-400x250.jpg"
+     },
+     "et-pb-portfolio-image": {
+      "width": 400,
+      "height": 284,
+      "mime-type": "image/jpeg",
+      "filesize": 50723,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-400x284.jpg"
+     },
+     "et-pb-portfolio-module-image": {
+      "width": 510,
+      "height": 382,
+      "mime-type": "image/jpeg",
+      "filesize": 81333,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-510x382.jpg"
+     },
+     "et-pb-gallery-module-image-portrait": {
+      "width": 400,
+      "height": 516,
+      "mime-type": "image/jpeg",
+      "filesize": 83458,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-400x516.jpg"
+     },
+     "et-pb-image--responsive--tablet": {
+      "width": 980,
+      "height": 552,
+      "mime-type": "image/jpeg",
+      "filesize": 187665,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-980x552.jpg"
+     },
+     "et-pb-image--responsive--phone": {
+      "width": 480,
+      "height": 270,
+      "mime-type": "image/jpeg",
+      "filesize": 55175,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-480x270.jpg"
+     },
+     "dmg_image_small": {
+      "width": 480,
+      "height": 270,
+      "mime-type": "image/jpeg",
+      "filesize": 55175,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-480x270.jpg"
+     },
+     "dmg_image_medium": {
+      "width": 980,
+      "height": 552,
+      "mime-type": "image/jpeg",
+      "filesize": 187665,
+      "url": "https://mosaicdistrict.com/wp-content/uploads/sites/12/2026/10/2026MosaicFallFest-26-980x552.jpg"
+     }
+    }
+   },
+   "all_day": true,
+   "start_date": "2027-09-25 00:00:00",
+   "start_date_details": {
+    "year": "2027",
+    "month": "09",
+    "day": "25",
+    "hour": "00",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "end_date": "2027-09-25 23:59:59",
+   "end_date_details": {
+    "year": "2027",
+    "month": "09",
+    "day": "25",
+    "hour": "23",
+    "minutes": "59",
+    "seconds": "59"
+   },
+   "utc_start_date": "2027-09-25 04:00:00",
+   "utc_start_date_details": {
+    "year": "2027",
+    "month": "09",
+    "day": "25",
+    "hour": "04",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_end_date": "2027-09-26 03:59:59",
+   "utc_end_date_details": {
+    "year": "2027",
+    "month": "09",
+    "day": "26",
+    "hour": "03",
+    "minutes": "59",
+    "seconds": "59"
+   },
+   "timezone": "America/New_York",
+   "timezone_abbr": "EDT",
+   "cost": "",
+   "cost_details": {
+    "currency_symbol": "",
+    "currency_code": "",
+    "currency_position": "",
+    "values": []
+   },
+   "website": "",
+   "show_map": true,
+   "show_map_link": true,
+   "hide_from_listings": false,
+   "sticky": false,
+   "featured": false,
+   "categories": [],
+   "tags": [],
+   "venue": [],
+   "organizer": [],
+   "custom_fields": [],
+   "ticketed": false,
+   "is_virtual": false,
+   "virtual_url": null,
+   "virtual_video_source": ""
+  }
+ ],
+ "total": 4,
+ "total_pages": 1
+}

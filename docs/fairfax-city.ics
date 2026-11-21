@@ -1,0 +1,1171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eventnews 0.1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Events at City of Fairfax. Source: https://www.fairfaxva.gov/
+ Events-directory
+X-WR-CALNAME:City of Fairfax
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+COMMENT:This timezone only works from 2025-09-27 to 2030-05-19.
+BEGIN:DAYLIGHT
+DTSTART:20250927T000000
+TZNAME:EDT
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000,20271107T020000,20281105T020000,20291104T020000
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+RDATE:20270314T030000,20280312T030000,20290311T030000,20300310T030000
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20260928T103000
+DTEND;TZID=America/New_York:20260928T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20260928@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20261005T103000
+DTEND;TZID=America/New_York:20261005T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20261005@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20261026T103000
+DTEND;TZID=America/New_York:20261026T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20261026@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261111@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261112@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261113@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261114@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261115@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261116@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20261116T103000
+DTEND;TZID=America/New_York:20261116T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20261116@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261118@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261119@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261120@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fall Tree Giveaway
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+DTSTAMP:20261121T161816Z
+UID:fall-tree-giveaway-20261121@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ sustainability/images/fall-2026-giveaway-banner.png?dimension=smallthumbna
+ il&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:Plant a free tree at home and help bring trees to your neighbo
+ rhood!\n\nDetails: https://www.fairfaxva.gov/Events-directory/Environment-
+ Sustainability/Fall-Tree-Giveaway-2026
+LOCATION:City of Fairfax\, VA
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Environment-Sustainability/
+ Fall-Tree-Giveaway-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AB EX FFX - Art Exhibition
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+DTSTAMP:20261121T161816Z
+UID:ab-ex-ffx-art-exhibition-20261121@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/saunders_lori_colornegative_photography
+ _11x11_175-copy.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:Expand your mind with this abstract expressionist exhibit and 
+ sale\, curated by The Rogue Art Project The exhibit will run from Septembe
+ r 21 through December 18\, 2026\, with a free Opening Reception on October
+  14 from 5:30 - 7:30pm.\n\nDetails: https://www.fairfaxva.gov/Events-direc
+ tory/Parks-and-Recreation/Cultural-Arts/Single-Events/AB-EX-FFX-Art-Exhibi
+ tion
+LOCATION:Stacy C. Sherwood Center\, Rotary Gallery\, 3740 Blenheim Blvd.
+ \,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/Single-Events/AB-EX-FFX-Art-Exhibition
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fall Leaf Collection
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+DTSTAMP:20261121T161816Z
+UID:fall-leaf-collection-20261121@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ sustainability/images/leaf-collection.png?dimension=smallthumbnail&w=150&h
+ =100
+CATEGORIES:Community & Special Events
+DESCRIPTION:City of Fairfax fall leaf collection runs Nov. 2 through Dec. 
+ 31\, 2026. Learn how curbside vacuum-leaf pickup works by zone\, how to ra
+ ke loose leaves to the curb\, what yard debris is allowed\, and why bagged
+  leaves are not collected. Includes yard waste rules and a contact number 
+ for questions.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Envi
+ ronment-Sustainability/Fall-Leaf-Collection
+LOCATION:City of Fairfax\, VA
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Environment-Sustainability/
+ Fall-Leaf-Collection
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261121@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cooking Through History: A Taste of Sri Lanka
+DTSTART;TZID=America/New_York:20261121T100000
+DTEND;TZID=America/New_York:20261121T113000
+DTSTAMP:20261121T161816Z
+UID:cooking-through-history-a-taste-of-sri-lanka-20261121@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/3/
+ historic-resources/images/cooking-through-history-ad.jpg?dimension=smallth
+ umbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:Explore the history and flavors of Sri Lankan cuisine in this 
+ interactive cooking class. Participants will learn traditional techniques 
+ for preparing fresh coconut\, discover its cultural significance\, and wor
+ k together to create and sample a classic Sri Lankan dish. Participants un
+ der 18 must be accompanied by a registered adult. Registration is required
+  for all participants.\n\nDetails: https://www.fairfaxva.gov/Events-direct
+ ory/Historic-Resources/Q4-OctNovDec-HH/Cooking-Through-History-A-Taste-of-
+ Sri-Lanka
+LOCATION:Historic Blenheim\, 3610 Blenheim Blvd.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q4-OctNo
+ vDec-HH/Cooking-Through-History-A-Taste-of-Sri-Lanka
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:40th Annual Holiday Craft Show (Nov. 21-22)
+DTSTART;TZID=America/New_York:20261121T100000
+DTEND;TZID=America/New_York:20261121T170000
+DTSTAMP:20261121T161816Z
+UID:40th-annual-holiday-craft-show-nov-21-22-20261121@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/special-events/holiday-craft-show-logo.png?dimension=
+ smallthumbnail&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:What started out in 1987 as a very small show has grown to bec
+ ome a premium arts and crafts festival. Artisans\nfrom all over the United
+  States\, including many local artists\, are participating in this year’
+ s show and we are\ndelighted to be able to offer so many wonderful\, holid
+ ay gift choices. There really is something for everyone on\nyour shopping 
+ list!\n\nDetails: https://www.fairfaxva.gov/Events-directory/Parks-and-Rec
+ reation/Special-Events/Holiday-Craft-Show
+LOCATION:Fairfax High School\, 3501 Lion Run\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Specia
+ l-Events/Holiday-Craft-Show
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261122@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:40th Annual Holiday Craft Show (Nov. 21-22)
+DTSTART;TZID=America/New_York:20261122T100000
+DTEND;TZID=America/New_York:20261122T150000
+DTSTAMP:20261121T161816Z
+UID:40th-annual-holiday-craft-show-nov-21-22-20261122@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/special-events/holiday-craft-show-logo.png?dimension=
+ smallthumbnail&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:What started out in 1987 as a very small show has grown to bec
+ ome a premium arts and crafts festival. Artisans\nfrom all over the United
+  States\, including many local artists\, are participating in this year’
+ s show and we are\ndelighted to be able to offer so many wonderful\, holid
+ ay gift choices. There really is something for everyone on\nyour shopping 
+ list!\n\nDetails: https://www.fairfaxva.gov/Events-directory/Parks-and-Rec
+ reation/Special-Events/Holiday-Craft-Show
+LOCATION:Fairfax High School\, 3501 Lion Run\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Specia
+ l-Events/Holiday-Craft-Show
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261123@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261125@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261126@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thanksgiving Day - Schedule & Services
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+DTSTAMP:20261121T161816Z
+UID:thanksgiving-day-schedule-services-20261126@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ communications/images/holiday-calendar/holiday-calendar-image.png?dimensio
+ n=smallthumbnail&w=150&h=100
+CATEGORIES:City Holiday
+DESCRIPTION:Get details on city holiday closures\, CUE bus schedules\, and
+  trash & recycling services.\n\nDetails: https://www.fairfaxva.gov/Events-
+ directory/City-Holidays/Thanksgiving-Day-Schedule-Services
+LOCATION:City of Fairfax\, VA
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/City-Holidays/Thanksgiving-
+ Day-Schedule-Services
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261127@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261128@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261129@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261130@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20261130T103000
+DTEND;TZID=America/New_York:20261130T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20261130@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261202@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261203@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Civil War
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+DTSTAMP:20261121T161816Z
+UID:the-civil-war-20261204@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/2/
+ historic-resources/images/civil-war-exhibit-signage-24-x-36-in.jpg?dimensi
+ on=smallthumbnail&w=150&h=100
+CATEGORIES:History & Heritage
+DESCRIPTION:From 1861 to 1865\, Americans fought each other with a ferocit
+ y unseen in the country’s history. The immediate cause of the war was th
+ e secession of the Southern states. However\, the roots lay in growing ten
+ sions over slavery. By the time the last shots were fired\, as many as 750
+ \,000 Americans had been killed\, and four million enslaved people were fr
+ eed.\n\nDetails: https://www.fairfaxva.gov/Events-directory/Historic-Resou
+ rces/Q3-JulAugSep-HH/The-Civil-War
+LOCATION:Fairfax Museum and Visitor Center\, 10209 Main St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Historic-Resources/Q3-JulAu
+ gSep-HH/The-Civil-War
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10th Annual Holiday Market (Dec. 4-6\, 11-13)
+DTSTART;TZID=America/New_York:20261204T170000
+DTEND;TZID=America/New_York:20261204T200000
+DTSTAMP:20261121T161816Z
+UID:10th-annual-holiday-market-dec-4-6-11-13-20261204@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/special-events/holiday-market-logo.png?dimension=smal
+ lthumbnail&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:Discover unique\, handcrafted gifts and support local artisans
+  during the first two weekends of December in Downtown Fairfax! Each weeke
+ nd features a rotating lineup of talented craft vendors—so there’s alw
+ ays something new to explore.\n\nAs you shop\, enjoy festive live entertai
+ nment and holiday cheer throughout the market!\n\nDetails: https://www.fai
+ rfaxva.gov/Events-directory/Parks-and-Recreation/Special-Events/Holiday-Ma
+ rket
+LOCATION:Old Town Square\, 10415 North St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Specia
+ l-Events/Holiday-Market
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:"Sounds of Christmas" Handbell Concert
+DTSTART;TZID=America/New_York:20261204T200000
+DTEND;TZID=America/New_York:20261204T211500
+DTSTAMP:20261121T161816Z
+UID:sounds-of-christmas-handbell-concert-20261204@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/2026-christmas-sherwood.png?dimension=s
+ mallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:Experience the beauty\, joy and wonder of the Christmas season
+  with Sounds of Christmas\, a festive handbell concert blending beloved Ch
+ ristmas carols with contemporary holiday favorites!\n\nDetails: https://ww
+ w.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultural-Arts/Single
+ -Events/Sounds-of-Christmas-Handbell-Concert
+LOCATION:Stacy C. Sherwood Community Center\, 3740 Blenheim Blvd.\,  22
+ 030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/Single-Events/Sounds-of-Christmas-Handbell-Concert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10th Annual Holiday Market (Dec. 4-6\, 11-13)
+DTSTART;TZID=America/New_York:20261205T120000
+DTEND;TZID=America/New_York:20261205T180000
+DTSTAMP:20261121T161816Z
+UID:10th-annual-holiday-market-dec-4-6-11-13-20261205@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/special-events/holiday-market-logo.png?dimension=smal
+ lthumbnail&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:Discover unique\, handcrafted gifts and support local artisans
+  during the first two weekends of December in Downtown Fairfax! Each weeke
+ nd features a rotating lineup of talented craft vendors—so there’s alw
+ ays something new to explore.\n\nAs you shop\, enjoy festive live entertai
+ nment and holiday cheer throughout the market!\n\nDetails: https://www.fai
+ rfaxva.gov/Events-directory/Parks-and-Recreation/Special-Events/Holiday-Ma
+ rket
+LOCATION:Old Town Square\, 10415 North St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Specia
+ l-Events/Holiday-Market
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10th Annual Holiday Market (Dec. 4-6\, 11-13)
+DTSTART;TZID=America/New_York:20261206T120000
+DTEND;TZID=America/New_York:20261206T170000
+DTSTAMP:20261121T161816Z
+UID:10th-annual-holiday-market-dec-4-6-11-13-20261206@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/special-events/holiday-market-logo.png?dimension=smal
+ lthumbnail&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:Discover unique\, handcrafted gifts and support local artisans
+  during the first two weekends of December in Downtown Fairfax! Each weeke
+ nd features a rotating lineup of talented craft vendors—so there’s alw
+ ays something new to explore.\n\nAs you shop\, enjoy festive live entertai
+ nment and holiday cheer throughout the market!\n\nDetails: https://www.fai
+ rfaxva.gov/Events-directory/Parks-and-Recreation/Special-Events/Holiday-Ma
+ rket
+LOCATION:Old Town Square\, 10415 North St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Specia
+ l-Events/Holiday-Market
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20261207T103000
+DTEND;TZID=America/New_York:20261207T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20261207@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10th Annual Holiday Market (Dec. 4-6\, 11-13)
+DTSTART;TZID=America/New_York:20261211T170000
+DTEND;TZID=America/New_York:20261211T200000
+DTSTAMP:20261121T161816Z
+UID:10th-annual-holiday-market-dec-4-6-11-13-20261211@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/special-events/holiday-market-logo.png?dimension=smal
+ lthumbnail&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:Discover unique\, handcrafted gifts and support local artisans
+  during the first two weekends of December in Downtown Fairfax! Each weeke
+ nd features a rotating lineup of talented craft vendors—so there’s alw
+ ays something new to explore.\n\nAs you shop\, enjoy festive live entertai
+ nment and holiday cheer throughout the market!\n\nDetails: https://www.fai
+ rfaxva.gov/Events-directory/Parks-and-Recreation/Special-Events/Holiday-Ma
+ rket
+LOCATION:Old Town Square\, 10415 North St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Specia
+ l-Events/Holiday-Market
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10th Annual Holiday Market (Dec. 4-6\, 11-13)
+DTSTART;TZID=America/New_York:20261212T120000
+DTEND;TZID=America/New_York:20261212T180000
+DTSTAMP:20261121T161816Z
+UID:10th-annual-holiday-market-dec-4-6-11-13-20261212@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/special-events/holiday-market-logo.png?dimension=smal
+ lthumbnail&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:Discover unique\, handcrafted gifts and support local artisans
+  during the first two weekends of December in Downtown Fairfax! Each weeke
+ nd features a rotating lineup of talented craft vendors—so there’s alw
+ ays something new to explore.\n\nAs you shop\, enjoy festive live entertai
+ nment and holiday cheer throughout the market!\n\nDetails: https://www.fai
+ rfaxva.gov/Events-directory/Parks-and-Recreation/Special-Events/Holiday-Ma
+ rket
+LOCATION:Old Town Square\, 10415 North St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Specia
+ l-Events/Holiday-Market
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10th Annual Holiday Market (Dec. 4-6\, 11-13)
+DTSTART;TZID=America/New_York:20261213T120000
+DTEND;TZID=America/New_York:20261213T170000
+DTSTAMP:20261121T161816Z
+UID:10th-annual-holiday-market-dec-4-6-11-13-20261213@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/special-events/holiday-market-logo.png?dimension=smal
+ lthumbnail&w=150&h=100
+CATEGORIES:Community & Special Events
+DESCRIPTION:Discover unique\, handcrafted gifts and support local artisans
+  during the first two weekends of December in Downtown Fairfax! Each weeke
+ nd features a rotating lineup of talented craft vendors—so there’s alw
+ ays something new to explore.\n\nAs you shop\, enjoy festive live entertai
+ nment and holiday cheer throughout the market!\n\nDetails: https://www.fai
+ rfaxva.gov/Events-directory/Parks-and-Recreation/Special-Events/Holiday-Ma
+ rket
+LOCATION:Old Town Square\, 10415 North St.\,  22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Specia
+ l-Events/Holiday-Market
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20261214T103000
+DTEND;TZID=America/New_York:20261214T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20261214@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270111T103000
+DTEND;TZID=America/New_York:20270111T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270111@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270125T103000
+DTEND;TZID=America/New_York:20270125T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270125@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270201T103000
+DTEND;TZID=America/New_York:20270201T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270201@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270222T103000
+DTEND;TZID=America/New_York:20270222T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270222@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270308T103000
+DTEND;TZID=America/New_York:20270308T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270308@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270322T103000
+DTEND;TZID=America/New_York:20270322T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270322@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270405T103000
+DTEND;TZID=America/New_York:20270405T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270405@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270419T103000
+DTEND;TZID=America/New_York:20270419T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270419@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270503T103000
+DTEND;TZID=America/New_York:20270503T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270503@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Fairfax Early Childhood Arts Program
+DTSTART;TZID=America/New_York:20270517T103000
+DTEND;TZID=America/New_York:20270517T111500
+DTSTAMP:20261121T161816Z
+UID:city-of-fairfax-early-childhood-arts-program-20270517@fairfax-city
+ATTACH;FMTTYPE=image/jpeg:https://www.fairfaxva.gov/files/assets/city/v/1/
+ parks-amp-rec/images/cultural-arts/cultural-arts/cof_earlychildhoodartspro
+ gram_logo_color.jpg?dimension=smallthumbnail&w=150&h=100
+CATEGORIES:Arts & Culture
+DESCRIPTION:This program introduces children ages 2 - 5 to the joy of the 
+ arts through engaging\, age-appropriate live performances and experiences.
+   Performances take place two Mondays per month.\n\nClass size is limited 
+ and pre-registration is required.\n\nDetails: https://www.fairfaxva.gov/Ev
+ ents-directory/Parks-and-Recreation/Cultural-Arts/City-of-Fairfax-Early-Ch
+ ildhood-Arts-Program
+LOCATION:Stacy C. Sherwood Center\, 3740 Blenheim Blvd.\, Fairfax\, VA 
+ 22030
+TRANSP:TRANSPARENT
+URL:https://www.fairfaxva.gov/Events-directory/Parks-and-Recreation/Cultur
+ al-Arts/City-of-Fairfax-Early-Childhood-Arts-Program
+END:VEVENT
+END:VCALENDAR
