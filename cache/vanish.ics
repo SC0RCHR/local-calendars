@@ -61,34 +61,6 @@ DTSTART:20281105T060000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261121T130000
-DTEND;TZID=America/New_York:20261121T160000
-DTSTAMP:20260331T125852Z
-CREATED:20241018T144037Z
-LAST-MODIFIED:20260331T125852Z
-UID:10001160-1795266000-1795276800@vanishbeer.com
-SUMMARY:Fork in the Road
-DESCRIPTION:Country comes to town when Fork In The Road hits the stage.  Hailing from Virginia\, this five-piece country rock band is your ticket to a boot-stompin’ good time.  With influences from red dirt country and southern rock\, their sound is as unique as it is irresistible.  Led by members Scott Gookin\, Robert Ford and Aaron Talley\, this trio of vocalists brings a harmony-rich experience like no other.
-URL:https://vanishbeer.com/event/fork-in-the-road-2/2026-11-21/
-LOCATION:Vanish\, 42245 Black Hops Lane\, Leesburg\, VA\, 20176\, United States
-CATEGORIES:Music
-ATTACH;FMTTYPE=image/png:https://vanishbeer.com/wp-content/uploads/2024/10/image0-2.png
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261121T170000
-DTEND;TZID=America/New_York:20261121T200000
-DTSTAMP:20260901T185816Z
-CREATED:20220323T102625Z
-LAST-MODIFIED:20260901T185816Z
-UID:10001228-1795280400-1795291200@vanishbeer.com
-SUMMARY:Tropical Attitudes
-DESCRIPTION:A group of guys who like to get out there and relive that tropical vacation experience every chance they get. We love tiki bars\, warm weather and playing the style of music that brings back great memories and makes new ones. Today is all about  Jimmy Buffet\, Top Rock Beach Band music.
-URL:https://vanishbeer.com/event/tropical-attitudes/2026-11-21/
-LOCATION:Vanish\, 42245 Black Hops Lane\, Leesburg\, VA\, 20176\, United States
-CATEGORIES:Music
-ATTACH;FMTTYPE=image/jpeg:https://vanishbeer.com/wp-content/uploads/2022/03/tropic.jpg
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20261122T130000
 DTEND;TZID=America/New_York:20261122T160000
 DTSTAMP:20260330T120705Z
@@ -355,6 +327,20 @@ CATEGORIES:Music
 ATTACH;FMTTYPE=image/jpeg:https://vanishbeer.com/wp-content/uploads/2026/09/berlin.jpg
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20270101T130000
+DTEND;TZID=America/New_York:20270101T160000
+DTSTAMP:20261122T124630Z
+CREATED:20251104T122503Z
+LAST-MODIFIED:20261122T124630Z
+UID:10001303-1798808400-1798819200@vanishbeer.com
+SUMMARY:Against the Grain
+DESCRIPTION:Against the Grain is an acoustical duo playing energetic 50’s-modern covers and original music.
+URL:https://vanishbeer.com/event/against-the-grain-2/2027-01-01/
+LOCATION:Vanish\, 42245 Black Hops Lane\, Leesburg\, VA\, 20176\, United States
+CATEGORIES:Music
+ATTACH;FMTTYPE=image/jpeg:https://vanishbeer.com/wp-content/uploads/2023/03/337376877_593442576032205_1026438779307422729_n.jpg
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20270108T170000
 DTEND;TZID=America/New_York:20270108T200000
 DTSTAMP:20261101T223548Z
@@ -381,6 +367,20 @@ URL:https://vanishbeer.com/event/herb-hanson/2027-01-10/
 LOCATION:Vanish\, 42245 Black Hops Lane\, Leesburg\, VA\, 20176\, United States
 CATEGORIES:Music
 ATTACH;FMTTYPE=image/jpeg:https://vanishbeer.com/wp-content/uploads/2024/01/201202_parkslope-003-scaled.jpeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20270117T130000
+DTEND;TZID=America/New_York:20270117T160000
+DTSTAMP:20261122T130805Z
+CREATED:20261122T130805Z
+LAST-MODIFIED:20261122T130805Z
+UID:10001306-1800190800-1800201600@vanishbeer.com
+SUMMARY:Dennis Wayland
+DESCRIPTION:Dennis Wayland is a singer/songwriter and Nashville Recording Artist from Manassas\, VA playing country\, rock and blues.
+URL:https://vanishbeer.com/event/dennis-wayland-2/2027-01-17/
+LOCATION:Vanish\, 42245 Black Hops Lane\, Leesburg\, VA\, 20176\, United States
+CATEGORIES:Music
+ATTACH;FMTTYPE=image/jpeg:https://vanishbeer.com/wp-content/uploads/2021/12/235736599_4302739459805233_7896262456355643394_n.jpg
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20270123T130000

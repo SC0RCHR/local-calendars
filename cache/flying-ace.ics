@@ -88,21 +88,6 @@ DTSTART:20271107T050000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261121T150000
-DTEND;TZID=America/New_York:20261121T180000
-DTSTAMP:20260828T211118Z
-CREATED:20260828T211118Z
-LAST-MODIFIED:20260828T211118Z
-UID:13328-1795273200-1795284000@flyingacefarm.com
-SUMMARY:Live Music featuring Chris Bowen at Flying Ace Farm
-DESCRIPTION:LIVE MUSIC FEATURING CHRIS BOWEN AT FLYING ACE FARM\nJoin us for live music on Saturday\, November 21st\, from 3-6pm\, featuring Chris Bowen at Flying Ace Farm in Lovettsville\, Virginia.\nJoin us for live music at Flying Ace Farm on Saturday\, November 21st\, from 3-6PM\, featuring Northern Virginia musician Chris Bowen. Relax with handcrafted American Ace Spirits\, fresh BBQ\, locally brewed beer\, and beautiful mountain views while enjoying an afternoon of live entertainment. Admission is free\, and seating is available on a first-come\, first-served basis. \nAbout Chris Bowen\nHi Guys. My name is Chris Bowen. I am a local guy who has lived in Taylorstown most of my life. I am a one man band\, who plays drums with my feet\, plays guitar and sings. I play all genres\, so the crowds stay focused. \nTo learn more about Chris Bowen\, visit his official Facebook page \nBe sure to check out our full Live Music Schedule to see all upcoming performances at Flying Ace Farm. \n \n \n 
-URL:https://flyingacefarm.com/calendar/live-music-chris-bowen/
-LOCATION:Flying Ace Farm
-CATEGORIES:Family,Free Event,Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2023/08/7758_image_365612966_816865433475035_2413726412362609294_n.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20261122T140000
 DTEND;TZID=America/New_York:20261122T170000
 DTSTAMP:20261106T225247Z
