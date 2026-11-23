@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Historic Manassas, Inc - ECPv6.18.4.1//NONSGML v1.0//EN
+PRODID:-//Historic Manassas, Inc - ECPv6.18.4//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Historic Manassas, Inc
@@ -73,6 +73,33 @@ URL:https://historicmanassas.org/event/solo-art-exhibit-3rd-culture-unseen-threa
 LOCATION:ARTfactory (9419 Battle St.\, Manassas\, VA 20110)\, 9419 Battle Street\, Manassas\, VA\, 20110\, United States
 ATTACH;FMTTYPE=image/jpeg:https://historicmanassas.org/wp-content/uploads/2026/10/Where-Faith-Took-Root_Year-2026_KwakuOforiYirenkyi_Size-40x34-2-scaled.jpg
 ORGANIZER;CN="ARTfactory":MAILTO:jexum@VirginiaARTfactory.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261120T000000
+DTEND;TZID=America/New_York:20261120T235959
+DTSTAMP:20261117T192406Z
+CREATED:20261117T192406Z
+LAST-MODIFIED:20261117T192406Z
+UID:10006982-1795132800-1795219199@historicmanassas.org
+SUMMARY:Pink Friday
+DESCRIPTION:Before Black Friday\, Think Pink!  \nThe holiday shopping season is almost here\, and there's no better place to kick it off than Historic Downtown Manassas!  \nOn Friday\, November 20\, join us for Pink Friday\, a nationwide celebration encouraging shoppers to support small\, independent businesses before the rush of Black Friday. Explore local boutiques\, discover one-of-a-kind gifts\, and enjoy a little holiday cheer while supporting the shops that make our downtown special. 
+URL:https://historicmanassas.org/event/pink-friday/
+ATTACH;FMTTYPE=image/png:https://historicmanassas.org/wp-content/uploads/2026/11/Screenshot-2026-11-17-at-2.19.18-PM.png
+ORGANIZER;CN="Historic Manassas Inc.":MAILTO:info@historicmanassasinc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261121T080000
+DTEND;TZID=America/New_York:20261121T130000
+DTSTAMP:20260630T205410Z
+CREATED:20260406T225222Z
+LAST-MODIFIED:20260630T205410Z
+UID:10006375-1795248000-1795266000@historicmanassas.org
+SUMMARY:Historic Manassas Farmers Market (Saturdays)
+DESCRIPTION:The Historic Manassas Farmers Market Has Returned!  \nJoin us rain or shine every Thursday and Saturday and stock up on farm-fresh produce\, local meats & cheeses\, baked goods\, artisan crafts\, and more! And even more good news! Use SNAP/EBT at the market and get FREE fruits & vegetables through our SNAP & Virginia Fresh Match program. \nVisit https://historicmanassas.org/farmers-market/ for vendor lineups\, programming\, and performers\, and follow Historic Manassas Farmers Market on Facebook and Instagram for updates. \n📅 Saturdays | April 11 – November 21⏰ 8 AM – 1 PM📍 Commuter Lot\, 9024 Prince William St.\, Manassas\, VA \n📅 Thursdays | April 9 – October 29⏰ 8 AM – 1 PM📍 Harris Pavilion\, 9201 Center St.\, Manassas\, VA
+URL:https://historicmanassas.org/event/historic-manassas-farmers-market-saturdays/2026-11-21/
+LOCATION:9024 Prince William St. Manassas\, VA. 20110\, 9024 Prince William St.\, Manassas\, Virginia\, 20110\, United States
+CATEGORIES:Family Friendly,Farmers' Market
+ATTACH;FMTTYPE=image/png:https://historicmanassas.org/wp-content/uploads/2026/01/HMI-FM-General-Info-Web.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20261128T000000
@@ -458,34 +485,5 @@ URL:https://historicmanassas.org/event/historic-manassas-farmers-market-saturday
 LOCATION:9024 Prince William St. Manassas\, VA. 20110\, 9024 Prince William St.\, Manassas\, Virginia\, 20110\, United States
 CATEGORIES:Family Friendly,Farmers' Market
 ATTACH;FMTTYPE=image/png:https://historicmanassas.org/wp-content/uploads/2026/01/HMI-FM-General-Info-Web.png
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20270220T080000
-DTEND;TZID=America/New_York:20270220T130000
-DTSTAMP:20260630T205410Z
-CREATED:20260406T225222Z
-LAST-MODIFIED:20260630T205410Z
-UID:10006388-1803110400-1803128400@historicmanassas.org
-SUMMARY:Historic Manassas Farmers Market (Saturdays)
-DESCRIPTION:The Historic Manassas Farmers Market Has Returned!  \nJoin us rain or shine every Thursday and Saturday and stock up on farm-fresh produce\, local meats & cheeses\, baked goods\, artisan crafts\, and more! And even more good news! Use SNAP/EBT at the market and get FREE fruits & vegetables through our SNAP & Virginia Fresh Match program. \nVisit https://historicmanassas.org/farmers-market/ for vendor lineups\, programming\, and performers\, and follow Historic Manassas Farmers Market on Facebook and Instagram for updates. \n📅 Saturdays | April 11 – November 21⏰ 8 AM – 1 PM📍 Commuter Lot\, 9024 Prince William St.\, Manassas\, VA \n📅 Thursdays | April 9 – October 29⏰ 8 AM – 1 PM📍 Harris Pavilion\, 9201 Center St.\, Manassas\, VA
-URL:https://historicmanassas.org/event/historic-manassas-farmers-market-saturdays/2027-02-20/
-LOCATION:9024 Prince William St. Manassas\, VA. 20110\, 9024 Prince William St.\, Manassas\, Virginia\, 20110\, United States
-CATEGORIES:Family Friendly,Farmers' Market
-ATTACH;FMTTYPE=image/png:https://historicmanassas.org/wp-content/uploads/2026/01/HMI-FM-General-Info-Web.png
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20270226T193000
-DTEND;TZID=America/New_York:20270226T213000
-DTSTAMP:20261030T195635Z
-CREATED:20261030T195635Z
-LAST-MODIFIED:20261030T195635Z
-UID:10006966-1803670200-1803677400@historicmanassas.org
-SUMMARY:Steel Magnolias Presented by Actors Theatre at The ARTfactory
-DESCRIPTION:In the small-town world of Truvy’s beauty salon\, six unforgettable women gather to share laughter\, secrets\, heartache\, and the everyday moments that bind them together. Robert Harling’s beloved Steel Magnolias is a tender and often hilarious celebration of friendship\, family\, and the strength found in community. \nAs the women navigate love\, marriage\, motherhood\, loss\, and life’s unexpected challenges\, their bonds deepen and their resilience shines through. With its sharp wit and heartfelt storytelling\, Steel Magnolias reminds us that even the strongest people need one another—and that laughter can sometimes carry us through the hardest moments. \nFunny\, poignant\, and deeply human\, Steel Magnolias is a timeless story of women who prove that strength and tenderness can exist side by side. \nAdd to the experience by purchasing access to a pre-show “Blush and Bashful” event. Enjoy a cocktail (or mocktail)\, cake\, a photo booth with souvenir photo\, and seat selection reservation (all other seating is general admission). \nSteel Magnolias is presented by arrangement with Concord theatricals on behalf of Dramatists Play Services. \nAudience Advisory: Steel Magnolias contains mature themes\, including discussions of illness\, pregnancy\, death\, grief\, and loss. Some scenes may be emotionally intense. Audience discretion is advised.
-URL:https://historicmanassas.org/event/steel-magnolias-presented-by-actors-theatre-at-the-artfactory/2027-02-26/
-LOCATION:ARTfactory (9419 Battle St.\, Manassas\, VA 20110)\, 9419 Battle Street\, Manassas\, VA\, 20110\, United States
-CATEGORIES:Theater
-ATTACH;FMTTYPE=image/png:https://historicmanassas.org/wp-content/uploads/2026/10/Ticket-Graphic.png
-ORGANIZER;CN="ARTfactory":MAILTO:jexum@VirginiaARTfactory.org
 END:VEVENT
 END:VCALENDAR
