@@ -1,281 +1,218 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Flying Ace Farm - ECPv6.18.4.1//NONSGML v1.0//EN
+PRODID:-//Flying Ace Farm//Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Flying Ace Farm
-X-ORIGINAL-URL:https://flyingacefarm.com
-X-WR-CALDESC:Events for Flying Ace Farm
-REFRESH-INTERVAL;VALUE=DURATION:PT1H
-X-Robots-Tag:noindex
-X-PUBLISHED-TTL:PT1H
+X-WR-CALDESC:Live music and events at Flying Ace Farm\, Lovettsville\, Virg
+ inia
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 BEGIN:VTIMEZONE
 TZID:America/New_York
 BEGIN:DAYLIGHT
 TZOFFSETFROM:-0500
 TZOFFSETTO:-0400
 TZNAME:EDT
-DTSTART:20250309T070000
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
 END:DAYLIGHT
 BEGIN:STANDARD
 TZOFFSETFROM:-0400
 TZOFFSETTO:-0500
 TZNAME:EST
-DTSTART:20251102T060000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20260308T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20261101T060000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20270314T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20271107T060000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:America/Halifax
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0300
-TZNAME:ADT
-DTSTART:20250309T060000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0300
-TZOFFSETTO:-0400
-TZNAME:AST
-DTSTART:20251102T050000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0300
-TZNAME:ADT
-DTSTART:20260308T060000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0300
-TZOFFSETTO:-0400
-TZNAME:AST
-DTSTART:20261101T050000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0300
-TZNAME:ADT
-DTSTART:20270314T060000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0300
-TZOFFSETTO:-0400
-TZNAME:AST
-DTSTART:20271107T050000
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261122T140000
-DTEND;TZID=America/New_York:20261122T170000
-DTSTAMP:20261106T225247Z
-CREATED:20261106T225247Z
-LAST-MODIFIED:20261106T225247Z
-UID:13494-1795356000-1795366800@flyingacefarm.com
-SUMMARY:Live Music featuring Will Shepard at Flying Ace Farm
-DESCRIPTION:Live Music featuring Veteran Will Shepard at Flying Ace Farm\nJoin us on Sunday\, September 6th\, from 2-5pm for live music featuring Will Shepard.\nMusician Bio:\nWill is a Veteran\, Loudoun County teacher\, proud father and husband\, and lives for music. He puts his twist on Americana sound and soulful melodies. He plays a large variety of songs and has been known to bring a solid energy to the people he plays for. C’mon out and hang! \n*To learn more about Will Shepard and upcoming performances\, visit his Facebook page or Instagram page.\n**Be sure to check out our Live Music Schedule at Flying Ace Farm to see all upcoming performances.\n \n \n  \n 
-URL:https://flyingacefarm.com/calendar/live-music-featuring-will-shepard/
-LOCATION:Flying Ace Farm
-CATEGORIES:Family,Free Event,Live Music,local
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2026/01/will-shepard-musician-scaled.jpeg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261128T150000
-DTEND;TZID=America/New_York:20261128T180000
-DTSTAMP:20261106T223037Z
-CREATED:20261106T222954Z
-LAST-MODIFIED:20261106T223037Z
-UID:13486-1795878000-1795888800@flyingacefarm.com
-SUMMARY:Live Music at Flying Ace Farm featuring Matt Burridge
-DESCRIPTION:Live Music at Flying Ace Farm featuring Matt Burridge\nJoin us on Saturday\, December 26th\, from 3-6pm for live music featuring Matt Burridge.\nMusician Bio: \nMatt Burridge is a musician local to the DMV/RVA area. Currently based in Richmond\, he plays bars\, winery’s\, and private events from Maryland all the way down to the Richmond ar. In addition to playing solo cover gigs\, he writes original music\, produces under the name BD LCK\, and plays in a progressive post hardcore band called pulses. \n*To learn more about Matt Burridge and upcoming performances\, visit his website. \n**Be sure to check out our Live Music Schedule at Flying Ace Farm to see all upcoming performances. \n \n \n  \n 
-URL:https://flyingacefarm.com/calendar/live-music-matt-burridge-2/
-LOCATION:Flying Ace Farm
-CATEGORIES:Family,Free Event,Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2024/10/IMG_0975-scaled.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261129T140000
-DTEND;TZID=America/New_York:20261129T170000
-DTSTAMP:20260730T220049Z
-CREATED:20260701T231924Z
-LAST-MODIFIED:20260730T220049Z
-UID:13050-1795960800-1795971600@flyingacefarm.com
-SUMMARY:Live Music featuring Melanie Pearl at Flying Ace Farm
-DESCRIPTION:LIVE MUSIC FEATURING VOCALIST MELANIE PEARL AT FLYING ACE FARM\nJoin us for live music on Sunday\, November 29th\, from 2-5pm\, featuring vocalist Melanie Pearl at Flying Ace Farm in Lovettsville\, Virginia.\nJoin us for live music at Flying Ace Farm on Sunday\, November 29th from 2–5 PM\, featuring Northern Virginia musician Melanie Pearl. Spend the afternoon enjoying handcrafted American Ace Spirits\, fresh BBQ\, locally brewed beer\, and scenic mountain views while listening to an entertaining mix of music spanning multiple decades. Admission is free\, and seating is available on a first-come\, first-served basis. \nAbout Melanie Pearl\nFor more than a decade\, Melanie Pearl has been entertaining audiences throughout the Shenandoah Valley with her engaging solo performances. Accompanied by her keyboard\, ukulele\, and vocals\, Melanie creates an interactive experience by tailoring each performance to the crowd and welcoming song requests. \nKnown for her versatile style\, Melanie performs a wide variety of popular hits from across the decades\, featuring music made famous by artists such as Janis Joplin\, Dolly Parton\, Amy Winehouse\, Adele\, and many more. Her ability to connect with audiences and deliver memorable performances has made her a favorite at venues throughout Northern Virginia\, including Barrel Oak Winery & Brewery\, The Half Note Lounge\, Woodstock Brewhouse\, and Bright Box. \nTo learn more about Melanie\, visit her official website. You can also find her on Facebook and YouTube \nBe sure to check out our full Live Music Schedule to see all upcoming performances at Flying Ace Farm.
-URL:https://flyingacefarm.com/calendar/live-music-melanie-pearl/
-LOCATION:Flying Ace Farm
-CATEGORIES:Family,Kids,Live Music,local
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2024/01/Melanie-Pearl-musician.jpg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261205T120000
-DTEND;TZID=America/New_York:20261205T150000
-DTSTAMP:20261112T160910Z
-CREATED:20261106T195149Z
-LAST-MODIFIED:20261112T160910Z
-UID:13459-1796472000-1796482800@flyingacefarm.com
-SUMMARY:6th Annual Brunch w/ Santa Event
-DESCRIPTION:6TH ANNUAL BRUNCH W/ SANTA ~ TICKETS ON SALE NOW!\nDecember 5th from 12-3PM\nMark your calendars for Saturday\, December 5th from 12-3PM as we host our 5th Annual Brunch w/ Santa event at the farm! Our ALL YOU CAN EAT Brunch includes a digital photo with the Big Guy\, cookie decorating for the kids\, coloring station and a craft bag for the kiddos. We will also have cocktails and beer available for an additional charge. Tickets on sale now! This is one of our most popular events\, make sure to grab your tickets today! \nTickets will be broken down into 1 hour time slots (12-1pm\, 1-2pm\, 2-3pm). Once you click on the link\, please choose the appropriate day and time slot. Brunch and photos with Santa will be taken during that specific time slot.\nCocktails will be available for purchase\, menu includes:\n*Poinsettia Mimosa\n*Homemade Eggnog\n*Tipsy Cocoa\n*Sangria\n*Spiked Coffee\n*Beer/Seltzer on tap\n*Wine\n  \nCLICK HERE TO PURCHASE TICKETS\n  \n \n  \n  \n* Adult Ticket: $49.99 each \n* Child Ticket (ages 12 and under): $24.99; all children attending event will require a ticket. \n*Tickets are non-refundable 7 days prior to event (11/28/26) \nPrice of ticket covers cost of event\, staffing\, Santa\,  All-You-Can-Eat brunch\, digital photo with Santa\, craft bags\, coloring station and cookie decorating table. Tickets are required for every attendee. Children two and under do not require a ticket. We appreciate your honesty and look forward to having you! \nCLICK HERE FOR TICKETS
-URL:https://flyingacefarm.com/calendar/brunch-w-santa-event/
-LOCATION:Flying Ace Farm
-CATEGORIES:All You Can Eat,Brunch,Brunch w/ Santa,Family,Kids,local,Loudoun County VA
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2026/11/IMG_3782-scaled-e1793994539359.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261205T150000
-DTEND;TZID=America/New_York:20261205T180000
-DTSTAMP:20261106T215009Z
-CREATED:20261106T215009Z
-LAST-MODIFIED:20261106T215009Z
-UID:13478-1796482800-1796493600@flyingacefarm.com
-SUMMARY:Live Music at Flying Ace Farm featuring Noah "Red" Hawes
-DESCRIPTION:Live Music at Flying Ace Farm featuring Noah “Red” Hawes\nJoin us on Saturday\, December 5th\, from 3-6pm for live music featuring Noah “Red” Hawes.\nNoah’s Bio: \nMy name is Noah “Red” Hawes and I’m a local performer in the Frederick area. I play acoustic arrangements of covers as well as my own originals. The covers range from singer/songwriters from the 60s and 70s like Simon and Garfunkel and James Taylor\, current pop hits from One Direction and The Chainsmokers\, and everything in between. \nI have a bachelor’s degree in classical guitar and have played lead guitar and sang vocals in classic rock\, indie\, pop punk\, and metal bands. I utilize the classical guitar training to create my acoustic arrangements of covers\, combining the elements of bass\, guitar\, and driving percussive energy all on a single guitar. \nI have a YouTube channel (Red Hawes) with original and cover videos. I have an additional channel (Drew Hawes – Noah’s Gigs with Friends) that has videos from performances with the bands I have been in\, past and present\, as well as solo performances. \n*To learn more about Noah Hawes and upcoming performances\, visit his Instagram page. \n**Be sure to check out our Live Music Schedule at Flying Ace Farm to see all upcoming performances. \n \n \n  \n 
-URL:https://flyingacefarm.com/calendar/live-music-at-flying-ace-farm-featuring-noah-red-hawes/
-LOCATION:Flying Ace Farm
+UID:matt-burridge-2026-11-28@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261128T200000Z
+DTEND:20261128T230000Z
+SUMMARY:Matt Burridge - Live Music at Flying Ace Farm
+DESCRIPTION:Richmond-based singer and guitarist - solo covers and originals
+ \, from Maryland down to the Richmond area. Free to attend\, no ticket need
+ ed.\n\nhttps://flyingacefarm.com/calendar/matt-burridge-2026-11-28/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/matt-burridge-2026-11-28/
 CATEGORIES:Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2023/12/noah-hawes.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261206T120000
-DTEND;TZID=America/New_York:20261206T150000
-DTSTAMP:20261112T155827Z
-CREATED:20261106T202803Z
-LAST-MODIFIED:20261112T155827Z
-UID:13468-1796558400-1796569200@flyingacefarm.com
-SUMMARY:6th Annual Brunch w/ Santa Event
-DESCRIPTION:6TH ANNUAL BRUNCH W/ SANTA ~ TICKETS ON SALE NOW!\nDecember 6th from 12-3PM\nMark your calendars for Saturday\, December 6th from 12-3PM as we host our 5th Annual Brunch w/ Santa event at the farm! Our ALL YOU CAN EAT Brunch includes a digital photo with the Big Guy\, cookie decorating for the kids\, coloring station and a craft bag for the kiddos. We will also have cocktails and beer available for an additional charge. Tickets on sale now! This is one of our most popular events\, make sure to grab your tickets today! \nTickets will be broken down into 1 hour time slots (12-1pm\, 1-2pm\, 2-3pm). Once you click on the link\, please choose the appropriate day and time slot. Brunch and photos with Santa will be taken during that specific time slot.\nCocktails will be available for purchase\, menu includes:\n*Poinsettia Mimosa\n*Homemade Eggnog\n*Tipsy Cocoa\n*Sangria\n*Spiked Coffee\n*Beer/Seltzer on tap\n*Wine\n  \nCLICK HERE TO PURCHASE TICKETS\n  \n \n  \n  \n* Adult Ticket: $49.99 each \n* Child Ticket (ages 12 and under): $24.99; all children attending event will require a ticket. \n*Tickets are non-refundable 7 days prior to event (11/29/26) \nPrice of ticket covers cost of event\, staffing\, Santa\,  All-You-Can-Eat brunch\, digital photo with Santa\, craft bags\, coloring station and cookie decorating table. Tickets are required for every attendee. Children two and under do not require a ticket. We appreciate your honesty and look forward to having you! \nCLICK HERE FOR TICKETS
-URL:https://flyingacefarm.com/calendar/brunch-w-santa-event-2/
-LOCATION:Flying Ace Farm
-CATEGORIES:All You Can Eat,Brunch,Brunch w/ Santa,Family,Kids,local,Loudoun County VA
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2026/11/IMG_3782-scaled-e1793994539359.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Halifax:20261206T140000
-DTEND;TZID=America/Halifax:20261206T170000
-DTSTAMP:20260731T182145Z
-CREATED:20260730T182116Z
-LAST-MODIFIED:20260731T182145Z
-UID:13186-1796565600-1796576400@flyingacefarm.com
-SUMMARY:Live Music featuring Dylan Woelfel
-DESCRIPTION:Live Music featuring Dylan Woelfel at Flying Ace Farm\nJoin us on Sunday\, December 6th\, from 2-5pm for live music featuring Dylan Woelfel.\nJoin us for live music at Flying Ace Farm on Sunday\, December 6th\, from 2–5 PM\, featuring Virginia singer-songwriter Dylan Woelfel. Enjoy an afternoon of live music alongside handcrafted American Ace Spirits\, fresh BBQ\, locally brewed beer\, and beautiful mountain views. Admission is free\, and seating is available on a first-come\, first-served basis. \nAbout Dylan Woelfel\nBorn and raised in Clarke County\, Virginia\, Dylan Woelfel is an independent singer-songwriter who has spent more than 15 years writing original music and performing throughout the Shenandoah Valley\, Winchester\, and West Virginia. Drawing inspiration from his own experiences\, Dylan blends the storytelling traditions of Outlaw Country with heartfelt folk ballads to create songs that are authentic\, honest\, and deeply personal. \nWhether performing his original music or connecting with audiences through his sincere stage presence\, Dylan delivers a memorable live performance that celebrates independent music and genuine songwriting. If you enjoy authentic country and folk music with meaningful lyrics\, you won’t want to miss this performance at Flying Ace Farm. \nTo learn more about Dylan\, check out his official Instagram page\, Facebook page as well as his music videos on YouTube page. \nBe sure to check out our full Live Music Schedule at Flying Ace Farm to see all upcoming performances throughout the year.
-URL:https://flyingacefarm.com/calendar/live-musicdylan-woelfel/
-LOCATION:Flying Ace Farm
-CATEGORIES:Family,Free Event,Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2025/05/Dylan-Woelfel-2.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261212T150000
-DTEND;TZID=America/New_York:20261212T180000
-DTSTAMP:20261106T213126Z
-CREATED:20261106T213126Z
-LAST-MODIFIED:20261106T213126Z
-UID:13473-1797087600-1797098400@flyingacefarm.com
-SUMMARY:Live Music at Flying Ace Farm featuring Twofer
-DESCRIPTION:Live Music at Flying Ace Farm featuring Twofer\nJoin us on Saturday\, December 12th\, from 3-6pm for live music featuring Twofer. \nMusician Bio:\nA veteran Marine Corps pilot\, Jonathan “Twofer” Noftsier is an acoustic musician known for blending country\, rock\, and pop favorites. From Tyler Childers to Avril Lavigne and Britney Spears\, his performances combine modern classics\, eclectic covers\, and nostalgic singalongs. \n*To learn more about Twofer and upcoming performances\, visit his Instagram page. \n**Be sure to check out our Live Music Schedule at Flying Ace Farm to see all upcoming performances. \n  \n 
-URL:https://flyingacefarm.com/calendar/live-music-twofer/
-LOCATION:Flying Ace Farm
+UID:melanie-pearl-2026-11-29@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261129T190000Z
+DTEND:20261129T220000Z
+SUMMARY:Melanie Pearl - Live Music at Flying Ace Farm
+DESCRIPTION:Shenandoah Valley vocalist - keyboard\, ukulele and a set list 
+ shaped by requests - closing out the month on the Sunday after Thanksgiving
+ . Free to attend\, no ticket needed.\n\nhttps://flyingacefarm.com/calendar/
+ melanie-pearl-2026-11-29/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/melanie-pearl-2026-11-29/
 CATEGORIES:Live Music
-ATTACH;FMTTYPE=image/png:https://flyingacefarm.com/wp-content/uploads/2026/06/twofer-band-photo.png
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261213T140000
-DTEND;TZID=America/New_York:20261213T170000
-DTSTAMP:20260730T172039Z
-CREATED:20260730T172039Z
-LAST-MODIFIED:20260730T172039Z
-UID:13167-1797170400-1797181200@flyingacefarm.com
-SUMMARY:Live Music at Flying Ace Farm featuring Joey Hafner
-DESCRIPTION:Live Music featuring local musician Joey Hafner at Flying Ace Farm\nJoin us on Sunday\, December 13th\, from 2-5PM for live music with Joey Hafner. \nJoey Hafner is a vocalist and guitar player based in Lovettsville\, Virginia\, delivering high-energy acoustic performances as a solo artist and as the front man of the party rock cover band Ghost Pepper. With a musical journey that began at age nine\, Joey was shaped by the alternative explosion of the 90s\, drawing early inspiration from bands like Jane’s Addiction\, Smashing Pumpkins\, and Pearl Jam. Known for engaging\, crowd-friendly sets\, Joey blends alternative rock\, 90s hip hop\, classic rock\, and country into performances built for wineries\, breweries\, and live entertainment venues throughout Northern Virginia and Central Maryland. His shows often feature creative mashups\, familiar sing-alongs\, and the occasional surprise throwback\, creating a fun\, energetic atmosphere that keeps audiences involved from start to finish. Whether performing solo\, or in a duo\, Joey brings professionalism\, versatility\, and genuine passion to every stage. \nJoey Hafner is a seasoned performer known for energetic acoustic sets throughout the region – learn more on his official Facebook page or his official Instagram page. \nBe sure to check out our full Live Music Schedule at Flying Ace Farm to see all upcoming performances. \n \n \n  \n 
-URL:https://flyingacefarm.com/calendar/live-music-joey-hafner-2/
-LOCATION:Flying Ace Farm
-CATEGORIES:Family,Free Event,Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2025/12/att.X3fnWM3GloCKyNXVsjVNKQwb8h0gDGrZe9VPCb5TaEY.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
+UID:brunch-with-santa-2026-12-05@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261205T170000Z
+DTEND:20261205T200000Z
+SUMMARY:Brunch with Santa at Flying Ace Farm
+DESCRIPTION:The 6th annual all-you-can-eat brunch with a digital photo with
+  Santa\, cookie decorating and crafts for the kids. Seated in one-hour slot
+ s. Tickets required - Adults $49.99 · children 12 and under $24.99 · unde
+ r 2 free.\n\nhttps://flyingacefarm.com/calendar/brunch-with-santa-2026-12-0
+ 5/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/brunch-with-santa-2026-12-05/
+CATEGORIES:Holiday Brunch
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261219T150000
-DTEND;TZID=America/New_York:20261219T180000
-DTSTAMP:20260707T210401Z
-CREATED:20260707T210401Z
-LAST-MODIFIED:20260707T210401Z
-UID:13101-1797692400-1797703200@flyingacefarm.com
-SUMMARY:Live Music featuring Jake Phillips at Flying Ace Farm
-DESCRIPTION:Live Music featuring Jake Phillips at Flying Ace Farm\nJoin us on Saturday\, December 19th\, from 3-6PM for live music by Jake Phillips. \nJake Phillips is a singer/songwriter who has traveled the world; from US and European tours to Singapore and Canada and points beyond. With a powerful voice and dynamic guitar skills\, Jake’s repertoire includes original music and an eclectic set of classic folk and alternative covers. \nRECENT NEWS: Jake’s song “Brother of Mine” debuted on SUITS LA (Season 1\, episode 10) on May 4th\, 2025. You can check out his music on Spotify\, “My Fragile Ego.” \nTo listen to more music by Jake Phillips\, check him out on Spotify  \nBe sure to check out our full Live Music Schedule at Flying Ace Farm to see all upcoming performances. \n \n \n 
-URL:https://flyingacefarm.com/calendar/live-music-jake-phillips-4/
-LOCATION:Flying Ace Farm
+UID:noah-red-hawes-2026-12-05@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:Noah “Red” Hawes - Live Music at Flying Ace Farm
+DESCRIPTION:Frederick-area performer with classical-guitar training - acous
+ tic arrangements of covers from the 60s to today\, plus originals. Free to 
+ attend\, no ticket needed.\n\nhttps://flyingacefarm.com/calendar/noah-red-h
+ awes-2026-12-05/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/noah-red-hawes-2026-12-05/
 CATEGORIES:Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2023/08/7901_image_369974567_826714805823431_1726653859416587511_n.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261220T140000
-DTEND;TZID=America/New_York:20261220T170000
-DTSTAMP:20260730T144620Z
-CREATED:20260730T144620Z
-LAST-MODIFIED:20260730T144620Z
-UID:13131-1797775200-1797786000@flyingacefarm.com
-SUMMARY:Live Music at Flying Ace Farm featuring Alex Kerns
-DESCRIPTION:Live Music at Flying Ace Farm featuring Alex Kerns\nJoin us on Sunday\, December 20th\, from 2-5pm for live music by Alex Kerns. \nBio:Known to genre bend\, Alex Kerns covers a wide range of artists and songs. From the classic sounds of the Beatles to Tyler Childers to the Americana vibe of his own originals. Hailing from Berryville\, Virginia\, Alex Kerns is the cofounder and bass player of the Low Water Bridge band. Alex Kerns is regionally well known and always leaves a smile on the faces of the fans and patrons that attend his shows.\n\nBorn and raised in Clarke County\, Virginia\, Alex Kern’s has been playing up and down the Shenandoah Valley for the past 15 years. He is currently the bass player for Low Water Bridge Band\, but also pursues a busy acoustic solo career. He’s played everywhere from small amphitheaters to small back yard private parties and always a perfect fit for just about any occasion.\nTo learn more about Alex Kerns and upcoming performances\, visit his official Facebook page. \nBe sure to check out our full Live Music Schedule at Flying Ace Farm to see all upcoming performances. \n \n \n  \n 
-URL:https://flyingacefarm.com/calendar/live-music-featuring-alex-kerns-3/
-LOCATION:Flying Ace Farm
-CATEGORIES:Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2025/12/Alex-Kerns-band-photo.jpg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
+UID:brunch-with-santa-2026-12-06@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261206T170000Z
+DTEND:20261206T200000Z
+SUMMARY:Brunch with Santa at Flying Ace Farm
+DESCRIPTION:Sunday seating of the 6th annual all-you-can-eat brunch with Sa
+ nta - photo\, cookie decorating and a craft bag for every child. Tickets re
+ quired - Adults $49.99 · children 12 and under $24.99 · under 2 free.\n\n
+ https://flyingacefarm.com/calendar/brunch-with-santa-2026-12-06/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/brunch-with-santa-2026-12-06/
+CATEGORIES:Holiday Brunch
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261226T150000
-DTEND;TZID=America/New_York:20261226T180000
-DTSTAMP:20260730T180618Z
-CREATED:20260730T180618Z
-LAST-MODIFIED:20260730T180618Z
-UID:13180-1798297200-1798308000@flyingacefarm.com
-SUMMARY:Live Music at Flying Ace Farm featuring Morgan Gonce
-DESCRIPTION:Live Music at Flying Ace Farm featuring Morgan Gonce\nJoin us on Saturday\, December 26th\, from 3-6pm for live music featuring Morgan Gonce.\nMusician Bio:\nMorgan Gonce is a 19 year old award-winning guitarist\, producer\, and singer-songwriter from Baltimore\, Maryland. Morgan’s guitar playing ranges from R&B\, folk\, pop\, rock\, and indie influences while implementing her emotional and soulful touch to whatever gig she is called for. \nCurrently in her fourth semester\, Morgan is a Presidential Scholarship awardee from Berklee College of Music\, and is double majoring in Independent Recording & Production and Guitar Performance. After Berklee\, Morgan’s future goals are to continue her career as be successful touring/studio guitarist and multi-genre producer\, as well as kickstarting her own music as an artist. \n*To learn more about Morgan Gonce and upcoming performances\, visit her Instagram page. \n**Be sure to check out our Live Music Schedule at Flying Ace Farm to see all upcoming performances. \n \n \n  \n 
-URL:https://flyingacefarm.com/calendar/live-music-morgan-gonce-2/
-LOCATION:Flying Ace Farm
+UID:dylan-woelfel-2026-12-06@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261206T190000Z
+DTEND:20261206T220000Z
+SUMMARY:Dylan Woelfel - Live Music at Flying Ace Farm
+DESCRIPTION:Virginia singer-songwriter\, playing an afternoon alongside the
+  American Ace lineup. Free to attend\, no ticket needed.\n\nhttps://flyinga
+ cefarm.com/calendar/dylan-woelfel-2026-12-06/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/dylan-woelfel-2026-12-06/
 CATEGORIES:Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2026/06/Morgan-Gonce-musician.jpeg
-ORGANIZER;CN="Flying Ace Farm":MAILTO:info@flyingacefarm.com
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20261227T140000
-DTEND;TZID=America/New_York:20261227T170000
-DTSTAMP:20261106T220911Z
-CREATED:20261106T220911Z
-LAST-MODIFIED:20261106T220911Z
-UID:13481-1798380000-1798390800@flyingacefarm.com
-SUMMARY:Live Music featuring Britton James at Flying Ace Farm
-DESCRIPTION:LIVE MUSIC FEATURING BRITTON JAMES AT FLYING ACE FARM\nJoin us for live music on Sunday\, December 27th\, from 2-5pm\, featuring Britton James at Flying Ace Farm in Lovettsville\, Virginia.\nJoin us for live music at Flying Ace Farm on Sunday\, September 13th\, from 2–5 PM\, featuring Northern Virginia musician Britton James. Relax with handcrafted American Ace Spirits\, fresh BBQ\, locally brewed beer\, and beautiful mountain views while enjoying an afternoon of live entertainment. Admission is free\, and seating is available on a first-come\, first-served basis. \nAbout Britton James\nA Northern Virginia native\, Britton James is a talented singer-songwriter\, producer\, and multi-instrumentalist who writes\, records\, and performs original alternative music. His energetic one-man show is anything but ordinary\, combining live vocals with percussion\, bass\, guitar\, and looping techniques to create the sound of a full band—all performed live on stage. \nWith a diverse musical style\, Britton seamlessly blends his original songs with crowd-favorite covers spanning decades\, from timeless classics to today’s biggest hits. His dynamic performances and engaging stage presence make every show a unique experience for music lovers of all ages. \nTo learn more about Britton James\, visit his official website \nBe sure to check out our full Live Music Schedule to see all upcoming performances at Flying Ace Farm. \n \n \n 
-URL:https://flyingacefarm.com/calendar/live-music-featuring-britton-james-at-flying-ace-farm-2/
-LOCATION:Flying Ace Farm
+UID:twofer-2026-12-12@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261212T200000Z
+DTEND:20261212T230000Z
+SUMMARY:Twofer - Live Music at Flying Ace Farm
+DESCRIPTION:Marine Corps pilot turned acoustic musician - country\, rock an
+ d pop favourites from Tyler Childers to Avril Lavigne. Free to attend\, no 
+ ticket needed.\n\nhttps://flyingacefarm.com/calendar/twofer-2026-12-12/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/twofer-2026-12-12/
 CATEGORIES:Live Music
-ATTACH;FMTTYPE=image/jpeg:https://flyingacefarm.com/wp-content/uploads/2021/08/1402_image_231792481_355649302847367_7673593667556548300_n.jpg
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:joey-hafner-2026-12-13@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261213T190000Z
+DTEND:20261213T220000Z
+SUMMARY:Joey Hafner - Live Music at Flying Ace Farm
+DESCRIPTION:A Lovettsville local - high-energy acoustic sets as a solo arti
+ st and as frontman of a party rock cover band. Free to attend\, no ticket n
+ eeded.\n\nhttps://flyingacefarm.com/calendar/joey-hafner-2026-12-13/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/joey-hafner-2026-12-13/
+CATEGORIES:Live Music
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:jake-phillips-2026-12-19@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261219T200000Z
+DTEND:20261219T230000Z
+SUMMARY:Jake Phillips - Live Music at Flying Ace Farm
+DESCRIPTION:Back for a second set before the holidays\, with the same power
+ ful voice and dynamic guitar. Free to attend\, no ticket needed.\n\nhttps:/
+ /flyingacefarm.com/calendar/jake-phillips-2026-12-19/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/jake-phillips-2026-12-19/
+CATEGORIES:Live Music
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:alex-kerns-2026-12-20@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261220T190000Z
+DTEND:20261220T220000Z
+SUMMARY:Alex Kerns - Live Music at Flying Ace Farm
+DESCRIPTION:A second Sunday afternoon of genre-bending covers and originals
+  to close the year. Free to attend\, no ticket needed.\n\nhttps://flyingace
+ farm.com/calendar/alex-kerns-2026-12-20/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/alex-kerns-2026-12-20/
+CATEGORIES:Live Music
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:morgan-gonce-2026-12-26@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261226T200000Z
+DTEND:20261226T230000Z
+SUMMARY:Morgan Gonce - Live Music at Flying Ace Farm
+DESCRIPTION:A 19-year-old award-winning guitarist\, producer and songwriter
+  from Baltimore\, moving between R&B\, folk\, pop and indie. Free to attend
+ \, no ticket needed.\n\nhttps://flyingacefarm.com/calendar/morgan-gonce-202
+ 6-12-26/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/morgan-gonce-2026-12-26/
+CATEGORIES:Live Music
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:britton-james-2026-12-27@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART:20261227T190000Z
+DTEND:20261227T220000Z
+SUMMARY:Britton James - Live Music at Flying Ace Farm
+DESCRIPTION:Northern Virginia musician playing the last Sunday of the year 
+ on the farm. Free to attend\, no ticket needed.\n\nhttps://flyingacefarm.co
+ m/calendar/britton-james-2026-12-27/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/britton-james-2026-12-27/
+CATEGORIES:Live Music
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:free-trivia-night@flyingacefarm.com
+DTSTAMP:20261124T160151Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T190000
+SUMMARY:Free Trivia Night at Flying Ace Farm
+DESCRIPTION:Free trivia every Friday at 7pm\, hosted by Pourhouse Trivia. F
+ ree to attend\, no ticket needed.\n\nhttps://flyingacefarm.com/calendar/fre
+ e-trivia-night/
+LOCATION:Flying Ace Farm\, 40950 Flying Ace Ln\, Lovettsville\, VA 20180
+URL:https://flyingacefarm.com/calendar/free-trivia-night/
+CATEGORIES:Trivia
+STATUS:CONFIRMED
+RRULE:FREQ=WEEKLY;BYDAY=FR
 END:VEVENT
 END:VCALENDAR

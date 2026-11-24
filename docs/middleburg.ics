@@ -14,7 +14,7 @@ SUMMARY:The Chase Club Is Coming to Middleburg: Now Accepting Applications
  !
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20270101
-DTSTAMP:20261121T161137Z
+DTSTAMP:20261124T160158Z
 UID:the-chase-club-is-coming-to-middleburg-now-accepting-applica-2026-09-2
  4@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Yuri Gorbachev 23rd Annual Exhibition at The Byrne Gallery
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20270104
-DTSTAMP:20261121T161137Z
+DTSTAMP:20261124T160158Z
 UID:yuri-gorbachev-23rd-annual-exhibition-at-the-byrne-gallery-2026-11-04@
  middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
@@ -62,9 +62,9 @@ URL:https://visitmiddleburgva.com/events/yuri-gorbachev-23rd-annual-exhibi
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Model Railroad Extravaganza
-DTSTART;TZID="UTC-05:00":20261120T093000
-DTEND;TZID="UTC-05:00":20261120T170000
-DTSTAMP:20261121T161137Z
+DTSTART:20261120T093000
+DTEND:20261120T170000
+DTSTAMP:20261124T160158Z
 UID:model-railroad-extravaganza-2026-11-20@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
  /2025/11/Model-Railroad-Extravaganza-Middleburg-Library-December-8-All-Day
@@ -79,9 +79,9 @@ URL:https://visitmiddleburgva.com/events/model-railroad-extravaganza-5-987
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Complimentary Journal Personalization at Every Little Something
-DTSTART;TZID="UTC-05:00":20261120T120000
-DTEND;TZID="UTC-05:00":20261120T170000
-DTSTAMP:20261121T161137Z
+DTSTART:20261120T120000
+DTEND:20261120T170000
+DTSTAMP:20261124T160158Z
 UID:complimentary-journal-personalization-at-every-little-someth-2026-11-2
  0@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
@@ -107,9 +107,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sixth Annual Celebrating the Harvest: A Farm to Table Dinner at Oa
  k Spring Garden Foundation
-DTSTART;TZID="UTC-05:00":20261120T170000
-DTEND;TZID="UTC-05:00":20261120T210000
-DTSTAMP:20261121T161137Z
+DTSTART:20261120T170000
+DTEND:20261120T210000
+DTSTAMP:20261124T160158Z
 UID:sixth-annual-celebrating-the-harvest-a-farm-to-table-dinner--2026-11-2
  0@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
@@ -136,9 +136,9 @@ URL:https://visitmiddleburgva.com/events/sixth-annual-celebrating-the-harv
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Imagine 2027: A Canvas of Possibilities
-DTSTART;TZID="UTC-05:00":20261122T100000
-DTEND;TZID="UTC-05:00":20261122T120000
-DTSTAMP:20261121T161137Z
+DTSTART:20261122T100000
+DTEND:20261122T120000
+DTSTAMP:20261124T160158Z
 UID:imagine-2027-a-canvas-of-possibilities-2026-11-22@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
  /2026/11/DeeAnn-Nov-2026-Event-at-MCC.png
@@ -160,9 +160,9 @@ URL:https://visitmiddleburgva.com/events/imagine-2027-a-canvas-of-possibil
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Musical Immersion!
-DTSTART;TZID="UTC-05:00":20261122T150000
-DTEND;TZID="UTC-05:00":20261122T163000
-DTSTAMP:20261121T161137Z
+DTSTART:20261122T150000
+DTEND:20261122T163000
+DTSTAMP:20261124T160158Z
 UID:musical-immersion-2026-11-22@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
  /2026/10/Parish-House-Music-Immersion.png
@@ -183,7 +183,7 @@ BEGIN:VEVENT
 SUMMARY:Celebrate Thanksgiving in Middleburg!
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261121T161137Z
+DTSTAMP:20261124T160158Z
 UID:celebrate-thanksgiving-in-middleburg-2026-11-23@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
  /2024/10/Thanksgiving-Dinner.jpg
@@ -220,7 +220,7 @@ BEGIN:VEVENT
 SUMMARY:Thanksgiving Harvest Dinner
 DTSTART;TZID="UTC-05:00":20261123T160000
 DTEND;TZID="UTC-05:00":20261123T200000
-DTSTAMP:20261121T161137Z
+DTSTAMP:20261124T160158Z
 UID:thanksgiving-harvest-dinner-2026-11-23@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
  /2026/10/Red-Fox-TGiving.png
@@ -239,7 +239,7 @@ BEGIN:VEVENT
 SUMMARY:Thanksgiving Harvest Dinner
 DTSTART;TZID="UTC-05:00":20261124T160000
 DTEND;TZID="UTC-05:00":20261124T200000
-DTSTAMP:20261121T161137Z
+DTSTAMP:20261124T160158Z
 UID:thanksgiving-harvest-dinner-2026-11-24@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
  /2026/10/Red-Fox-TGiving.png
@@ -258,7 +258,7 @@ BEGIN:VEVENT
 SUMMARY:Family Board Game Night
 DTSTART;TZID="UTC-05:00":20261124T170000
 DTEND;TZID="UTC-05:00":20261124T200000
-DTSTAMP:20261121T161137Z
+DTSTAMP:20261124T160158Z
 UID:family-board-game-night-2026-11-24@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
  /2024/06/Board-Games.jpg
@@ -273,8 +273,121 @@ BEGIN:VEVENT
 SUMMARY:Thanksgiving Harvest Dinner
 DTSTART;TZID="UTC-05:00":20261125T160000
 DTEND;TZID="UTC-05:00":20261125T200000
-DTSTAMP:20261121T161137Z
+DTSTAMP:20261124T160158Z
 UID:thanksgiving-harvest-dinner-2026-11-25@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Red-Fox-TGiving.png
+DESCRIPTION:Celebrate the season at The Red Fox Inn & Tavern\, where histo
+ ric charm\, warm hospitality and exceptional dining come together. Gather 
+ with family and friends to savor autumn flavors and enjoy a memorable even
+ ing in the heart of Middleburg.    Click here for more info and reservatio
+ ns.\n\nDetails: https://visitmiddleburgva.com/events/thanksgiving-harvest-
+ dinner/
+LOCATION:Red Fox Inn &amp\; Tavern\, 2 East Washington St\, Middleburg\, V
+ a 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/thanksgiving-harvest-dinner/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grayson’s at Goodstone Thanksgiving
+DTSTART;TZID="UTC-05:00":20261126T110000
+DTEND;TZID="UTC-05:00":20261126T180000
+DTSTAMP:20261124T160158Z
+UID:grayson-s-at-goodstone-thanksgiving-2026-11-26@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2025/03/Goodstone-square.png
+DESCRIPTION:Looking for an unforgettable Thanksgiving dining experience? G
+ rayson’s at Goodstone offers a farm-to-table holiday meal just an hour f
+ rom Washington\, DC. Enjoy the Harvest Gathering Menu ($175) for adults\, 
+ featuring seasonal dishes like maple-brined turkey and bourbon pecan tart
+ \, and the Children's Prix Fixe ($85) with comforting classics like roaste
+ d turkey and pumpkin desserts. Using local and estate-sourced ingredients
+ \, Grayson’s combines gourmet flavors with a welcoming countryside setti
+ ng.    Click here for reservations!\n\nDetails: https://visitmiddleburgva.
+ com/events/graysons-at-goodstone-thanksgiving/
+LOCATION:Goodstone Inn &amp\; Restaurant\, 36205 Snake Hill Rd\, Middlebur
+ g\, VA 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/graysons-at-goodstone-thanksgivin
+ g/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thanksgiving Harvest Dinner
+DTSTART;TZID="UTC-05:00":20261127T160000
+DTEND;TZID="UTC-05:00":20261127T200000
+DTSTAMP:20261124T160158Z
+UID:thanksgiving-harvest-dinner-2026-11-27@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/Red-Fox-TGiving.png
+DESCRIPTION:Celebrate the season at The Red Fox Inn & Tavern\, where histo
+ ric charm\, warm hospitality and exceptional dining come together. Gather 
+ with family and friends to savor autumn flavors and enjoy a memorable even
+ ing in the heart of Middleburg.    Click here for more info and reservatio
+ ns.\n\nDetails: https://visitmiddleburgva.com/events/thanksgiving-harvest-
+ dinner/
+LOCATION:Red Fox Inn &amp\; Tavern\, 2 East Washington St\, Middleburg\, V
+ a 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/thanksgiving-harvest-dinner/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Velvet Reindeer: A Magical Holiday Pop-Up at Goodstone
+DTSTART;TZID="UTC-05:00":20261127T160000
+DTEND;TZID="UTC-05:00":20261127T200000
+DTSTAMP:20261124T160158Z
+UID:the-velvet-reindeer-a-magical-holiday-pop-up-at-goodstone-2026-11-27@m
+ iddleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/11/Goodstone-at-Xmas.png
+DESCRIPTION:Step into the holiday magic of The Velvet Reindeer\, Goodstone
+  Inn’s enchanting seasonal pop-up. Tucked just beyond the Ivy Wall\, the
+  covered poolside retreat is transformed into a festive hideaway featuring
+  twinkling lights\, ribbon-adorned evergreens and softly glowing lanterns.
+     Designed for guests of all ages\, The Velvet Reindeer offers a memorab
+ le holiday experience with beautiful seasonal décor\, festive cocktails (
+ $18)\, mocktails ($10)\, hot chocolate and spiced cider. Younger guests ca
+ n enjoy their own hot chocolate and cider\, making it a wonderful destinat
+ ion for families\, date nights and holiday gatherings.    Located just an 
+ hour from Washington\, D.C.\, The Velvet Reindeer is open Friday and Satur
+ day evenings beginning at 4 PM and Sundays from noon to 6 PM. Make an afte
+ rnoon or evening of it with Goodstone’s popular Sunday brunch\, dinner a
+ t Grayson’s or an overnight stay at the inn.\n\nDetails: https://visitmi
+ ddleburgva.com/events/the-velvet-reindeer-a-magical-holiday-pop-up-at-good
+ stone/
+LOCATION:Goodstone Inn &amp\; Restaurant\, 36205 Snake Hill Rd\, Middlebur
+ g\, VA 20117
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/the-velvet-reindeer-a-magical-hol
+ iday-pop-up-at-goodstone/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Small Business Saturday
+DTSTART;TZID="UTC-05:00":20261128T090000
+DTEND;TZID="UTC-05:00":20261128T180000
+DTSTAMP:20261124T160158Z
+UID:small-business-saturday-2026-11-28@middleburg
+ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
+ /2026/10/SMALL-BUSINESS-SATURDAY.png
+DESCRIPTION:Small Business Saturday is the perfect opportunity to show som
+ e love to Middleburg’s local businesses! From unique gifts and holiday f
+ inds to everyday essentials and personal service\, our independent shops o
+ ffer something you won’t find just anywhere.    When you shop small in M
+ iddleburg\, your dollars help support local business owners\, sustain jobs
+ \, and keep our downtown thriving. Make a day of exploring your favorite s
+ tores\, discovering new ones\, and checking a few names off your holiday s
+ hopping list!    Click here for a list of Middleburg Business & Profession
+ al Association Member Businesses.\n\nDetails: https://visitmiddleburgva.co
+ m/events/small-business-saturday-4/
+LOCATION:Middleburg\, VA
+TRANSP:TRANSPARENT
+URL:https://visitmiddleburgva.com/events/small-business-saturday-4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thanksgiving Harvest Dinner
+DTSTART;TZID="UTC-05:00":20261128T160000
+DTEND;TZID="UTC-05:00":20261128T200000
+DTSTAMP:20261124T160158Z
+UID:thanksgiving-harvest-dinner-2026-11-28@middleburg
 ATTACH;FMTTYPE=image/jpeg:https://visitmiddleburgva.com/wp-content/uploads
  /2026/10/Red-Fox-TGiving.png
 DESCRIPTION:Celebrate the season at The Red Fox Inn & Tavern\, where histo
