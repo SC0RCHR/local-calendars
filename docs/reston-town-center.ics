@@ -1,0 +1,644 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eventnews 0.1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Events at Reston Town Center. Source: https://www.restontownc
+ enter.com/calendar-events
+X-WR-CALNAME:Reston Town Center
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+COMMENT:This timezone only works from 2025-02-24 to 2030-01-03.
+BEGIN:STANDARD
+DTSTART:20250224T000000
+TZNAME:EST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20250309T030000
+RDATE:20260308T030000,20270314T030000,20280312T030000,20290311T030000
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000,20271107T020000,20281105T020000,20291104T020000
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Senior Movie Day
+DTSTART;TZID=America/New_York:20260225T090000
+DTEND;TZID=America/New_York:20260225T120000
+DTSTAMP:20261125T032817Z
+UID:senior-movie-day-20260225@reston-town-center
+RRULE:FREQ=MONTHLY;UNTIL=20261028T160000Z;BYDAY=4WE
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab220bcded3660150b245d2_6ab220b842949a2e720d0a23_69d7f93e88f6
+ cd42554f4179_hero-image_single.webp
+CATEGORIES:Arts & Culture
+DESCRIPTION:Reston Association’s Senior Movie Day\, sponsored by Friends
+  of Reston\, offers complimentary film screenings at LOOK Cinemas in Resto
+ n Town Center on the...\n\nDetails: https://www.restontowncenter.com/calen
+ dar-events/senior-movie-day
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/senior-movie-day
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pups in the Pavilion
+DTSTART;TZID=America/New_York:20260506T170000
+DTEND;TZID=America/New_York:20260506T193000
+DTSTAMP:20261125T032817Z
+UID:pups-in-the-pavilion-may-20260506@reston-town-center
+RRULE:FREQ=WEEKLY;UNTIL=20260527T233000Z;BYDAY=WE
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab220fb4fa81504a71be531_6ab220f98ee31b5ed266e6ce_69bd7f345b92
+ db531c55e125_hero-image_single.webp
+CATEGORIES:Community
+DESCRIPTION:A midweek hangout made for dogs—featuring local vendors\, tr
+ eats\, and outdoor fun.\n\nDetails: https://www.restontowncenter.com/calen
+ dar-events/pups-in-the-pavilion-may
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/pups-in-the-pavilion-
+ may
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jazz Happy Hour with Darden & Friends
+DTSTART;TZID=America/New_York:20260522T173000
+DTEND;TZID=America/New_York:20260522T184500
+DTSTAMP:20261125T032817Z
+UID:jazz-happy-hour-with-darden-friends-spring-20260522@reston-town-center
+RRULE:FREQ=WEEKLY;UNTIL=20260626T224500Z;BYDAY=FR
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab21f859ae1aab10965fffa_6ab21f82ded3660150b1c42d_6aa017a7175d
+ 3171f1edefb6_hero-image_single.webp
+CATEGORIES:Music & Entertainment
+DESCRIPTION:Unwind every Friday from May 22 through June 26 at Town Square
+  Park during Happy Hour with Darden & Friends.\n\nDetails: https://www.res
+ tontowncenter.com/calendar-events/jazz-happy-hour-with-darden-friends-spri
+ ng
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/jazz-happy-hour-with-
+ darden-friends-spring
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pups in Window Plaza
+DTSTART;TZID=America/New_York:20260603T170000
+DTEND;TZID=America/New_York:20260603T193000
+DTSTAMP:20261125T032817Z
+UID:pups-in-window-plaza-20260603@reston-town-center
+RRULE:FREQ=WEEKLY;UNTIL=20260624T233000Z;BYDAY=WE
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab21fe99b6b3f8b866f7555_6ab21fe6e1b05a214fa55eec_6a0b7971e685
+ 7bfb30a9a2f1_hero-image_single.webp
+CATEGORIES:Community
+DESCRIPTION:A midweek hangout made for dogs—featuring local vendors\, tr
+ eats\, and outdoor fun.\n\nDetails: https://www.restontowncenter.com/calen
+ dar-events/pups-in-window-plaza
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/pups-in-window-plaza
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:lululemon RTC Pavilion Workout Series
+DTSTART;TZID=America/New_York:20260615T170000
+DTEND;TZID=America/New_York:20260615T183000
+DTSTAMP:20261125T032817Z
+UID:lululemon-fitness-class-in-the-pavilion-20260615@reston-town-center
+RRULE:FREQ=MONTHLY;UNTIL=20260921T223000Z;BYDAY=3MO
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab21fd2ded3660150b1d1f1_6ab21fcf0f34e095780ca767_6a4bf046408c
+ c67780d788ad_hero-image_single.webp
+CATEGORIES:Fitness & Wellness
+DESCRIPTION:This spring and summer\, join lululemon in the Pavilion for th
+ eir free fitness class series.\n\nDetails: https://www.restontowncenter.co
+ m/calendar-events/lululemon-fitness-class-in-the-pavilion
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/lululemon-fitness-cla
+ ss-in-the-pavilion
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Fun Entertainment Series
+DTSTART;TZID=America/New_York:20260704T100000
+DTEND;TZID=America/New_York:20260704T104500
+DTSTAMP:20261125T032817Z
+UID:family-fun-entertainment-series-20260704@reston-town-center
+RRULE:FREQ=WEEKLY;UNTIL=20260725T144500Z;BYDAY=SA
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab220008923b59d8b3c6713_6ab21ffd70d8e1623774b684_6a024b866fd2
+ de8a8a5476c6_hero-image_single.webp
+CATEGORIES:Kids & Family
+DESCRIPTION:Puppets\, magic\, music\, and plenty of laughs—family fun co
+ mes to life at RTC.\n\nDetails: https://www.restontowncenter.com/calendar-
+ events/family-fun-entertainment-series
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/family-fun-entertainm
+ ent-series
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:lululemon RTC Pavilion Workout Series
+DTSTART;TZID=America/New_York:20260719T080000
+DTEND;TZID=America/New_York:20260719T090000
+DTSTAMP:20261125T032817Z
+UID:lululemon-rtc-pavilion-workout-series-july26-20260719@reston-town-cent
+ er
+RRULE:FREQ=WEEKLY;UNTIL=20260726T130000Z;BYDAY=SU
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/69ebba0b941e81fd779d96ea_lululemon%20RTC%20Spring%20%26%20Summ
+ er%20Sweat%20Series.jpg
+CATEGORIES:Fitness & Wellness
+DESCRIPTION:This spring and summer\, join lululemon in the Pavilion for th
+ eir free fitness class series.\n\nDetails: https://www.restontowncenter.co
+ m/calendar-events/lululemon-rtc-pavilion-workout-series-july26
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/lululemon-rtc-pavilio
+ n-workout-series-july26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saturday Dog Strut
+DTSTART;TZID=America/New_York:20260822T093000
+DTEND;TZID=America/New_York:20260822T113000
+DTSTAMP:20261125T032817Z
+UID:saturday-dog-strut-20260822@reston-town-center
+RRULE:FREQ=MONTHLY;UNTIL=20261219T143000Z;BYDAY=3SA
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab21f910889bf39d7baddf7_6ab21f8e42949a2e720c829b_6a7c84c94eaf
+ ac6be3a84721_hero-image_single.webp
+CATEGORIES:Community
+DESCRIPTION:Details: https://www.restontowncenter.com/calendar-events/satu
+ rday-dog-strut
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/saturday-dog-strut
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pups in the Pavilion
+DTSTART;TZID=America/New_York:20260902T170000
+DTEND;TZID=America/New_York:20260902T193000
+DTSTAMP:20261125T032817Z
+UID:pups-in-the-pavilion-september-20260902@reston-town-center
+RRULE:FREQ=WEEKLY;UNTIL=20260930T233000Z;BYDAY=WE
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab220fb4fa81504a71be531_6ab220f98ee31b5ed266e6ce_69bd7f345b92
+ db531c55e125_hero-image_single.webp
+CATEGORIES:Community
+DESCRIPTION:A midweek hangout made for dogs—featuring local vendors\, tr
+ eats\, and outdoor fun.\n\nDetails: https://www.restontowncenter.com/calen
+ dar-events/pups-in-the-pavilion-september
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/pups-in-the-pavilion-
+ september
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Theatre in the Park
+DTSTART;TZID=America/New_York:20260904T193000
+DTEND;TZID=America/New_York:20260904T213000
+DTSTAMP:20261125T032817Z
+UID:theatre-in-the-park-20260904@reston-town-center
+RRULE:FREQ=DAILY;UNTIL=20260907T010000Z
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab21ff4c46768a08adfb5e6_6ab21ff142949a2e720cacb8_6a0b5be521ed
+ c30042fac2d3_hero-image_single.webp
+CATEGORIES:Music & Entertainment
+DESCRIPTION:Enjoy a free outdoor performance of Woody Guthrie’s American
+  Song\, a lively celebration of American folk music at Reston Town Center.
+ \n\nDetails: https://www.restontowncenter.com/calendar-events/theatre-in-t
+ he-park
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/theatre-in-the-park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jazz Happy Hour with Darden & Friends
+DTSTART;TZID=America/New_York:20260911T173000
+DTEND;TZID=America/New_York:20260911T184500
+DTSTAMP:20261125T032817Z
+UID:jazz-happy-hour-with-darden-friends-fall-20260911@reston-town-center
+RRULE:FREQ=WEEKLY;UNTIL=20261016T224500Z;BYDAY=FR
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab21f859ae1aab10965fffa_6ab21f82ded3660150b1c42d_6aa017a7175d
+ 3171f1edefb6_hero-image_single.webp
+CATEGORIES:Music & Entertainment
+DESCRIPTION:Unwind at Town Square Park every Friday through October for Ha
+ ppy Hour with Darden & Friends.\n\nDetails: https://www.restontowncenter.c
+ om/calendar-events/jazz-happy-hour-with-darden-friends-fall
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/jazz-happy-hour-with-
+ darden-friends-fall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bike MS
+DTSTART;TZID=America/New_York:20260926T080000
+DTEND;TZID=America/New_York:20260926T100000
+DTSTAMP:20261125T032817Z
+UID:bike-ms-20260926@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab221a5a347a5d0ff366f97_6ab221a1a347a5d0ff366cfa_69bc4c5a5775
+ 277bb43e3885_hero-image_single.webp
+CATEGORIES:Fitness & Wellness
+DESCRIPTION:Bike MS is calling on riders of all levels to hit the road and
+  turn momentum into progress.\n\nDetails: https://www.restontowncenter.com
+ /calendar-events/bike-ms
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/bike-ms
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fairfax County Dog Adoption Pop-Up
+DTSTART;TZID=America/New_York:20261002T160000
+DTEND;TZID=America/New_York:20261002T190000
+DTSTAMP:20261125T032817Z
+UID:fairfax-county-dog-adoption-pop-up-1002-20261002@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6aba879298372a0215360ed6_RTC%20Oct%202026%20(1).png
+CATEGORIES:Kids & Family
+DESCRIPTION:Details: https://www.restontowncenter.com/calendar-events/fair
+ fax-county-dog-adoption-pop-up-1002
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/fairfax-county-dog-ad
+ option-pop-up-1002
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dogfest
+DTSTART;TZID=America/New_York:20261003T110000
+DTEND;TZID=America/New_York:20261003T150000
+DTSTAMP:20261125T032817Z
+UID:dogfest-20261003@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab2214601ca3eb2fbaa974f_6ab22143dce4fc86313bfa6a_69bd691e9236
+ bf8473097223_hero-image_single.webp
+CATEGORIES:Community
+DESCRIPTION:Gather your friends\, family and dogs for a day of fun at the 
+ Reston Town Center Pavilion.\n\nDetails: https://www.restontowncenter.com/
+ calendar-events/dogfest
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/dogfest
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Runway To The Cure
+DTSTART;TZID=America/New_York:20261004T130000
+DTEND;TZID=America/New_York:20261004T150000
+DTSTAMP:20261125T032817Z
+UID:runway-to-the-cure-20261004@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab6d062745a1945971e1005_Screenshot%202026-09-25%20154857.png
+DESCRIPTION:Reston Runway to the Cure\, Inc. is a volunteer non-profit hel
+ ping to defeat breast cancer through a runway fashion show that celebrates
+  our models – breast cancer survivors and warriors - - and the businesse
+ s\, sponsors\, and patrons that make the fashion show possible.\n\nDetails
+ : https://www.restontowncenter.com/calendar-events/runway-to-the-cure
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/runway-to-the-cure
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Washington West Film Festival
+DTSTART;TZID=America/New_York:20261008T120000
+DTEND;TZID=America/New_York:20261012T180000
+DTSTAMP:20261125T032817Z
+UID:washington-west-film-festival-20261008@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6aba723c7d13b180bdc2b55e_Washington-West-Film-Festival%20(1).w
+ ebp
+CATEGORIES:Arts & Culture
+DESCRIPTION:Experience the power of storytelling at the Washington West Fi
+ lm Festival\, returning to RTC's LOOK Cinemas!\n\nDetails: https://www.res
+ tontowncenter.com/calendar-events/washington-west-film-festival
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/washington-west-film-
+ festival
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RTR Pilates Window Plaza Mat Class
+DTSTART;TZID=America/New_York:20261010T110000
+DTEND;TZID=America/New_York:20261010T120000
+DTSTAMP:20261125T032817Z
+UID:rtr-pilates-window-plaza-mat-class-10-10-20261010@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab21faae04b618f53dbbd8c_6ab21fa73be5bd98092259ef_6a4d0c39859e
+ 92e53cff9b7a_hero-image_single.webp
+CATEGORIES:Fitness & Wellness
+DESCRIPTION:Meet RTR Pilates at a free community mat class before their RT
+ C studio opens this fall!\n\nDetails: https://www.restontowncenter.com/cal
+ endar-events/rtr-pilates-window-plaza-mat-class-10-10
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/rtr-pilates-window-pl
+ aza-mat-class-10-10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rocktoberfest
+DTSTART;TZID=America/New_York:20261010T170000
+DTEND;TZID=America/New_York:20261010T230000
+DTSTAMP:20261125T032817Z
+UID:rocktoberfest-20261010@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab22133dce4fc86313beed7_6ab2213170d8e16237753ead_69bd6d8ca572
+ c703c5a6f33b_hero-image_single.webp
+CATEGORIES:Music & Entertainment
+DESCRIPTION:Enjoy an evening of live music\, Sip & Stroll\, and a headlini
+ ng performance by Vertical Horizon at Reston Town Center's annual Rocktobe
+ rfest!\n\nDetails: https://www.restontowncenter.com/calendar-events/rockto
+ berfest
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/rocktoberfest
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chalkfest
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T170000
+DTSTAMP:20261125T032817Z
+UID:chalkfest-20261017@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab54dee70521ca672e4f03a_PeoplesChoiceAwards-2place-BriannaCam
+ p-Artist-1-e1729541051742.jpg
+CATEGORIES:Arts & Culture
+DESCRIPTION:Experience ChalkFest at Reston Town Center on October 17. Enjo
+ y live art\, music\, family activities\, and a colorful outdoor chalk gall
+ ery created by artists of all ages.\n\nDetails: https://www.restontowncent
+ er.com/calendar-events/chalkfest
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/chalkfest
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Walk to End Alzheimer's
+DTSTART;TZID=America/New_York:20261018T080000
+DTEND;TZID=America/New_York:20261018T120000
+DTSTAMP:20261125T032817Z
+UID:walk-to-end-alzheimers-20261018@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab221abc46768a08ae03436_6ab221a883a7ec0f9cedeaa7_69bc4c11ff18
+ 843a023afa07_hero-image_single.webp
+CATEGORIES:Community
+DESCRIPTION:Walk to End Alzheimer's\n\nDetails: https://www.restontowncent
+ er.com/calendar-events/walk-to-end-alzheimers
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/walk-to-end-alzheimer
+ s
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RTR Pilates Window Plaza Mat Class
+DTSTART;TZID=America/New_York:20261022T173000
+DTEND;TZID=America/New_York:20261022T183000
+DTSTAMP:20261125T032817Z
+UID:rtr-pilates-window-plaza-mat-class-10-22-20261022@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab21faae04b618f53dbbd8c_6ab21fa73be5bd98092259ef_6a4d0c39859e
+ 92e53cff9b7a_hero-image_single.webp
+CATEGORIES:Fitness & Wellness
+DESCRIPTION:Meet RTR Pilates at a free community mat class before their RT
+ C studio opens!\n\nDetails: https://www.restontowncenter.com/calendar-even
+ ts/rtr-pilates-window-plaza-mat-class-10-22
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/rtr-pilates-window-pl
+ aza-mat-class-10-22
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Light the Night
+DTSTART;TZID=America/New_York:20261023T170000
+DTEND;TZID=America/New_York:20261023T210000
+DTSTAMP:20261125T032817Z
+UID:light-the-night-20261023@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ada04b7fa3643caa1def2dc_Picture1.jpg
+CATEGORIES:Community
+DESCRIPTION:Join Light The Night at Reston Town Center for an inspiring ev
+ ening walk supporting blood cancer patients\, their families\, and researc
+ h for a cure!\n\nDetails: https://www.restontowncenter.com/calendar-events
+ /light-the-night
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/light-the-night
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DJ Dance Party
+DTSTART;TZID=America/New_York:20261024T170000
+DTEND;TZID=America/New_York:20261024T210000
+DTSTAMP:20261125T032817Z
+UID:dj-dance-party-20261024@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab2212e01ca3eb2fbaa8e02_6ab2212be1b05a214fa5edf5_69bd77aadafb
+ 8014392b297b_hero-image_single.webp
+CATEGORIES:Music & Entertainment
+DESCRIPTION:Dance under the stars at Reston Town Center's DJ Dance Party! 
+ Enjoy live sets from three standout DJs\, Sip & Stroll beverages from part
+ icipating restaurants\, and an evening of music and dancing at the Pavilio
+ n.\n\nDetails: https://www.restontowncenter.com/calendar-events/dj-dance-p
+ arty
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/dj-dance-party
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trick or Treat Beyond Market Street
+DTSTART;TZID=America/New_York:20261025T120000
+DTEND;TZID=America/New_York:20261025T150000
+DTSTAMP:20261125T032817Z
+UID:trick-or-treat-on-market-street-20261025@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab2212042949a2e720d4b2f_6ab2211d3be5bd980922d32b_69bd791fc40b
+ 4c917ec407bd_hero-image_single.webp
+CATEGORIES:Kids & Family
+DESCRIPTION:Bring your little ghouls and goblins to Trick or Treat Beyond 
+ Market Street on Sunday\, October 25\, from 12:00 PM to 3:00 PM.\n\nDetail
+ s: https://www.restontowncenter.com/calendar-events/trick-or-treat-on-mark
+ et-street
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/trick-or-treat-on-mar
+ ket-street
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fairfax County Dog Adoption Pop-Up
+DTSTART;TZID=America/New_York:20261030T160000
+DTEND;TZID=America/New_York:20261030T190000
+DTSTAMP:20261125T032817Z
+UID:fairfax-county-dog-adoption-pop-up-1030-20261030@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6aba879298372a0215360ed6_RTC%20Oct%202026%20(1).png
+CATEGORIES:Kids & Family
+DESCRIPTION:Details: https://www.restontowncenter.com/calendar-events/fair
+ fax-county-dog-adoption-pop-up-1030
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/fairfax-county-dog-ad
+ option-pop-up-1030
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Run for Valor 5K
+DTSTART;TZID=America/New_York:20261111T080000
+DTEND;TZID=America/New_York:20261111T100000
+DTSTAMP:20261125T032817Z
+UID:run-for-valor-5k-20261111@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6adf51e1f2795d4078c50839_2026-Valor-5K-Captivate_20F21B5E-0EB2
+ -FE58-324D883EBDB894E8_20fa1a0b-ff08-3a3c-e609baa0a2ec1d3c.png
+CATEGORIES:Fitness & Wellness
+DESCRIPTION:Join us for the 2nd Annual RTC Run for Valor 5K at Reston Town
+  Center on Wednesday\, November 11.\n\nDetails: https://www.restontowncent
+ er.com/calendar-events/run-for-valor-5k
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/run-for-valor-5k
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senior Movie Day
+DTSTART;TZID=America/New_York:20261118T090000
+DTEND;TZID=America/New_York:20261118T120000
+DTSTAMP:20261125T032817Z
+UID:senior-movie-day-november-20261118@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab220bcded3660150b245d2_6ab220b842949a2e720d0a23_69d7f93e88f6
+ cd42554f4179_hero-image_single.webp
+CATEGORIES:Arts & Culture
+DESCRIPTION:Reston Association’s Senior Movie Day\, sponsored by Friends
+  of Reston\, offers complimentary film screenings at LOOK Cinemas in Resto
+ n Town Center on the...\n\nDetails: https://www.restontowncenter.com/calen
+ dar-events/senior-movie-day-november
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/senior-movie-day-nove
+ mber
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reston Holiday Parade & Tree Lighting
+DTSTART;TZID=America/New_York:20261127T110000
+DTEND;TZID=America/New_York:20261127T183000
+DTSTAMP:20261125T032817Z
+UID:reston-holiday-parade-tree-lighting-20261127@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ad67d3c32412735f01c2e4e_LP_0124_M-1_1942.jpg
+CATEGORIES:Seasonal & Holiday
+DESCRIPTION:Details: https://www.restontowncenter.com/calendar-events/rest
+ on-holiday-parade-tree-lighting
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/reston-holiday-parade
+ -tree-lighting
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Mini Train Rides
+DTSTART;TZID=America/New_York:20261127T123000
+DTEND;TZID=America/New_York:20261127T160000
+DTSTAMP:20261125T032817Z
+UID:mini-train-rides-27-20261127@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6afb63ba3bd598f5b38cc540_Untitled%20design%20(12).jpg
+CATEGORIES:Seasonal & Holiday
+DESCRIPTION:Details: https://www.restontowncenter.com/calendar-events/mini
+ -train-rides-27
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/mini-train-rides-27
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holiday Mini Train Rides
+DTSTART;TZID=America/New_York:20261129T120000
+DTEND;TZID=America/New_York:20261129T160000
+DTSTAMP:20261125T032817Z
+UID:holiday-mini-train-rides-20261129@reston-town-center
+RRULE:FREQ=WEEKLY;UNTIL=20261220T210000Z;BYDAY=SU
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6afb63ba3bd598f5b38cc540_Untitled%20design%20(12).jpg
+CATEGORIES:Seasonal & Holiday
+DESCRIPTION:Details: https://www.restontowncenter.com/calendar-events/holi
+ day-mini-train-rides
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/holiday-mini-train-ri
+ des
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Run with Santa 5K
+DTSTART;TZID=America/New_York:20261206T080000
+DTEND;TZID=America/New_York:20261206T100000
+DTSTAMP:20261125T032817Z
+UID:run-with-santa-5k-20261206@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab2210fe60a50167b5b7bd8_6ab2210cded3660150b26db8_69bd7bf7068c
+ 387647c9f829_hero-image_single.webp
+CATEGORIES:Fitness & Wellness
+DESCRIPTION:Lace up your boots and get ready to jingle all the way through
+  the Run with Santa 5K\, returning to Reston Town Center on Sunday\, Decem
+ ber 6.\n\nDetails: https://www.restontowncenter.com/calendar-events/run-wi
+ th-santa-5k
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/run-with-santa-5k
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stuff the Cruiser with Fairfax County Police Department
+DTSTART;TZID=America/New_York:20261212T120000
+DTEND;TZID=America/New_York:20261212T150000
+DTSTAMP:20261125T032817Z
+UID:stuff-the-cruiser-with-fairfax-county-police-department-20261212@resto
+ n-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ad78373f0e4edaab4bd2cb8_December%20Newsletter%20Content%20(50
+ 0%20x%20300%20px).jpg
+CATEGORIES:Community
+DESCRIPTION:Details: https://www.restontowncenter.com/calendar-events/stuf
+ f-the-cruiser-with-fairfax-county-police-department
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/stuff-the-cruiser-wit
+ h-fairfax-county-police-department
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senior Movie Day
+DTSTART;TZID=America/New_York:20261216T090000
+DTEND;TZID=America/New_York:20261216T120000
+DTSTAMP:20261125T032817Z
+UID:senior-movie-day-december-20261216@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab220bcded3660150b245d2_6ab220b842949a2e720d0a23_69d7f93e88f6
+ cd42554f4179_hero-image_single.webp
+CATEGORIES:Arts & Culture
+DESCRIPTION:Reston Association’s Senior Movie Day\, sponsored by Friends
+  of Reston\, offers complimentary film screenings at LOOK Cinemas in Resto
+ n Town Center on the...\n\nDetails: https://www.restontowncenter.com/calen
+ dar-events/senior-movie-day-december
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/senior-movie-day-dece
+ mber
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Year's Day 5K
+DTSTART;TZID=America/New_York:20270101T100000
+DTEND;TZID=America/New_York:20270101T120000
+DTSTAMP:20261125T032817Z
+UID:new-years-day-5k-20270101@reston-town-center
+ATTACH;FMTTYPE=image/jpeg:https://cdn.prod.website-files.com/698a56bf19599
+ c5af5ccaaa5/6ab22108ded3660150b26be2_6ab221058afd4bb7c8b60570_69bd7ca828f0
+ 3d7aa1ab63b0_hero-image_single.webp
+CATEGORIES:Fitness & Wellness
+DESCRIPTION:New Year's Day 5K\n\nDetails: https://www.restontowncenter.com
+ /calendar-events/new-years-day-5k
+LOCATION:Reston Town Center\, 11900 Market St\, Reston\, VA 20190
+TRANSP:TRANSPARENT
+URL:https://www.restontowncenter.com/calendar-events/new-years-day-5k
+END:VEVENT
+END:VCALENDAR
