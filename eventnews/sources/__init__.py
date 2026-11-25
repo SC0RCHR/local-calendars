@@ -58,6 +58,12 @@ def _opencities(feed: Feed, src: dict) -> list[Event]:
     return opencities.parse_events(listings, feed)
 
 
+def _webflow_cms(feed: Feed, src: dict) -> list[Event]:
+    from eventnews.sources import webflow_cms
+
+    return webflow_cms.parse_events(webflow_cms.fetch(src["url"]), feed)
+
+
 def _manual(feed: Feed, src: dict) -> list[Event]:
     from pathlib import Path
 
@@ -81,6 +87,7 @@ REGISTRY: dict[str, Callable[[Feed, dict], list[Event]]] = {
     "jsonld": _jsonld,
     "event_list": _event_list,
     "opencities": _opencities,
+    "webflow_cms": _webflow_cms,
     "manual": _manual,
     "wheresthemusic": _wheresthemusic,
 }

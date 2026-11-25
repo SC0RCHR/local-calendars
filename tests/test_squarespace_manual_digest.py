@@ -825,3 +825,36 @@ def test_a_notice_falls_back_to_instagram_when_there_is_no_action_link():
     n = [{"venue": "X", "kind": "brewery", "instagram": "handle", "text": "Something."}]
     assert digest.notice_lines(n, date(2026, 11, 2), "brewery")[1].endswith(
         "([@handle](https://www.instagram.com/handle/))")
+
+
+# ------------------------------------------------------------------ `title:` overrides
+
+TITLE_OV = [{"match": r"^\(untitled\)$", "calendar": "Honor", "on": "2026-11-23",
+             "title": "Holiday Pop-Up Bar", "details": "The taproom decked out for the season."}]
+
+
+def test_an_override_can_name_an_event_the_feed_left_untitled():
+    """Honor's Elfsight widget published its holiday pop-up with no title, so the digest drew
+    an empty link: `_short_title` strips a trailing parenthetical and "(untitled)" is nothing
+    but one."""
+    r = row("(untitled)", "2026-11-23", "2027-01-04", calendar="Honor Brewing", all_day=True)
+    named = digest._retitle(r, TITLE_OV)
+    assert named["summary"] == "Holiday Pop-Up Bar"
+    assert named["_summary0"] == "(untitled)"
+    assert digest._short_title(named["summary"]) == "Holiday Pop-Up Bar"
+
+
+def test_the_same_override_still_supplies_its_blurb_after_renaming():
+    r = digest._retitle(row("(untitled)", "2026-11-23", "2027-01-04", calendar="Honor Brewing",
+                            all_day=True), TITLE_OV)
+    assert digest.blurb(r, TITLE_OV) == "The taproom decked out for the season."
+
+
+def test_the_on_date_pins_the_rename_to_one_occurrence():
+    other = row("(untitled)", "2026-12-01", "2026-12-02", calendar="Honor Brewing", all_day=True)
+    assert digest._retitle(other, TITLE_OV)["summary"] == "(untitled)"
+
+
+def test_short_title_still_trims_a_real_parenthetical():
+    assert digest._short_title("Live Music (Royal Honey)") == "Live Music"
+    assert digest._short_title("(untitled)") == "(untitled)"       # never an empty link

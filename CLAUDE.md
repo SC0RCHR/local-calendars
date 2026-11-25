@@ -24,18 +24,19 @@ Cron times are deliberately off the hour and early: GitHub's queue runs hours la
 dropped runs outright. The Instagram pull cannot move to Actions (JS-rendered grid, datacenter
 IPs blocked) and never logs in.
 
-### Calendars (16)
+### Calendars (17)
 
 Breweries: Honor Brewing - Loudoun (elfsight + curated), Route 7 (wheresthemusic + curated),
 White's Ferry (curated), Chilly Hollow, Solace Sterling, Vanish, Flying Ace (all external feeds).
 Towns & community: Town of Leesburg (vision_rss), One Loudoun (squarespace), Village at Leesburg
 (event_list + curated), Mosaic District (tribe_json), Middleburg (jsonld), City of Fairfax
-(opencities), Historic Manassas (external), Farmers Markets (curated).
-Fairs & Festivals (curated).
+(opencities), Reston Town Center (webflow_cms), Historic Manassas (external), Farmers Markets
+(curated). Fairs & Festivals (curated).
 
-The last three joined on 2026-11-21, when Christopher asked for christmas and holiday markets,
-tree lightings, kid zones and kid events, and New Year's Eve. Village at Leesburg stopped being
-curated the same day - its site was rebuilt and is now readable.
+Mosaic, Middleburg and Fairfax joined on 2026-11-21, when Christopher asked for christmas and
+holiday markets, tree lightings, kid zones and kid events, and New Year's Eve; Village at
+Leesburg stopped being curated the same day, its site having been rebuilt and become readable.
+Reston Town Center joined on 2026-11-24.
 
 ## Answering "what's coming up?" questions
 
@@ -246,10 +247,16 @@ throwing, petting zoo" only in the image. So:
   Solace's Google Calendar has none. Published feeds re-emit it as `ATTACH`.
 - `uv run eventnews posters [--days N] [--only SLUG] [--missing-only]` downloads them to
   `data/posters/` (gitignored). **Read the images** and write what they add into
-  `config/events/overrides.yaml` (`match`, optional `calendar`/`on`, `details`, `source`).
-  `digest.blurb()` prefers an override over the feed's text.
+  `config/events/overrides.yaml` (`match`, optional `calendar`/`on`/`title`, `details`,
+  `source`). `digest.blurb()` prefers an override over the feed's text.
 - Do this when he asks why an event looks thin, and when adding a venue. Re-check each season;
   the override `match` is a title regex, so a repeating title needs `on:` to pin one date.
+- `title:` renames an event the venue published without a usable one. Honor's Elfsight widget
+  carried its Holiday Pop-Up Bar (Nov 23 - Jan 4) as literally "(untitled)", and because
+  `_short_title` strips a trailing parenthetical the digest drew an **empty link**. The rename
+  is applied in `build()` before anything groups or ranks, so every renderer agrees, and
+  `override_for` matches the pre-rename name too so the same entry still supplies `details`.
+  Read the poster before naming one; do not invent a title.
 
 ## Conventions
 
@@ -354,6 +361,27 @@ uv run pytest
   as all-day from the directory's own date; and exhibits are entered as "12:00 AM - 04:00 PM",
   which is opening hours rather than a midnight start, so a midnight window longer than six
   hours becomes an all-day entry (a New Year countdown, being short, stays timed).
+- **Reston Town Center** (restontowncenter.com/calendar-events, Webflow): the page renders the
+  whole CMS collection - the full year, 69 items the day it was added - into hidden
+  `data-field` divs, recurrence rules and all, so `webflow_cms` is one plain GET with no
+  pagination and no detail fetches. Four things bite:
+  * the page also carries an `ld+json` **CollectionPage** block, and it is hand-maintained and
+    **stale**: in November 2026 it still gave the holiday parade as `2025-11-28` while the CMS
+    fields said November 27, 2026. Never read it. (This is why `jsonld` is wrong here.)
+  * `hero-image` and `category` are rendered BEFORE the `name` that opens their record, and the
+    Featured Events list at the top links three events from outside any record. Reading either
+    into whichever record happened to be open shifted every category by one - the holiday parade
+    arrived tagged "Fitness & Wellness", and the towns section's `exclude` (which carries
+    `fitness`) silently threw the headline event of the week away. `records()` holds back a
+    field the open record already has, and drops a stray link; both are regression-tested.
+  * end times are hand-typed and sometimes backwards (a concert ran "June 27 7:30 PM" to
+    "June 10 10:00 PM"), so an end at or before the start falls back to the default duration,
+    while a real multi-day span (the film festival) is kept.
+  * Webflow renders at most 100 items per collection list; the adapter warns at that count.
+  Cancellations come either as an `event-status` of "Cancelled" or as " - Cancelled" appended to
+  the title with the status left blank; both are dropped. The per-event `category` is published
+  as a CATEGORY, which is how their yoga/pilates/workout series get filtered out of the towns
+  section even when the title does not say so.
 - **Historic Manassas** (WordPress + The Events Calendar): `?ical=1` works. Each performance of
   a show has its own UID, so the digest collapses by (title, calendar), not UID.
 - **One Loudoun** (Squarespace): `?format=json` works, `?format=ical` does not on their template.

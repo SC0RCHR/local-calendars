@@ -15,6 +15,9 @@
 #                                               plus accumulate: true (only ~a week is rendered)
 #      - Granicus OpenCities (.gov, ?oc_lang= links, no feed of any kind)
 #                                            -> source: {type: opencities, url: <directory page>}
+#      - Webflow CMS (data-wf-site, cdn.prod.website-files.com) rendering its raw fields into
+#        hidden data-field divs           -> source: {type: webflow_cms, url: <events page>}
+#        (ignore such a page's ld+json block; it is hand-maintained and goes stale)
 #      - listings carrying data-event-occurrences attributes
 #                                            -> source: {type: event_list, url: <events page>}
 #                                               plus accumulate: true (two occurrences per event)
@@ -227,6 +230,20 @@ calendars:
     source:
       type: opencities
       url: https://www.fairfaxva.gov/Events-directory
+
+  - slug: reston-town-center
+    name: Reston Town Center
+    kind: town
+    short_name: Reston Town Center
+    town: Reston
+    url: https://www.restontowncenter.com/calendar-events
+    location: Reston Town Center, 11900 Market St, Reston, VA 20190
+    # Webflow CMS. The page leaves every collection field in the markup as data-field divs -
+    # the whole year in one GET, recurrence rules included. Its ld+json block is hand-written
+    # and stale (it still had the 2025 parade date in November 2026), so the adapter ignores it.
+    source:
+      type: webflow_cms
+      url: https://www.restontowncenter.com/calendar-events
 
   - slug: historic-manassas
     name: Historic Manassas Inc.

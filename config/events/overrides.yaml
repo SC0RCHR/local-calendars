@@ -3,6 +3,8 @@
 # axe throwing, petting zoo" in the image and nothing but a vendor list in the event text.
 #
 #   match:    regex against the event title (case-insensitive)
+#   title:    optional, renames the event everywhere in the digest (for a feed that published
+#             one with no usable title at all); `match` still finds the entry afterwards
 #   calendar: optional, must appear in the calendar name
 #   on:       optional YYYY-MM-DD, pins this to one occurrence of a repeating title
 #   details:  replaces the feed's blurb in the digest
@@ -15,6 +17,17 @@ events:
       Honor Brewing's 3rd anniversary party: 20 vendors, axe throwing and a petting zoo,
       plus live music from LeRoy Burks & The Voodoo Whiskey Band in the evening.
     source: event poster, read 2026-10-06
+
+  # Honor's Elfsight widget published this one with no title at all - it reaches the digest as
+  # "(untitled)", so it is matched on that and renamed. The dates below are the poster's.
+  - match: "^\\(untitled\\)$"
+    calendar: Honor Brewing
+    on: 2026-11-23
+    title: "Holiday Pop-Up Bar"
+    details: >-
+      Honor's holiday pop-up bar, November 23 through January 4: the taproom decked out for
+      the season, in the same spirit as their Halloween pop-up.
+    source: event artwork (Holiday-Popup-3-.png), read 2026-11-24
 
   - match: "Hallowee?[nm] Pop-?Up Bar"
     calendar: Honor Brewing

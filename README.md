@@ -20,6 +20,7 @@ up?" across all of them at once.
 | Mosaic District | `https://sc0rchr.github.io/local-calendars/mosaic-district.ics` | rebuilt daily from The Events Calendar REST API |
 | Middleburg - Local Events | `https://sc0rchr.github.io/local-calendars/middleburg.ics` | rebuilt daily from the schema.org blocks on their events page |
 | City of Fairfax | `https://sc0rchr.github.io/local-calendars/fairfax-city.ics` | rebuilt daily from their OpenCities events directory |
+| Reston Town Center | `https://sc0rchr.github.io/local-calendars/reston-town-center.ics` | rebuilt daily from the CMS fields on their calendar page |
 | White's Ferry Brewery & Winery | `https://sc0rchr.github.io/local-calendars/whites-ferry.ics` | curated from their Instagram |
 | Route 7 Brewing | `https://sc0rchr.github.io/local-calendars/route-7.ics` | live music from wheresthemusic.us + curated |
 | Fairs & Festivals near Leesburg | `https://sc0rchr.github.io/local-calendars/fairs-festivals.ics` | hand-curated in `config/events/fairs-festivals.yaml` |
@@ -143,6 +144,10 @@ the bot only commits when a source actually changed something.
   feed at all: the directory page gives the listings and each event's own page gives every date
   with its times. robots.txt is honoured, and a disallowed event still publishes from the date
   on the directory listing (without times).
+- **`webflow_cms`** - a Webflow site that renders its whole CMS collection into hidden
+  `data-field` divs (Reston Town Center): the full year in one GET, recurrence rules included,
+  which become real RRULEs. Such a page may also carry a hand-maintained `ld+json` block; it
+  goes stale, so the fields are the source of truth.
 - **`wheresthemusic`** - a venue page on wheresthemusic.us, for places with no calendar of their
   own (Route 7 Brewing). A feed's `source` can be a list, so a venue can merge a listings site
   with a curated file.

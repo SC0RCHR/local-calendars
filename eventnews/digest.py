@@ -89,6 +89,7 @@ def build(cfg: Config, feeds: list[Feed], start: date, days: int | None = None, 
     root = Path(__file__).resolve().parent.parent
     ov = load_overrides(root)
     notices = load_notices(root)
+    rows = [_retitle(r, ov) for r in rows]
 
     # Pass 1: what each section would show. Pass 2: pick the week's highlights across them for the
     # Top Picks card. Highlights also appear in full in their own section; repetition is intended.
@@ -653,11 +654,24 @@ def notice_lines(notices, today: date, kind: str) -> list[str]:
     return ["📣 **Heads up:**"] + live if live else []
 
 
+def _retitle(row, overrides):
+    """Apply an override's `title:` to an event the venue published without a usable one - Honor
+    Brewing's Elfsight widget carried its Holiday Pop-Up Bar as "(untitled)". Done before
+    selection, so grouping, ranking and every renderer see one name.
+    """
+    o = override_for(row, overrides)
+    if not o or not o.get("title"):
+        return row
+    return {**row, "summary": str(o["title"]).strip(), "_summary0": row["summary"]}
+
+
 def override_for(row, overrides) -> dict | None:
     """The first override whose `match` hits this event's title, and whose `calendar` (if given)
     matches too. An `on` date pins it to one occurrence of a repeating title."""
     for o in overrides or []:
-        if not re.search(o["match"], row["summary"], re.I):
+        # Both names, so an entry that supplied `title:` can still be found by its own `match`.
+        names = [row["summary"]] + ([row["_summary0"]] if row.get("_summary0") else [])
+        if not any(re.search(o["match"], n, re.I) for n in names):
             continue
         if o.get("calendar") and o["calendar"].lower() not in row["calendar"].lower():
             continue
@@ -684,7 +698,9 @@ def _excerpt(desc: str) -> str:
 
 
 def _short_title(t: str) -> str:
-    return re.sub(r"\s*\(.*?\)\s*$", "", t)
+    """"Live Music (Royal Honey)" -> "Live Music". A title that is nothing but a parenthetical
+    is left alone, or the line renders as an empty link."""
+    return re.sub(r"\s*\(.*?\)\s*$", "", t) or t
 
 
 def _d(d: date) -> str:
