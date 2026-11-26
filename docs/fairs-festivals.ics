@@ -37,7 +37,7 @@ BEGIN:VEVENT
 SUMMARY:Great Country Farms Fall Pumpkin Harvest Festival
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
-DTSTAMP:20261121T162731Z
+DTSTAMP:20261126T152933Z
 UID:great-country-farms-fall-pumpkin-harvest-festival-2026-09-19@fairs-fes
  tivals
 RRULE:FREQ=WEEKLY;UNTIL=20261101T035900Z;BYDAY=SA,SU
@@ -56,7 +56,7 @@ BEGIN:VEVENT
 SUMMARY:Cox Farms Fall Festival
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
-DTSTAMP:20261121T162731Z
+DTSTAMP:20261126T152933Z
 UID:cox-farms-fall-festival-2026-09-19@fairs-festivals
 RRULE:FREQ=WEEKLY;UNTIL=20261109T045900Z;BYDAY=SA,SU
 CATEGORIES:fall,pumpkin,festival,farm,family
@@ -72,7 +72,7 @@ BEGIN:VEVENT
 SUMMARY:State Fair of Virginia
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20261005
-DTSTAMP:20261121T162731Z
+DTSTAMP:20261126T152933Z
 UID:state-fair-of-virginia-2026-09-25@fairs-festivals
 CATEGORIES:fair,family
 DESCRIPTION:The state fair: 4-H and FFA agricultural exhibits\, rides and 
@@ -87,7 +87,7 @@ BEGIN:VEVENT
 SUMMARY:Fields of Fear at Cox Farms (haunted\, older kids/teens)
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
-DTSTAMP:20261121T162731Z
+DTSTAMP:20261126T152933Z
 UID:fields-of-fear-at-cox-farms-haunted-older-kids-teens-2026-09-25@fairs-
  festivals
 RRULE:FREQ=WEEKLY;UNTIL=20261108T045900Z;BYDAY=FR,SA
@@ -104,7 +104,7 @@ BEGIN:VEVENT
 SUMMARY:Temple Hall Farm Fall Days (pumpkin patch & flower fields)
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
-DTSTAMP:20261121T162731Z
+DTSTAMP:20261126T152933Z
 UID:temple-hall-farm-fall-days-pumpkin-patch-flower-fields-2026-09-26@fair
  s-festivals
 RRULE:FREQ=WEEKLY;UNTIL=20261104T045900Z;BYDAY=SA,SU
@@ -122,27 +122,10 @@ URL:https://www.novaparks.com/events/temple-hall-farm-pumpkin-patch-sunflo
  wer-fields
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lovettsville Oktoberfest (30th)
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T170000
-DTSTAMP:20261121T162731Z
-UID:lovettsville-oktoberfest-30th-2026-09-26@fairs-festivals
-CATEGORIES:german,oktoberfest,festival,family
-DESCRIPTION:The Town of Lovettsville's 30th Oktoberfest\, back around the 
- Squirkle and Town Hall. German food and beer\, stein hauling and hoisting
- \, the Wiener Dog Races\, Kinderfest for kids\, and 50+ artisans and local
-  businesses. Free shuttles run 9:30am to 6pm from Lovettsville Community P
- ark.\n\nMore info: https://www.lovettsvilleoktoberfest.com/
-LOCATION:Zoldos Square & Town Hall\, 6 E Pennsylvania Ave\, Lovettsville\,
-  VA 20180
-TRANSP:TRANSPARENT
-URL:https://www.lovettsvilleoktoberfest.com/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Waterford Fair
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
-DTSTAMP:20261121T162731Z
+DTSTAMP:20261126T152933Z
 UID:waterford-fair-2026-10-02@fairs-festivals
 CATEGORIES:fair,festival,family
 DESCRIPTION:Three-day fall festival in the historic village\, 10am to 5pm 
@@ -157,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:Christmas in Middleburg
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T160000
-DTSTAMP:20261121T162731Z
+DTSTAMP:20261126T152933Z
 UID:christmas-in-middleburg-2026-12-05@fairs-festivals
 CATEGORIES:christmas,parade,festival,family,kids,tree lighting
 DESCRIPTION:The town's all-day Christmas festival\, rain or shine. The Mid
